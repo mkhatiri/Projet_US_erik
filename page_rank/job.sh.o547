@@ -1,0 +1,61 @@
+exec
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 403394
+nVtx: 403394
+nEdge: 3387388
+nVtx: 403394, nVtx: 403394, nEdge: 3387388
+graph read
+rowBlockSize : 1659last row 0
+subsize : 64
+start creat stream 
+end creat stream 
+start split task 
+fin split task 
+nb_tasks 26
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3774768
+nVtx: 3774768
+nEdge: 16518948
+nVtx: 3774768, nVtx: 3774768, nEdge: 16518948
+graph read
+rowBlockSize : 8101last row 0
+subsize : 64
+start creat stream 
+end creat stream 
+start split task 
+fin split task 
+nb_tasks 125
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3774768
+nVtx: 3774768
+nEdge: 16518948
+nVtx: 3774768, nVtx: 3774768, nEdge: 16518948
+graph read
+rowBlockSize : 8101last row 0
+subsize : 64
+start creat stream 
+end creat stream 
+start split task 
+fin split task 
+nb_tasks 125
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3774768
+nVtx: 3774768
+nEdge: 16518948
+nVtx: 3774768, nVtx: 3774768, nEdge: 16518948
+graph read
+rowBlockSize : 8101last row 0
+subsize : 64
+start creat stream 
+end creat stream 
+start split task 
+fin split task 
+nb_tasks 125

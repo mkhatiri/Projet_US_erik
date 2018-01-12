@@ -1,0 +1,468 @@
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 7716
+nVtx: 7716
+nEdge: 26467
+nVtx: 7716, nVtx: 7716, nEdge: 26467
+graph read
+filename: as-735.bin nVtx: 7716 nonzero: 26467 AvgTime: 0 veccachelines: 22340 veccachelines_est: 15775 potentialL2: 8663
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+graph read
+filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0 veccachelines: 1295744 veccachelines_est: 1319068 potentialL2: 558168
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 4847571
+nVtx: 4847571
+nEdge: 68993773
+nVtx: 4847571, nVtx: 4847571, nEdge: 68993773
+graph read
+filename: soc-LiveJournal1.bin nVtx: 4847571 nonzero: 68993773 AvgTime: 0 veccachelines: 53903907 veccachelines_est: 54225895 potentialL2: 33236466
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1632803
+nVtx: 1632803
+nEdge: 30622564
+nVtx: 1632803, nVtx: 1632803, nEdge: 30622564
+graph read
+filename: soc-pokec-relationships.bin nVtx: 1632803 nonzero: 30622564 AvgTime: 0 veccachelines: 27749985 veccachelines_est: 27677094 potentialL2: 21719664
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 131828
+nVtx: 131828
+nEdge: 841372
+nVtx: 131828, nVtx: 131828, nEdge: 841372
+graph read
+filename: soc-sign-epinions.bin nVtx: 131828 nonzero: 841372 AvgTime: 0 veccachelines: 716145 veccachelines_est: 706882 potentialL2: 436498
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3072441
+nVtx: 3072441
+nEdge: 234370166
+nVtx: 3072441, nVtx: 3072441, nEdge: 234370166
+graph read
+filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 0 veccachelines: 205923135 veccachelines_est: 206808081 potentialL2: 136996199
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1393383
+nVtx: 1393383
+nEdge: 3843320
+nVtx: 1393383, nVtx: 1393383, nEdge: 3843320
+graph read
+filename: roadNet-TX.bin nVtx: 1393383 nonzero: 3843320 AvgTime: 0 veccachelines: 2946257 veccachelines_est: 2938221 potentialL2: 592559
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 27770
+nVtx: 27770
+nEdge: 352807
+nVtx: 27770, nVtx: 27770, nEdge: 352807
+graph read
+filename: cit-HepTh.bin nVtx: 27770 nonzero: 352807 AvgTime: 0 veccachelines: 336924 veccachelines_est: 337959 potentialL2: 132211
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 62586
+nVtx: 62586
+nEdge: 147892
+nVtx: 62586, nVtx: 62586, nEdge: 147892
+graph read
+filename: p2p-Gnutella31.bin nVtx: 62586 nonzero: 147892 AvgTime: 0 veccachelines: 102264 veccachelines_est: 101526 potentialL2: 93281
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3774768
+nVtx: 3774768
+nEdge: 16518948
+nVtx: 3774768, nVtx: 3774768, nEdge: 16518948
+graph read
+filename: cit-Patents.bin nVtx: 3774768 nonzero: 16518948 AvgTime: 0 veccachelines: 16376310 veccachelines_est: 16371711 potentialL2: 15621339
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 77357
+nVtx: 77357
+nEdge: 516575
+nVtx: 77357, nVtx: 77357, nEdge: 516575
+graph read
+filename: soc-sign-Slashdot081106.bin nVtx: 77357 nonzero: 516575 AvgTime: 0 veccachelines: 436145 veccachelines_est: 441286 potentialL2: 240347
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 36682
+nVtx: 36682
+nEdge: 88328
+nVtx: 36682, nVtx: 36682, nEdge: 88328
+graph read
+filename: p2p-Gnutella30.bin nVtx: 36682 nonzero: 88328 AvgTime: 0 veccachelines: 60398 veccachelines_est: 63785 potentialL2: 54356
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8717
+nVtx: 8717
+nEdge: 31525
+nVtx: 8717, nVtx: 8717, nEdge: 31525
+graph read
+filename: p2p-Gnutella06.bin nVtx: 8717 nonzero: 31525 AvgTime: 0 veccachelines: 24920 veccachelines_est: 23747 potentialL2: 14625
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+graph read
+filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0 veccachelines: 27833 veccachelines_est: 28480 potentialL2: 11346
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 6301
+nVtx: 6301
+nEdge: 20777
+nVtx: 6301, nVtx: 6301, nEdge: 20777
+graph read
+filename: p2p-Gnutella08.bin nVtx: 6301 nonzero: 20777 AvgTime: 0 veccachelines: 15723 veccachelines_est: 16153 potentialL2: 8225
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+graph read
+filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0 veccachelines: 47185 veccachelines_est: 46755 potentialL2: 41203
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 31379
+nVtx: 31379
+nEdge: 106762
+nVtx: 31379, nVtx: 31379, nEdge: 106762
+graph read
+filename: as-caida.bin nVtx: 31379 nonzero: 106762 AvgTime: 0 veccachelines: 95102 veccachelines_est: 105183 potentialL2: 52842
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+graph read
+filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0 veccachelines: 836060 veccachelines_est: 814916 potentialL2: 342258
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 23133
+nVtx: 23133
+nEdge: 186936
+nVtx: 23133, nVtx: 23133, nEdge: 186936
+graph read
+filename: ca-CondMat.bin nVtx: 23133 nonzero: 186936 AvgTime: 0 veccachelines: 183140 veccachelines_est: 183514 potentialL2: 124901
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+graph read
+filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0 veccachelines: 567064 veccachelines_est: 560727 potentialL2: 77346
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82144
+nVtx: 82144
+nEdge: 549202
+nVtx: 82144, nVtx: 82144, nEdge: 549202
+graph read
+filename: soc-sign-Slashdot090221.bin nVtx: 82144 nonzero: 549202 AvgTime: 0 veccachelines: 462530 veccachelines_est: 448746 potentialL2: 258161
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8114
+nVtx: 8114
+nEdge: 26013
+nVtx: 8114, nVtx: 8114, nEdge: 26013
+graph read
+filename: p2p-Gnutella09.bin nVtx: 8114 nonzero: 26013 AvgTime: 0 veccachelines: 19835 veccachelines_est: 20555 potentialL2: 11416
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 75888
+nVtx: 75888
+nEdge: 508837
+nVtx: 75888, nVtx: 75888, nEdge: 508837
+graph read
+filename: soc-Epinions1.bin nVtx: 75888 nonzero: 508837 AvgTime: 0 veccachelines: 410998 veccachelines_est: 405435 potentialL2: 136875
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 12008
+nVtx: 12008
+nEdge: 237010
+nVtx: 12008, nVtx: 12008, nEdge: 237010
+graph read
+filename: ca-HepPh.bin nVtx: 12008 nonzero: 237010 AvgTime: 0 veccachelines: 215028 veccachelines_est: 228385 potentialL2: 63925
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1971281
+nVtx: 1971281
+nEdge: 5533214
+nVtx: 1971281, nVtx: 1971281, nEdge: 5533214
+graph read
+filename: roadNet-CA.bin nVtx: 1971281 nonzero: 5533214 AvgTime: 0 veccachelines: 4148376 veccachelines_est: 4151347 potentialL2: 828613
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8297
+nVtx: 8297
+nEdge: 103689
+nVtx: 8297, nVtx: 8297, nEdge: 103689
+graph read
+filename: wiki-Vote.bin nVtx: 8297 nonzero: 103689 AvgTime: 0 veccachelines: 82430 veccachelines_est: 61242 potentialL2: 19637
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 403394
+nVtx: 403394
+nEdge: 3387388
+nVtx: 403394, nVtx: 403394, nEdge: 3387388
+graph read
+filename: amazon0601.bin nVtx: 403394 nonzero: 3387388 AvgTime: 0 veccachelines: 2372654 veccachelines_est: 2378523 potentialL2: 1503344
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+graph read
+filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0 veccachelines: 4357567 veccachelines_est: 4346518 potentialL2: 269247
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8846
+nVtx: 8846
+nEdge: 31839
+nVtx: 8846, nVtx: 8846, nEdge: 31839
+graph read
+filename: p2p-Gnutella05.bin nVtx: 8846 nonzero: 31839 AvgTime: 0 veccachelines: 25583 veccachelines_est: 24858 potentialL2: 15029
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 77360
+nVtx: 77360
+nEdge: 905468
+nVtx: 77360, nVtx: 77360, nEdge: 905468
+graph read
+filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0 veccachelines: 801476 veccachelines_est: 790754 potentialL2: 322892
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 9877
+nVtx: 9877
+nEdge: 51971
+nVtx: 9877, nVtx: 9877, nEdge: 51971
+graph read
+filename: ca-HepTh.bin nVtx: 9877 nonzero: 51971 AvgTime: 0 veccachelines: 50825 veccachelines_est: 50878 potentialL2: 30127
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 410236
+nVtx: 410236
+nEdge: 3356824
+nVtx: 410236, nVtx: 410236, nEdge: 3356824
+graph read
+filename: amazon0505.bin nVtx: 410236 nonzero: 3356824 AvgTime: 0 veccachelines: 2351432 veccachelines_est: 2318450 potentialL2: 1492408
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 22687
+nVtx: 22687
+nEdge: 54705
+nVtx: 22687, nVtx: 22687, nEdge: 54705
+graph read
+filename: p2p-Gnutella25.bin nVtx: 22687 nonzero: 54705 AvgTime: 0 veccachelines: 38343 veccachelines_est: 32061 potentialL2: 33369
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1134890
+nVtx: 1134890
+nEdge: 5975248
+nVtx: 1134890, nVtx: 1134890, nEdge: 5975248
+graph read
+filename: com-youtube.ungraph.bin nVtx: 1134890 nonzero: 5975248 AvgTime: 0 veccachelines: 4780208 veccachelines_est: 4427543 potentialL2: 2454814
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+graph read
+filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0 veccachelines: 378019 veccachelines_est: 379173 potentialL2: 146991
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+graph read
+filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0 veccachelines: 2337841 veccachelines_est: 2329272 potentialL2: 486330
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 2394385
+nVtx: 2394385
+nEdge: 5021410
+nVtx: 2394385, nVtx: 2394385, nEdge: 5021410
+graph read
+filename: wiki-Talk.bin nVtx: 2394385 nonzero: 5021410 AvgTime: 0 veccachelines: 3981854 veccachelines_est: 4120180 potentialL2: 2703652
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 456626
+nVtx: 456626
+nEdge: 14855842
+nVtx: 456626, nVtx: 456626, nEdge: 14855842
+graph read
+filename: higgs-social_network.bin nVtx: 456626 nonzero: 14855842 AvgTime: 0 veccachelines: 12577823 veccachelines_est: 12641658 potentialL2: 6031183
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 265214
+nVtx: 265214
+nEdge: 420045
+nVtx: 265214, nVtx: 265214, nEdge: 420045
+graph read
+filename: email-EuAll.bin nVtx: 265214 nonzero: 420045 AvgTime: 0 veccachelines: 398493 veccachelines_est: 402857 potentialL2: 240520
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 36692
+nVtx: 36692
+nEdge: 367662
+nVtx: 36692, nVtx: 36692, nEdge: 367662
+graph read
+filename: email-Enron.bin nVtx: 36692 nonzero: 367662 AvgTime: 0 veccachelines: 257580 veccachelines_est: 273245 potentialL2: 64875
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 334863
+nVtx: 334863
+nEdge: 1851744
+nVtx: 334863, nVtx: 334863, nEdge: 1851744
+graph read
+filename: com-amazon.ungraph.bin nVtx: 334863 nonzero: 1851744 AvgTime: 0 veccachelines: 1235848 veccachelines_est: 1202688 potentialL2: 673572
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+graph read
+filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0 veccachelines: 2311145 veccachelines_est: 2311491 potentialL2: 1910352
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 81871
+nVtx: 81871
+nEdge: 545671
+nVtx: 81871, nVtx: 81871, nEdge: 545671
+graph read
+filename: soc-sign-Slashdot090216.bin nVtx: 81871 nonzero: 545671 AvgTime: 0 veccachelines: 459169 veccachelines_est: 460658 potentialL2: 256903
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+graph read
+filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0 veccachelines: 409202 veccachelines_est: 410011 potentialL2: 204016
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+graph read
+filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0 veccachelines: 2283096 veccachelines_est: 2269535 potentialL2: 1484427
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 10879
+nVtx: 10879
+nEdge: 39994
+nVtx: 10879, nVtx: 10879, nEdge: 39994
+graph read
+filename: p2p-Gnutella04.bin nVtx: 10879 nonzero: 39994 AvgTime: 0 veccachelines: 32348 veccachelines_est: 30451 potentialL2: 19503
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3997962
+nVtx: 3997962
+nEdge: 69362378
+nVtx: 3997962, nVtx: 3997962, nEdge: 69362378
+graph read
+filename: com-lj.ungraph.bin nVtx: 3997962 nonzero: 69362378 AvgTime: 0 veccachelines: 54125836 veccachelines_est: 53853721 potentialL2: 32870801
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 11492
+nVtx: 11492
+nEdge: 46818
+nVtx: 11492, nVtx: 11492, nEdge: 46818
+graph read
+filename: Oregon-1.bin nVtx: 11492 nonzero: 46818 AvgTime: 0 veccachelines: 38897 veccachelines_est: 30988 potentialL2: 15155
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 11806
+nVtx: 11806
+nEdge: 65460
+nVtx: 11806, nVtx: 11806, nEdge: 65460
+graph read
+filename: Oregon-2.bin nVtx: 11806 nonzero: 65460 AvgTime: 0 veccachelines: 54010 veccachelines_est: 46446 potentialL2: 17992
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+graph read
+filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0 veccachelines: 5103603 veccachelines_est: 5103381 potentialL2: 5039097
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+graph read
+filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0 veccachelines: 13909551 veccachelines_est: 14906601 potentialL2: 4976428
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+graph read
+filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0 veccachelines: 956015 veccachelines_est: 954306 potentialL2: 642455

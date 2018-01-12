@@ -1,0 +1,78 @@
+exec
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 403394
+nVtx: 403394
+nEdge: 3387388
+nVtx: 403394, nVtx: 403394, nEdge: 3387388
+graph read
+ comput rowBlocks 
+fin de calcule de rowBlocks
+rowBlockSize : 1659last row 0
+subsize : 64
+start creat stream 
+ id 0
+ id 1
+end creat stream 
+start split task 
+fin split task 
+nb_tasks 26
+filename: amazon0601.bin nVtx: 403394 nonzero: 3387388 AvgTime: 0.282038 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3774768
+nVtx: 3774768
+nEdge: 16518948
+nVtx: 3774768, nVtx: 3774768, nEdge: 16518948
+graph read
+ comput rowBlocks 
+fin de calcule de rowBlocks
+rowBlockSize : 8101last row 0
+subsize : 64
+start creat stream 
+ id 0
+ id 1
+end creat stream 
+start split task 
+fin split task 
+nb_tasks 125
+filename: cit-Patents.bin nVtx: 3774768 nonzero: 16518948 AvgTime: 1.09385 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3774768
+nVtx: 3774768
+nEdge: 16518948
+nVtx: 3774768, nVtx: 3774768, nEdge: 16518948
+graph read
+ comput rowBlocks 
+fin de calcule de rowBlocks
+rowBlockSize : 8101last row 0
+subsize : 64
+start creat stream 
+ id 0
+ id 1
+end creat stream 
+start split task 
+fin split task 
+nb_tasks 125
+filename: cit-Patents.bin nVtx: 3774768 nonzero: 16518948 AvgTime: 1.07373 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3774768
+nVtx: 3774768
+nEdge: 16518948
+nVtx: 3774768, nVtx: 3774768, nEdge: 16518948
+graph read
+ comput rowBlocks 
+fin de calcule de rowBlocks
+rowBlockSize : 8101last row 0
+subsize : 64
+start creat stream 
+ id 0
+ id 1
+end creat stream 
+start split task 
+fin split task 
+nb_tasks 125
+filename: cit-Patents.bin nVtx: 3774768 nonzero: 16518948 AvgTime: 1.15209 

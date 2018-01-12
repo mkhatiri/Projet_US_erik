@@ -1,0 +1,6 @@
+new-cuda-adaptative-2gpus.cu(484) : CUDA Runtime API error 77: an illegal memory access was encountered.
+/var/spool/torque/mom_priv/jobs/541.pyt-m1.uncc.edu.SC: line 40:  5016 Segmentation fault      (core dumped) NBBLOCK=64 NBTHREAD=512 BLKSIZE=2048 ./new-cuda-adaptative-2gpus /users/mkhatiri/PROJETCOMPLET/SNAP/cit-Patents.bin
+new-cuda-adaptative-2gpus.cu(484) : CUDA Runtime API error 77: an illegal memory access was encountered.
+new-cuda-adaptative-2gpus.cu(484) : CUDA Runtime API error 77: an illegal memory access was encountered.
+new-cuda-adaptative-2gpus.cu(484) : CUDA Runtime API error 77: an illegal memory access was encountered.
+/var/spool/torque/mom_priv/jobs/541.pyt-m1.uncc.edu.SC: line 46:  5042 Segmentation fault      (core dumped) NBBLOCK=512 NBTHREAD=512 BLKSIZE=2048 ./new-cuda-adaptative-2gpus /users/mkhatiri/PROJETCOMPLET/SNAP/cit-Patents.bin

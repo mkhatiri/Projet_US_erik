@@ -1,0 +1,78 @@
+exec
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 403394
+nVtx: 403394
+nEdge: 3387388
+nVtx: 403394, nVtx: 403394, nEdge: 3387388
+graph read
+ comput rowBlocks 
+fin de calcule de rowBlocks
+rowBlockSize : 1659last row 0
+subsize : 64
+start creat stream 
+ id 0
+ id 1
+end creat stream 
+start split task 
+fin split task 
+nb_tasks 26
+filename: amazon0601.bin nVtx: 403394 nonzero: 3387388 AvgTime: 0.212517 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 403394
+nVtx: 403394
+nEdge: 3387388
+nVtx: 403394, nVtx: 403394, nEdge: 3387388
+graph read
+ comput rowBlocks 
+fin de calcule de rowBlocks
+rowBlockSize : 1659last row 0
+subsize : 64
+start creat stream 
+ id 0
+ id 1
+end creat stream 
+start split task 
+fin split task 
+nb_tasks 26
+filename: amazon0601.bin nVtx: 403394 nonzero: 3387388 AvgTime: 0.260567 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 403394
+nVtx: 403394
+nEdge: 3387388
+nVtx: 403394, nVtx: 403394, nEdge: 3387388
+graph read
+ comput rowBlocks 
+fin de calcule de rowBlocks
+rowBlockSize : 1659last row 0
+subsize : 64
+start creat stream 
+ id 0
+ id 1
+end creat stream 
+start split task 
+fin split task 
+nb_tasks 26
+filename: amazon0601.bin nVtx: 403394 nonzero: 3387388 AvgTime: 0.115131 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 403394
+nVtx: 403394
+nEdge: 3387388
+nVtx: 403394, nVtx: 403394, nEdge: 3387388
+graph read
+ comput rowBlocks 
+fin de calcule de rowBlocks
+rowBlockSize : 1659last row 0
+subsize : 64
+start creat stream 
+ id 0
+ id 1
+end creat stream 
+start split task 
+fin split task 
+nb_tasks 26
+filename: amazon0601.bin nVtx: 403394 nonzero: 3387388 AvgTime: 0.312934 

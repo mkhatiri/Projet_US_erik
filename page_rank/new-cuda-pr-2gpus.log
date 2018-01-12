@@ -1,0 +1,3439 @@
+			----------- new-cuda-pr-2gpus-------------------- 
+			------- 4 ---------- 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 7716
+nVtx: 7716
+nEdge: 26467
+nVtx: 7716, nVtx: 7716, nEdge: 26467
+graph read
+subzie 992
+number-blocks: 8
+filename: as-735.bin nVtx: 7716 nonzero: 26467 AvgTime: 0.021705 part1V: 2976 part1E: 16518 part2V: 4740 part2E: 9949 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+graph read
+subzie 39648
+number-blocks: 8
+filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.035936 part1V: 158592 part1E: 1446465 part2V: 158488 part2E: 653267 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 4847571
+nVtx: 4847571
+nEdge: 68993773
+nVtx: 4847571, nVtx: 4847571, nEdge: 68993773
+graph read
+subzie 605952
+number-blocks: 8
+filename: soc-LiveJournal1.bin nVtx: 4847571 nonzero: 68993773 AvgTime: 0.742736 part1V: 1211904 part1E: 42920338 part2V: 3635667 part2E: 26073435 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1632803
+nVtx: 1632803
+nEdge: 30622564
+nVtx: 1632803, nVtx: 1632803, nEdge: 30622564
+graph read
+subzie 204128
+number-blocks: 8
+filename: soc-pokec-relationships.bin nVtx: 1632803 nonzero: 30622564 AvgTime: 0.354802 part1V: 408256 part1E: 15446642 part2V: 1224547 part2E: 15175922 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 131828
+nVtx: 131828
+nEdge: 841372
+nVtx: 131828, nVtx: 131828, nEdge: 841372
+graph read
+subzie 16480
+number-blocks: 8
+filename: soc-sign-epinions.bin nVtx: 131828 nonzero: 841372 AvgTime: 0.049005 part1V: 65920 part1E: 702986 part2V: 65908 part2E: 138386 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3072441
+nVtx: 3072441
+nEdge: 234370166
+nVtx: 3072441, nVtx: 3072441, nEdge: 234370166
+graph read
+subzie 384064
+number-blocks: 8
+filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 2.18993 part1V: 1536256 part1E: 148305666 part2V: 1536185 part2E: 86064500 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1393383
+nVtx: 1393383
+nEdge: 3843320
+nVtx: 1393383, nVtx: 1393383, nEdge: 3843320
+graph read
+subzie 174176
+number-blocks: 8
+filename: roadNet-TX.bin nVtx: 1393383 nonzero: 3843320 AvgTime: 0.090854 part1V: 696704 part1E: 1928393 part2V: 696679 part2E: 1914927 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 27770
+nVtx: 27770
+nEdge: 352807
+nVtx: 27770, nVtx: 27770, nEdge: 352807
+graph read
+subzie 3488
+number-blocks: 8
+filename: cit-HepTh.bin nVtx: 27770 nonzero: 352807 AvgTime: 0.03423 part1V: 13952 part1E: 193052 part2V: 13818 part2E: 159755 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 62586
+nVtx: 62586
+nEdge: 147892
+nVtx: 62586, nVtx: 62586, nEdge: 147892
+graph read
+subzie 7840
+number-blocks: 8
+filename: p2p-Gnutella31.bin nVtx: 62586 nonzero: 147892 AvgTime: 0.021915 part1V: 31360 part1E: 69036 part2V: 31226 part2E: 78856 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3774768
+nVtx: 3774768
+nEdge: 16518948
+nVtx: 3774768, nVtx: 3774768, nEdge: 16518948
+graph read
+subzie 471872
+number-blocks: 8
+filename: cit-Patents.bin nVtx: 3774768 nonzero: 16518948 AvgTime: 0.364398 part1V: 2831232 part1E: 7380189 part2V: 943536 part2E: 9138759 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 77357
+nVtx: 77357
+nEdge: 516575
+nVtx: 77357, nVtx: 77357, nEdge: 516575
+graph read
+subzie 9696
+number-blocks: 8
+filename: soc-sign-Slashdot081106.bin nVtx: 77357 nonzero: 516575 AvgTime: 0.027003 part1V: 38784 part1E: 444244 part2V: 38573 part2E: 72331 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 36682
+nVtx: 36682
+nEdge: 88328
+nVtx: 36682, nVtx: 36682, nEdge: 88328
+graph read
+subzie 4608
+number-blocks: 8
+filename: p2p-Gnutella30.bin nVtx: 36682 nonzero: 88328 AvgTime: 0.022603 part1V: 13824 part1E: 36273 part2V: 22858 part2E: 52055 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8717
+nVtx: 8717
+nEdge: 31525
+nVtx: 8717, nVtx: 8717, nEdge: 31525
+graph read
+subzie 1120
+number-blocks: 8
+filename: p2p-Gnutella06.bin nVtx: 8717 nonzero: 31525 AvgTime: 0.019654 part1V: 4480 part1E: 17933 part2V: 4237 part2E: 13592 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+graph read
+subzie 672
+number-blocks: 8
+filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.031281 part1V: 2016 part1E: 11349 part2V: 3226 part2E: 17631 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 6301
+nVtx: 6301
+nEdge: 20777
+nVtx: 6301, nVtx: 6301, nEdge: 20777
+graph read
+subzie 800
+number-blocks: 8
+filename: p2p-Gnutella08.bin nVtx: 6301 nonzero: 20777 AvgTime: 0.023765 part1V: 3200 part1E: 11947 part2V: 3101 part2E: 8830 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+graph read
+subzie 3328
+number-blocks: 8
+filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.020235 part1V: 13312 part1E: 35705 part2V: 13206 part2E: 29664 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 31379
+nVtx: 31379
+nEdge: 106762
+nVtx: 31379, nVtx: 31379, nEdge: 106762
+graph read
+subzie 3936
+number-blocks: 8
+filename: as-caida.bin nVtx: 31379 nonzero: 106762 AvgTime: 0.028044 part1V: 11808 part1E: 68979 part2V: 19571 part2E: 37783 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+graph read
+subzie 10272
+number-blocks: 8
+filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.028287 part1V: 30816 part1E: 766012 part2V: 51352 part2E: 182452 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 23133
+nVtx: 23133
+nEdge: 186936
+nVtx: 23133, nVtx: 23133, nEdge: 186936
+graph read
+subzie 2912
+number-blocks: 8
+filename: ca-CondMat.bin nVtx: 23133 nonzero: 186936 AvgTime: 0.022731 part1V: 11648 part1E: 94947 part2V: 11485 part2E: 91989 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+graph read
+subzie 40736
+number-blocks: 8
+filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.058473 part1V: 162944 part1E: 484080 part2V: 162785 part2E: 1013054 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82144
+nVtx: 82144
+nEdge: 549202
+nVtx: 82144, nVtx: 82144, nEdge: 549202
+graph read
+subzie 10272
+number-blocks: 8
+filename: soc-sign-Slashdot090221.bin nVtx: 82144 nonzero: 549202 AvgTime: 0.026165 part1V: 41088 part1E: 468622 part2V: 41056 part2E: 80580 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8114
+nVtx: 8114
+nEdge: 26013
+nVtx: 8114, nVtx: 8114, nEdge: 26013
+graph read
+subzie 1024
+number-blocks: 8
+filename: p2p-Gnutella09.bin nVtx: 8114 nonzero: 26013 AvgTime: 0.023957 part1V: 4096 part1E: 15030 part2V: 4018 part2E: 10983 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 75888
+nVtx: 75888
+nEdge: 508837
+nVtx: 75888, nVtx: 75888, nEdge: 508837
+graph read
+subzie 9504
+number-blocks: 8
+filename: soc-Epinions1.bin nVtx: 75888 nonzero: 508837 AvgTime: 0.026973 part1V: 28512 part1E: 443843 part2V: 47376 part2E: 64994 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 12008
+nVtx: 12008
+nEdge: 237010
+nVtx: 12008, nVtx: 12008, nEdge: 237010
+graph read
+subzie 1504
+number-blocks: 8
+filename: ca-HepPh.bin nVtx: 12008 nonzero: 237010 AvgTime: 0.022125 part1V: 4512 part1E: 92369 part2V: 7496 part2E: 144641 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1971281
+nVtx: 1971281
+nEdge: 5533214
+nVtx: 1971281, nVtx: 1971281, nEdge: 5533214
+graph read
+subzie 246432
+number-blocks: 8
+filename: roadNet-CA.bin nVtx: 1971281 nonzero: 5533214 AvgTime: 0.107441 part1V: 985728 part1E: 2788830 part2V: 985553 part2E: 2744384 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8297
+nVtx: 8297
+nEdge: 103689
+nVtx: 8297, nVtx: 8297, nEdge: 103689
+graph read
+subzie 1056
+number-blocks: 8
+filename: wiki-Vote.bin nVtx: 8297 nonzero: 103689 AvgTime: 0.028023 part1V: 3168 part1E: 61855 part2V: 5129 part2E: 41834 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 403394
+nVtx: 403394
+nEdge: 3387388
+nVtx: 403394, nVtx: 403394, nEdge: 3387388
+graph read
+subzie 50432
+number-blocks: 8
+filename: amazon0601.bin nVtx: 403394 nonzero: 3387388 AvgTime: 0.034073 part1V: 201728 part1E: 1838332 part2V: 201666 part2E: 1549056 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+graph read
+subzie 85664
+number-blocks: 8
+filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.052239 part1V: 342656 part1E: 3830105 part2V: 342574 part2E: 3770490 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8846
+nVtx: 8846
+nEdge: 31839
+nVtx: 8846, nVtx: 8846, nEdge: 31839
+graph read
+subzie 1120
+number-blocks: 8
+filename: p2p-Gnutella05.bin nVtx: 8846 nonzero: 31839 AvgTime: 0.019672 part1V: 4480 part1E: 17542 part2V: 4366 part2E: 14297 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 77360
+nVtx: 77360
+nEdge: 905468
+nVtx: 77360, nVtx: 77360, nEdge: 905468
+graph read
+subzie 9696
+number-blocks: 8
+filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.027424 part1V: 29088 part1E: 731033 part2V: 48272 part2E: 174435 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 9877
+nVtx: 9877
+nEdge: 51971
+nVtx: 9877, nVtx: 9877, nEdge: 51971
+graph read
+subzie 1248
+number-blocks: 8
+filename: ca-HepTh.bin nVtx: 9877 nonzero: 51971 AvgTime: 0.020592 part1V: 4992 part1E: 26697 part2V: 4885 part2E: 25274 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 410236
+nVtx: 410236
+nEdge: 3356824
+nVtx: 410236, nVtx: 410236, nEdge: 3356824
+graph read
+subzie 51296
+number-blocks: 8
+filename: amazon0505.bin nVtx: 410236 nonzero: 3356824 AvgTime: 0.033575 part1V: 205184 part1E: 1850903 part2V: 205052 part2E: 1505921 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 22687
+nVtx: 22687
+nEdge: 54705
+nVtx: 22687, nVtx: 22687, nEdge: 54705
+graph read
+subzie 2848
+number-blocks: 8
+filename: p2p-Gnutella25.bin nVtx: 22687 nonzero: 54705 AvgTime: 0.024053 part1V: 11392 part1E: 29623 part2V: 11295 part2E: 25082 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1134890
+nVtx: 1134890
+nEdge: 5975248
+nVtx: 1134890, nVtx: 1134890, nEdge: 5975248
+graph read
+subzie 141888
+number-blocks: 8
+filename: com-youtube.ungraph.bin nVtx: 1134890 nonzero: 5975248 AvgTime: 0.20111 part1V: 283776 part1E: 4081944 part2V: 851114 part2E: 1893304 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+graph read
+subzie 2368
+number-blocks: 8
+filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.022997 part1V: 9472 part1E: 200053 part2V: 9300 part2E: 196107 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+graph read
+subzie 136384
+number-blocks: 8
+filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.056919 part1V: 545536 part1E: 1542402 part2V: 545384 part2E: 1541394 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 2394385
+nVtx: 2394385
+nEdge: 5021410
+nVtx: 2394385, nVtx: 2394385, nEdge: 5021410
+graph read
+subzie 299328
+number-blocks: 8
+filename: wiki-Talk.bin nVtx: 2394385 nonzero: 5021410 AvgTime: 0.979917 part1V: 598656 part1E: 4955611 part2V: 1795729 part2E: 65799 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 456626
+nVtx: 456626
+nEdge: 14855842
+nVtx: 456626, nVtx: 456626, nEdge: 14855842
+graph read
+subzie 57088
+number-blocks: 8
+filename: higgs-social_network.bin nVtx: 456626 nonzero: 14855842 AvgTime: 0.093365 part1V: 171264 part1E: 9952337 part2V: 285362 part2E: 4903505 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 265214
+nVtx: 265214
+nEdge: 420045
+nVtx: 265214, nVtx: 265214, nEdge: 420045
+graph read
+subzie 33152
+number-blocks: 8
+filename: email-EuAll.bin nVtx: 265214 nonzero: 420045 AvgTime: 0.035702 part1V: 132608 part1E: 277651 part2V: 132606 part2E: 142394 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 36692
+nVtx: 36692
+nEdge: 367662
+nVtx: 36692, nVtx: 36692, nEdge: 367662
+graph read
+subzie 4608
+number-blocks: 8
+filename: email-Enron.bin nVtx: 36692 nonzero: 367662 AvgTime: 0.024185 part1V: 9216 part1E: 257784 part2V: 27476 part2E: 109878 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 334863
+nVtx: 334863
+nEdge: 1851744
+nVtx: 334863, nVtx: 334863, nEdge: 1851744
+graph read
+subzie 41888
+number-blocks: 8
+filename: com-amazon.ungraph.bin nVtx: 334863 nonzero: 1851744 AvgTime: 0.034073 part1V: 167552 part1E: 1177147 part2V: 167311 part2E: 674597 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+graph read
+subzie 35264
+number-blocks: 8
+filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.035475 part1V: 141056 part1E: 1156319 part2V: 140847 part2E: 1156178 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 81871
+nVtx: 81871
+nEdge: 545671
+nVtx: 81871, nVtx: 81871, nEdge: 545671
+graph read
+subzie 10240
+number-blocks: 8
+filename: soc-sign-Slashdot090216.bin nVtx: 81871 nonzero: 545671 AvgTime: 0.026657 part1V: 30720 part1E: 423826 part2V: 51151 part2E: 121845 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+graph read
+subzie 4320
+number-blocks: 8
+filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.023777 part1V: 17280 part1E: 231815 part2V: 17266 part2E: 189763 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+graph read
+subzie 50112
+number-blocks: 8
+filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.033113 part1V: 200448 part1E: 1716291 part2V: 200279 part2E: 1484149 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 10879
+nVtx: 10879
+nEdge: 39994
+nVtx: 10879, nVtx: 10879, nEdge: 39994
+graph read
+subzie 1376
+number-blocks: 8
+filename: p2p-Gnutella04.bin nVtx: 10879 nonzero: 39994 AvgTime: 0.023397 part1V: 5504 part1E: 22017 part2V: 5375 part2E: 17977 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3997962
+nVtx: 3997962
+nEdge: 69362378
+nVtx: 3997962, nVtx: 3997962, nEdge: 69362378
+graph read
+subzie 499776
+number-blocks: 8
+filename: com-lj.ungraph.bin nVtx: 3997962 nonzero: 69362378 AvgTime: 0.789939 part1V: 999552 part1E: 43328929 part2V: 2998410 part2E: 26033449 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 11492
+nVtx: 11492
+nEdge: 46818
+nVtx: 11492, nVtx: 11492, nEdge: 46818
+graph read
+subzie 1440
+number-blocks: 8
+filename: Oregon-1.bin nVtx: 11492 nonzero: 46818 AvgTime: 0.026061 part1V: 2880 part1E: 26567 part2V: 8612 part2E: 20251 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 11806
+nVtx: 11806
+nEdge: 65460
+nVtx: 11806, nVtx: 11806, nEdge: 65460
+graph read
+subzie 1504
+number-blocks: 8
+filename: Oregon-2.bin nVtx: 11806 nonzero: 65460 AvgTime: 0.029739 part1V: 3008 part1E: 35182 part2V: 8798 part2E: 30278 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+graph read
+subzie 114560
+number-blocks: 8
+filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.094347 part1V: 458240 part1E: 2560001 part2V: 458188 part2E: 2545038 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+graph read
+subzie 212064
+number-blocks: 8
+filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.312044 part1V: 424128 part1E: 12877607 part2V: 1272287 part2E: 9312989 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+graph read
+subzie 32768
+number-blocks: 8
+filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.027513 part1V: 131072 part1E: 627582 part2V: 131039 part2E: 607295 number-blocks: 8 
+			------- 8 ---------- 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 7716
+nVtx: 7716
+nEdge: 26467
+nVtx: 7716, nVtx: 7716, nEdge: 26467
+graph read
+subzie 512
+number-blocks: 16
+filename: as-735.bin nVtx: 7716 nonzero: 26467 AvgTime: 0.034342 part1V: 3584 part1E: 18079 part2V: 4132 part2E: 8388 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+graph read
+subzie 19840
+number-blocks: 16
+filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.050483 part1V: 119040 part1E: 1213570 part2V: 198040 part2E: 886162 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 4847571
+nVtx: 4847571
+nEdge: 68993773
+nVtx: 4847571, nVtx: 4847571, nEdge: 68993773
+graph read
+subzie 302976
+number-blocks: 16
+filename: soc-LiveJournal1.bin nVtx: 4847571 nonzero: 68993773 AvgTime: 0.763061 part1V: 908928 part1E: 36275728 part2V: 3938643 part2E: 32718045 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1632803
+nVtx: 1632803
+nEdge: 30622564
+nVtx: 1632803, nVtx: 1632803, nEdge: 30622564
+graph read
+subzie 102080
+number-blocks: 16
+filename: soc-pokec-relationships.bin nVtx: 1632803 nonzero: 30622564 AvgTime: 0.359891 part1V: 408320 part1E: 15449169 part2V: 1224483 part2E: 15173395 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 131828
+nVtx: 131828
+nEdge: 841372
+nVtx: 131828, nVtx: 131828, nEdge: 841372
+graph read
+subzie 8256
+number-blocks: 16
+filename: soc-sign-epinions.bin nVtx: 131828 nonzero: 841372 AvgTime: 0.066626 part1V: 57792 part1E: 667470 part2V: 74036 part2E: 173902 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3072441
+nVtx: 3072441
+nEdge: 234370166
+nVtx: 3072441, nVtx: 3072441, nEdge: 234370166
+graph read
+subzie 192032
+number-blocks: 16
+filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 1.97822 part1V: 1344224 part1E: 121813905 part2V: 1728217 part2E: 112556261 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1393383
+nVtx: 1393383
+nEdge: 3843320
+nVtx: 1393383, nVtx: 1393383, nEdge: 3843320
+graph read
+subzie 87104
+number-blocks: 16
+filename: roadNet-TX.bin nVtx: 1393383 nonzero: 3843320 AvgTime: 0.08875 part1V: 696832 part1E: 1928781 part2V: 696551 part2E: 1914539 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 27770
+nVtx: 27770
+nEdge: 352807
+nVtx: 27770, nVtx: 27770, nEdge: 352807
+graph read
+subzie 1760
+number-blocks: 16
+filename: cit-HepTh.bin nVtx: 27770 nonzero: 352807 AvgTime: 0.037328 part1V: 15840 part1E: 202002 part2V: 11930 part2E: 150805 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 62586
+nVtx: 62586
+nEdge: 147892
+nVtx: 62586, nVtx: 62586, nEdge: 147892
+graph read
+subzie 3936
+number-blocks: 16
+filename: p2p-Gnutella31.bin nVtx: 62586 nonzero: 147892 AvgTime: 0.034877 part1V: 31488 part1E: 69304 part2V: 31098 part2E: 78588 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3774768
+nVtx: 3774768
+nEdge: 16518948
+nVtx: 3774768, nVtx: 3774768, nEdge: 16518948
+graph read
+subzie 235936
+number-blocks: 16
+filename: cit-Patents.bin nVtx: 3774768 nonzero: 16518948 AvgTime: 0.372787 part1V: 2831232 part1E: 7380189 part2V: 943536 part2E: 9138759 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 77357
+nVtx: 77357
+nEdge: 516575
+nVtx: 77357, nVtx: 77357, nEdge: 516575
+graph read
+subzie 4864
+number-blocks: 16
+filename: soc-sign-Slashdot081106.bin nVtx: 77357 nonzero: 516575 AvgTime: 0.040088 part1V: 38912 part1E: 444626 part2V: 38445 part2E: 71949 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 36682
+nVtx: 36682
+nEdge: 88328
+nVtx: 36682, nVtx: 36682, nEdge: 88328
+graph read
+subzie 2304
+number-blocks: 16
+filename: p2p-Gnutella30.bin nVtx: 36682 nonzero: 88328 AvgTime: 0.042135 part1V: 18432 part1E: 46656 part2V: 18250 part2E: 41672 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8717
+nVtx: 8717
+nEdge: 31525
+nVtx: 8717, nVtx: 8717, nEdge: 31525
+graph read
+subzie 576
+number-blocks: 16
+filename: p2p-Gnutella06.bin nVtx: 8717 nonzero: 31525 AvgTime: 0.038912 part1V: 5184 part1E: 20270 part2V: 3533 part2E: 11255 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+graph read
+subzie 352
+number-blocks: 15
+filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.038053 part1V: 2816 part1E: 15714 part2V: 2426 part2E: 13266 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 6301
+nVtx: 6301
+nEdge: 20777
+nVtx: 6301, nVtx: 6301, nEdge: 20777
+graph read
+subzie 416
+number-blocks: 16
+filename: p2p-Gnutella08.bin nVtx: 6301 nonzero: 20777 AvgTime: 0.032371 part1V: 3744 part1E: 13571 part2V: 2557 part2E: 7206 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+graph read
+subzie 1664
+number-blocks: 16
+filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.035834 part1V: 14976 part1E: 39015 part2V: 11542 part2E: 26354 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 31379
+nVtx: 31379
+nEdge: 106762
+nVtx: 31379, nVtx: 31379, nEdge: 106762
+graph read
+subzie 1984
+number-blocks: 16
+filename: as-caida.bin nVtx: 31379 nonzero: 106762 AvgTime: 0.039608 part1V: 9920 part1E: 64224 part2V: 21459 part2E: 42538 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+graph read
+subzie 5152
+number-blocks: 16
+filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.043425 part1V: 30912 part1E: 766838 part2V: 51256 part2E: 181626 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 23133
+nVtx: 23133
+nEdge: 186936
+nVtx: 23133, nVtx: 23133, nEdge: 186936
+graph read
+subzie 1472
+number-blocks: 16
+filename: ca-CondMat.bin nVtx: 23133 nonzero: 186936 AvgTime: 0.035644 part1V: 14720 part1E: 120169 part2V: 8413 part2E: 66767 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+graph read
+subzie 20384
+number-blocks: 16
+filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.084514 part1V: 142688 part1E: 442457 part2V: 183041 part2E: 1054677 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82144
+nVtx: 82144
+nEdge: 549202
+nVtx: 82144, nVtx: 82144, nEdge: 549202
+graph read
+subzie 5152
+number-blocks: 16
+filename: soc-sign-Slashdot090221.bin nVtx: 82144 nonzero: 549202 AvgTime: 0.040115 part1V: 30912 part1E: 427478 part2V: 51232 part2E: 121724 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8114
+nVtx: 8114
+nEdge: 26013
+nVtx: 8114, nVtx: 8114, nEdge: 26013
+graph read
+subzie 512
+number-blocks: 16
+filename: p2p-Gnutella09.bin nVtx: 8114 nonzero: 26013 AvgTime: 0.039023 part1V: 4096 part1E: 15030 part2V: 4018 part2E: 10983 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 75888
+nVtx: 75888
+nEdge: 508837
+nVtx: 75888, nVtx: 75888, nEdge: 508837
+graph read
+subzie 4768
+number-blocks: 16
+filename: soc-Epinions1.bin nVtx: 75888 nonzero: 508837 AvgTime: 0.039221 part1V: 38144 part1E: 464514 part2V: 37744 part2E: 44323 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 12008
+nVtx: 12008
+nEdge: 237010
+nVtx: 12008, nVtx: 12008, nEdge: 237010
+graph read
+subzie 768
+number-blocks: 16
+filename: ca-HepPh.bin nVtx: 12008 nonzero: 237010 AvgTime: 0.037439 part1V: 6144 part1E: 127808 part2V: 5864 part2E: 109202 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1971281
+nVtx: 1971281
+nEdge: 5533214
+nVtx: 1971281, nVtx: 1971281, nEdge: 5533214
+graph read
+subzie 123232
+number-blocks: 16
+filename: roadNet-CA.bin nVtx: 1971281 nonzero: 5533214 AvgTime: 0.098578 part1V: 985856 part1E: 2789200 part2V: 985425 part2E: 2744014 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8297
+nVtx: 8297
+nEdge: 103689
+nVtx: 8297, nVtx: 8297, nEdge: 103689
+graph read
+subzie 544
+number-blocks: 16
+filename: wiki-Vote.bin nVtx: 8297 nonzero: 103689 AvgTime: 0.038569 part1V: 4352 part1E: 77055 part2V: 3945 part2E: 26634 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 403394
+nVtx: 403394
+nEdge: 3387388
+nVtx: 403394, nVtx: 403394, nEdge: 3387388
+graph read
+subzie 25216
+number-blocks: 16
+filename: amazon0601.bin nVtx: 403394 nonzero: 3387388 AvgTime: 0.048337 part1V: 226944 part1E: 2051529 part2V: 176450 part2E: 1335859 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+graph read
+subzie 42848
+number-blocks: 16
+filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.068356 part1V: 342784 part1E: 3830926 part2V: 342446 part2E: 3769669 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8846
+nVtx: 8846
+nEdge: 31839
+nVtx: 8846, nVtx: 8846, nEdge: 31839
+graph read
+subzie 576
+number-blocks: 16
+filename: p2p-Gnutella05.bin nVtx: 8846 nonzero: 31839 AvgTime: 0.033468 part1V: 4608 part1E: 17994 part2V: 4238 part2E: 13845 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 77360
+nVtx: 77360
+nEdge: 905468
+nVtx: 77360, nVtx: 77360, nEdge: 905468
+graph read
+subzie 4864
+number-blocks: 16
+filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.041637 part1V: 24320 part1E: 690265 part2V: 53040 part2E: 215203 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 9877
+nVtx: 9877
+nEdge: 51971
+nVtx: 9877, nVtx: 9877, nEdge: 51971
+graph read
+subzie 640
+number-blocks: 16
+filename: ca-HepTh.bin nVtx: 9877 nonzero: 51971 AvgTime: 0.035188 part1V: 5760 part1E: 30803 part2V: 4117 part2E: 21168 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 410236
+nVtx: 410236
+nEdge: 3356824
+nVtx: 410236, nVtx: 410236, nEdge: 3356824
+graph read
+subzie 25664
+number-blocks: 16
+filename: amazon0505.bin nVtx: 410236 nonzero: 3356824 AvgTime: 0.046454 part1V: 205312 part1E: 1851989 part2V: 204924 part2E: 1504835 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 22687
+nVtx: 22687
+nEdge: 54705
+nVtx: 22687, nVtx: 22687, nEdge: 54705
+graph read
+subzie 1440
+number-blocks: 16
+filename: p2p-Gnutella25.bin nVtx: 22687 nonzero: 54705 AvgTime: 0.033015 part1V: 12960 part1E: 33080 part2V: 9727 part2E: 21625 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1134890
+nVtx: 1134890
+nEdge: 5975248
+nVtx: 1134890, nVtx: 1134890, nEdge: 5975248
+graph read
+subzie 70944
+number-blocks: 16
+filename: com-youtube.ungraph.bin nVtx: 1134890 nonzero: 5975248 AvgTime: 0.212855 part1V: 141888 part1E: 3040729 part2V: 993002 part2E: 2934519 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+graph read
+subzie 1184
+number-blocks: 16
+filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.03928 part1V: 9472 part1E: 200053 part2V: 9300 part2E: 196107 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+graph read
+subzie 68192
+number-blocks: 16
+filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.072516 part1V: 613728 part1E: 1738727 part2V: 477192 part2E: 1345069 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 2394385
+nVtx: 2394385
+nEdge: 5021410
+nVtx: 2394385, nVtx: 2394385, nEdge: 5021410
+graph read
+subzie 149664
+number-blocks: 16
+filename: wiki-Talk.bin nVtx: 2394385 nonzero: 5021410 AvgTime: 0.633857 part1V: 299328 part1E: 4908916 part2V: 2095057 part2E: 112494 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 456626
+nVtx: 456626
+nEdge: 14855842
+nVtx: 456626, nVtx: 456626, nEdge: 14855842
+graph read
+subzie 28544
+number-blocks: 16
+filename: higgs-social_network.bin nVtx: 456626 nonzero: 14855842 AvgTime: 0.083657 part1V: 142720 part1E: 8911434 part2V: 313906 part2E: 5944408 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 265214
+nVtx: 265214
+nEdge: 420045
+nVtx: 265214, nVtx: 265214, nEdge: 420045
+graph read
+subzie 16576
+number-blocks: 16
+filename: email-EuAll.bin nVtx: 265214 nonzero: 420045 AvgTime: 0.046472 part1V: 116032 part1E: 259763 part2V: 149182 part2E: 160282 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 36692
+nVtx: 36692
+nEdge: 367662
+nVtx: 36692, nVtx: 36692, nEdge: 367662
+graph read
+subzie 2304
+number-blocks: 16
+filename: email-Enron.bin nVtx: 36692 nonzero: 367662 AvgTime: 0.036891 part1V: 13824 part1E: 284442 part2V: 22868 part2E: 83220 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 334863
+nVtx: 334863
+nEdge: 1851744
+nVtx: 334863, nVtx: 334863, nEdge: 1851744
+graph read
+subzie 20960
+number-blocks: 16
+filename: com-amazon.ungraph.bin nVtx: 334863 nonzero: 1851744 AvgTime: 0.049915 part1V: 125760 part1E: 942785 part2V: 209103 part2E: 908959 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+graph read
+subzie 17632
+number-blocks: 16
+filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.052046 part1V: 141056 part1E: 1156319 part2V: 140847 part2E: 1156178 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 81871
+nVtx: 81871
+nEdge: 545671
+nVtx: 81871, nVtx: 81871, nEdge: 545671
+graph read
+subzie 5120
+number-blocks: 16
+filename: soc-sign-Slashdot090216.bin nVtx: 81871 nonzero: 545671 AvgTime: 0.039817 part1V: 35840 part1E: 445620 part2V: 46031 part2E: 100051 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+graph read
+subzie 2176
+number-blocks: 16
+filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.040271 part1V: 17408 part1E: 232455 part2V: 17138 part2E: 189123 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+graph read
+subzie 25056
+number-blocks: 16
+filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.050133 part1V: 200448 part1E: 1716291 part2V: 200279 part2E: 1484149 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 10879
+nVtx: 10879
+nEdge: 39994
+nVtx: 10879, nVtx: 10879, nEdge: 39994
+graph read
+subzie 704
+number-blocks: 16
+filename: p2p-Gnutella04.bin nVtx: 10879 nonzero: 39994 AvgTime: 0.042671 part1V: 5632 part1E: 22517 part2V: 5247 part2E: 17477 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3997962
+nVtx: 3997962
+nEdge: 69362378
+nVtx: 3997962, nVtx: 3997962, nEdge: 69362378
+graph read
+subzie 249888
+number-blocks: 16
+filename: com-lj.ungraph.bin nVtx: 3997962 nonzero: 69362378 AvgTime: 0.593386 part1V: 749664 part1E: 37048155 part2V: 3248298 part2E: 32314223 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 11492
+nVtx: 11492
+nEdge: 46818
+nVtx: 11492, nVtx: 11492, nEdge: 46818
+graph read
+subzie 736
+number-blocks: 16
+filename: Oregon-1.bin nVtx: 11492 nonzero: 46818 AvgTime: 0.038678 part1V: 3680 part1E: 30099 part2V: 7812 part2E: 16719 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 11806
+nVtx: 11806
+nEdge: 65460
+nVtx: 11806, nVtx: 11806, nEdge: 65460
+graph read
+subzie 768
+number-blocks: 16
+filename: Oregon-2.bin nVtx: 11806 nonzero: 65460 AvgTime: 0.038334 part1V: 4608 part1E: 46196 part2V: 7198 part2E: 19264 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+graph read
+subzie 57280
+number-blocks: 16
+filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.089674 part1V: 458240 part1E: 2560001 part2V: 458188 part2E: 2545038 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+graph read
+subzie 106048
+number-blocks: 16
+filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.284341 part1V: 424192 part1E: 12878714 part2V: 1272223 part2E: 9311882 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+graph read
+subzie 16384
+number-blocks: 16
+filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.042135 part1V: 114688 part1E: 549354 part2V: 147423 part2E: 685523 number-blocks: 8 
+			------- 16 ---------- 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 7716
+nVtx: 7716
+nEdge: 26467
+nVtx: 7716, nVtx: 7716, nEdge: 26467
+graph read
+subzie 256
+number-blocks: 31
+filename: as-735.bin nVtx: 7716 nonzero: 26467 AvgTime: 0.059068 part1V: 3328 part1E: 17485 part2V: 4388 part2E: 8982 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+graph read
+subzie 9920
+number-blocks: 32
+filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.093436 part1V: 168640 part1E: 1496370 part2V: 148440 part2E: 603362 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 4847571
+nVtx: 4847571
+nEdge: 68993773
+nVtx: 4847571, nVtx: 4847571, nEdge: 68993773
+graph read
+subzie 151488
+number-blocks: 32
+filename: soc-LiveJournal1.bin nVtx: 4847571 nonzero: 68993773 AvgTime: 0.660328 part1V: 908928 part1E: 36275728 part2V: 3938643 part2E: 32718045 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1632803
+nVtx: 1632803
+nEdge: 30622564
+nVtx: 1632803, nVtx: 1632803, nEdge: 30622564
+graph read
+subzie 51040
+number-blocks: 32
+filename: soc-pokec-relationships.bin nVtx: 1632803 nonzero: 30622564 AvgTime: 0.364338 part1V: 459360 part1E: 16960124 part2V: 1173443 part2E: 13662440 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 131828
+nVtx: 131828
+nEdge: 841372
+nVtx: 131828, nVtx: 131828, nEdge: 841372
+graph read
+subzie 4128
+number-blocks: 32
+filename: soc-sign-epinions.bin nVtx: 131828 nonzero: 841372 AvgTime: 0.093802 part1V: 66048 part1E: 703276 part2V: 65780 part2E: 138096 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3072441
+nVtx: 3072441
+nEdge: 234370166
+nVtx: 3072441, nVtx: 3072441, nEdge: 234370166
+graph read
+subzie 96032
+number-blocks: 32
+filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 2.06509 part1V: 1344448 part1E: 121837106 part2V: 1727993 part2E: 112533060 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1393383
+nVtx: 1393383
+nEdge: 3843320
+nVtx: 1393383, nVtx: 1393383, nEdge: 3843320
+graph read
+subzie 43552
+number-blocks: 32
+filename: roadNet-TX.bin nVtx: 1393383 nonzero: 3843320 AvgTime: 0.120317 part1V: 696832 part1E: 1928781 part2V: 696551 part2E: 1914539 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 27770
+nVtx: 27770
+nEdge: 352807
+nVtx: 27770, nVtx: 27770, nEdge: 352807
+graph read
+subzie 896
+number-blocks: 31
+filename: cit-HepTh.bin nVtx: 27770 nonzero: 352807 AvgTime: 0.079366 part1V: 16128 part1E: 204091 part2V: 11642 part2E: 148716 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 62586
+nVtx: 62586
+nEdge: 147892
+nVtx: 62586, nVtx: 62586, nEdge: 147892
+graph read
+subzie 1984
+number-blocks: 32
+filename: p2p-Gnutella31.bin nVtx: 62586 nonzero: 147892 AvgTime: 0.062366 part1V: 33728 part1E: 74411 part2V: 28858 part2E: 73481 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3774768
+nVtx: 3774768
+nEdge: 16518948
+nVtx: 3774768, nVtx: 3774768, nEdge: 16518948
+graph read
+subzie 117984
+number-blocks: 32
+filename: cit-Patents.bin nVtx: 3774768 nonzero: 16518948 AvgTime: 0.310602 part1V: 2831616 part1E: 7382506 part2V: 943152 part2E: 9136442 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 77357
+nVtx: 77357
+nEdge: 516575
+nVtx: 77357, nVtx: 77357, nEdge: 516575
+graph read
+subzie 2432
+number-blocks: 32
+filename: soc-sign-Slashdot081106.bin nVtx: 77357 nonzero: 516575 AvgTime: 0.074413 part1V: 34048 part1E: 426712 part2V: 43309 part2E: 89863 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 36682
+nVtx: 36682
+nEdge: 88328
+nVtx: 36682, nVtx: 36682, nEdge: 88328
+graph read
+subzie 1152
+number-blocks: 32
+filename: p2p-Gnutella30.bin nVtx: 36682 nonzero: 88328 AvgTime: 0.06979 part1V: 20736 part1E: 51577 part2V: 15946 part2E: 36751 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8717
+nVtx: 8717
+nEdge: 31525
+nVtx: 8717, nVtx: 8717, nEdge: 31525
+graph read
+subzie 288
+number-blocks: 31
+filename: p2p-Gnutella06.bin nVtx: 8717 nonzero: 31525 AvgTime: 0.064199 part1V: 4608 part1E: 18428 part2V: 4109 part2E: 13097 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+graph read
+subzie 192
+number-blocks: 28
+filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.051504 part1V: 3072 part1E: 17394 part2V: 2170 part2E: 11586 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 6301
+nVtx: 6301
+nEdge: 20777
+nVtx: 6301, nVtx: 6301, nEdge: 20777
+graph read
+subzie 224
+number-blocks: 29
+filename: p2p-Gnutella08.bin nVtx: 6301 nonzero: 20777 AvgTime: 0.054258 part1V: 3584 part1E: 13261 part2V: 2717 part2E: 7516 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+graph read
+subzie 832
+number-blocks: 32
+filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.081558 part1V: 13312 part1E: 35705 part2V: 13206 part2E: 29664 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 31379
+nVtx: 31379
+nEdge: 106762
+nVtx: 31379, nVtx: 31379, nEdge: 106762
+graph read
+subzie 992
+number-blocks: 32
+filename: as-caida.bin nVtx: 31379 nonzero: 106762 AvgTime: 0.06526 part1V: 9920 part1E: 64224 part2V: 21459 part2E: 42538 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+graph read
+subzie 2592
+number-blocks: 32
+filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.072969 part1V: 33696 part1E: 787948 part2V: 48472 part2E: 160516 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 23133
+nVtx: 23133
+nEdge: 186936
+nVtx: 23133, nVtx: 23133, nEdge: 186936
+graph read
+subzie 736
+number-blocks: 32
+filename: ca-CondMat.bin nVtx: 23133 nonzero: 186936 AvgTime: 0.066626 part1V: 12512 part1E: 102355 part2V: 10621 part2E: 84581 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+graph read
+subzie 10208
+number-blocks: 32
+filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.117925 part1V: 142912 part1E: 442854 part2V: 182817 part2E: 1054280 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82144
+nVtx: 82144
+nEdge: 549202
+nVtx: 82144, nVtx: 82144, nEdge: 549202
+graph read
+subzie 2592
+number-blocks: 32
+filename: soc-sign-Slashdot090221.bin nVtx: 82144 nonzero: 549202 AvgTime: 0.073465 part1V: 31104 part1E: 428071 part2V: 51040 part2E: 121131 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8114
+nVtx: 8114
+nEdge: 26013
+nVtx: 8114, nVtx: 8114, nEdge: 26013
+graph read
+subzie 256
+number-blocks: 32
+filename: p2p-Gnutella09.bin nVtx: 8114 nonzero: 26013 AvgTime: 0.082805 part1V: 4608 part1E: 16673 part2V: 3506 part2E: 9340 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 75888
+nVtx: 75888
+nEdge: 508837
+nVtx: 75888, nVtx: 75888, nEdge: 508837
+graph read
+subzie 2400
+number-blocks: 32
+filename: soc-Epinions1.bin nVtx: 75888 nonzero: 508837 AvgTime: 0.078224 part1V: 38400 part1E: 464777 part2V: 37488 part2E: 44060 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 12008
+nVtx: 12008
+nEdge: 237010
+nVtx: 12008, nVtx: 12008, nEdge: 237010
+graph read
+subzie 384
+number-blocks: 32
+filename: ca-HepPh.bin nVtx: 12008 nonzero: 237010 AvgTime: 0.077405 part1V: 5376 part1E: 113364 part2V: 6632 part2E: 123646 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1971281
+nVtx: 1971281
+nEdge: 5533214
+nVtx: 1971281, nVtx: 1971281, nEdge: 5533214
+graph read
+subzie 61632
+number-blocks: 32
+filename: roadNet-CA.bin nVtx: 1971281 nonzero: 5533214 AvgTime: 0.118813 part1V: 924480 part1E: 2621224 part2V: 1046801 part2E: 2911990 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8297
+nVtx: 8297
+nEdge: 103689
+nVtx: 8297, nVtx: 8297, nEdge: 103689
+graph read
+subzie 288
+number-blocks: 29
+filename: wiki-Vote.bin nVtx: 8297 nonzero: 103689 AvgTime: 0.061463 part1V: 3456 part1E: 66313 part2V: 4841 part2E: 37376 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 403394
+nVtx: 403394
+nEdge: 3387388
+nVtx: 403394, nVtx: 403394, nEdge: 3387388
+graph read
+subzie 12608
+number-blocks: 32
+filename: amazon0601.bin nVtx: 403394 nonzero: 3387388 AvgTime: 0.082116 part1V: 201728 part1E: 1838332 part2V: 201666 part2E: 1549056 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+graph read
+subzie 21440
+number-blocks: 32
+filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.093029 part1V: 321600 part1E: 3665207 part2V: 363630 part2E: 3935388 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8846
+nVtx: 8846
+nEdge: 31839
+nVtx: 8846, nVtx: 8846, nEdge: 31839
+graph read
+subzie 288
+number-blocks: 31
+filename: p2p-Gnutella05.bin nVtx: 8846 nonzero: 31839 AvgTime: 0.055991 part1V: 3744 part1E: 15189 part2V: 5102 part2E: 16650 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 77360
+nVtx: 77360
+nEdge: 905468
+nVtx: 77360, nVtx: 77360, nEdge: 905468
+graph read
+subzie 2432
+number-blocks: 32
+filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.068482 part1V: 31616 part1E: 749234 part2V: 45744 part2E: 156234 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 9877
+nVtx: 9877
+nEdge: 51971
+nVtx: 9877, nVtx: 9877, nEdge: 51971
+graph read
+subzie 320
+number-blocks: 31
+filename: ca-HepTh.bin nVtx: 9877 nonzero: 51971 AvgTime: 0.068248 part1V: 4800 part1E: 25691 part2V: 5077 part2E: 26280 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 410236
+nVtx: 410236
+nEdge: 3356824
+nVtx: 410236, nVtx: 410236, nEdge: 3356824
+graph read
+subzie 12832
+number-blocks: 32
+filename: amazon0505.bin nVtx: 410236 nonzero: 3356824 AvgTime: 0.069676 part1V: 218144 part1E: 1959130 part2V: 192092 part2E: 1397694 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 22687
+nVtx: 22687
+nEdge: 54705
+nVtx: 22687, nVtx: 22687, nEdge: 54705
+graph read
+subzie 736
+number-blocks: 31
+filename: p2p-Gnutella25.bin nVtx: 22687 nonzero: 54705 AvgTime: 0.056444 part1V: 11776 part1E: 30606 part2V: 10911 part2E: 24099 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1134890
+nVtx: 1134890
+nEdge: 5975248
+nVtx: 1134890, nVtx: 1134890, nEdge: 5975248
+graph read
+subzie 35488
+number-blocks: 32
+filename: com-youtube.ungraph.bin nVtx: 1134890 nonzero: 5975248 AvgTime: 0.201072 part1V: 177440 part1E: 3459081 part2V: 957450 part2E: 2516167 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+graph read
+subzie 608
+number-blocks: 31
+filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.081695 part1V: 9728 part1E: 204758 part2V: 9044 part2E: 191402 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+graph read
+subzie 34112
+number-blocks: 32
+filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.097657 part1V: 614016 part1E: 1739561 part2V: 476904 part2E: 1344235 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 2394385
+nVtx: 2394385
+nEdge: 5021410
+nVtx: 2394385, nVtx: 2394385, nEdge: 5021410
+graph read
+subzie 74848
+number-blocks: 32
+filename: wiki-Talk.bin nVtx: 2394385 nonzero: 5021410 AvgTime: 0.613181 part1V: 149696 part1E: 4841578 part2V: 2244689 part2E: 179832 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 456626
+nVtx: 456626
+nEdge: 14855842
+nVtx: 456626, nVtx: 456626, nEdge: 14855842
+graph read
+subzie 14272
+number-blocks: 32
+filename: higgs-social_network.bin nVtx: 456626 nonzero: 14855842 AvgTime: 0.100372 part1V: 156992 part1E: 9465265 part2V: 299634 part2E: 5390577 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 265214
+nVtx: 265214
+nEdge: 420045
+nVtx: 265214, nVtx: 265214, nEdge: 420045
+graph read
+subzie 8288
+number-blocks: 32
+filename: email-EuAll.bin nVtx: 265214 nonzero: 420045 AvgTime: 0.084278 part1V: 132608 part1E: 277651 part2V: 132606 part2E: 142394 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 36692
+nVtx: 36692
+nEdge: 367662
+nVtx: 36692, nVtx: 36692, nEdge: 367662
+graph read
+subzie 1152
+number-blocks: 32
+filename: email-Enron.bin nVtx: 36692 nonzero: 367662 AvgTime: 0.063752 part1V: 16128 part1E: 295617 part2V: 20564 part2E: 72045 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 334863
+nVtx: 334863
+nEdge: 1851744
+nVtx: 334863, nVtx: 334863, nEdge: 1851744
+graph read
+subzie 10496
+number-blocks: 32
+filename: com-amazon.ungraph.bin nVtx: 334863 nonzero: 1851744 AvgTime: 0.073816 part1V: 178432 part1E: 1233696 part2V: 156431 part2E: 618048 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+graph read
+subzie 8832
+number-blocks: 32
+filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.098541 part1V: 141312 part1E: 1158397 part2V: 140591 part2E: 1154100 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 81871
+nVtx: 81871
+nEdge: 545671
+nVtx: 81871, nVtx: 81871, nEdge: 545671
+graph read
+subzie 2560
+number-blocks: 32
+filename: soc-sign-Slashdot090216.bin nVtx: 81871 nonzero: 545671 AvgTime: 0.074073 part1V: 40960 part1E: 465133 part2V: 40911 part2E: 80538 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+graph read
+subzie 1088
+number-blocks: 32
+filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.065338 part1V: 18496 part1E: 238898 part2V: 16050 part2E: 182680 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+graph read
+subzie 12544
+number-blocks: 32
+filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.072242 part1V: 213248 part1E: 1824525 part2V: 187479 part2E: 1375915 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 10879
+nVtx: 10879
+nEdge: 39994
+nVtx: 10879, nVtx: 10879, nEdge: 39994
+graph read
+subzie 352
+number-blocks: 31
+filename: p2p-Gnutella04.bin nVtx: 10879 nonzero: 39994 AvgTime: 0.069777 part1V: 5280 part1E: 21310 part2V: 5599 part2E: 18684 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3997962
+nVtx: 3997962
+nEdge: 69362378
+nVtx: 3997962, nVtx: 3997962, nEdge: 69362378
+graph read
+subzie 124960
+number-blocks: 32
+filename: com-lj.ungraph.bin nVtx: 3997962 nonzero: 69362378 AvgTime: 0.699506 part1V: 874720 part1E: 40194118 part2V: 3123242 part2E: 29168260 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 11492
+nVtx: 11492
+nEdge: 46818
+nVtx: 11492, nVtx: 11492, nEdge: 46818
+graph read
+subzie 384
+number-blocks: 30
+filename: Oregon-1.bin nVtx: 11492 nonzero: 46818 AvgTime: 0.05876 part1V: 4608 part1E: 32328 part2V: 6884 part2E: 14490 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 11806
+nVtx: 11806
+nEdge: 65460
+nVtx: 11806, nVtx: 11806, nEdge: 65460
+graph read
+subzie 384
+number-blocks: 31
+filename: Oregon-2.bin nVtx: 11806 nonzero: 65460 AvgTime: 0.063187 part1V: 3840 part1E: 43398 part2V: 7966 part2E: 22062 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+graph read
+subzie 28640
+number-blocks: 32
+filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.13035 part1V: 400960 part1E: 2240008 part2V: 515468 part2E: 2865031 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+graph read
+subzie 53024
+number-blocks: 32
+filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.307298 part1V: 477216 part1E: 13560931 part2V: 1219199 part2E: 8629665 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+graph read
+subzie 8192
+number-blocks: 32
+filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.065036 part1V: 131072 part1E: 627582 part2V: 131039 part2E: 607295 number-blocks: 8 
+			------- 32 ---------- 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 7716
+nVtx: 7716
+nEdge: 26467
+nVtx: 7716, nVtx: 7716, nEdge: 26467
+graph read
+subzie 128
+number-blocks: 61
+filename: as-735.bin nVtx: 7716 nonzero: 26467 AvgTime: 0.106509 part1V: 3584 part1E: 18079 part2V: 4132 part2E: 8388 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+graph read
+subzie 4960
+number-blocks: 64
+filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.127748 part1V: 168640 part1E: 1496370 part2V: 148440 part2E: 603362 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 4847571
+nVtx: 4847571
+nEdge: 68993773
+nVtx: 4847571, nVtx: 4847571, nEdge: 68993773
+graph read
+subzie 75744
+number-blocks: 64
+filename: soc-LiveJournal1.bin nVtx: 4847571 nonzero: 68993773 AvgTime: 0.749129 part1V: 984672 part1E: 37868501 part2V: 3862899 part2E: 31125272 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1632803
+nVtx: 1632803
+nEdge: 30622564
+nVtx: 1632803, nVtx: 1632803, nEdge: 30622564
+graph read
+subzie 25536
+number-blocks: 64
+filename: soc-pokec-relationships.bin nVtx: 1632803 nonzero: 30622564 AvgTime: 0.433494 part1V: 485184 part1E: 17694634 part2V: 1147619 part2E: 12927930 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 131828
+nVtx: 131828
+nEdge: 841372
+nVtx: 131828, nVtx: 131828, nEdge: 841372
+graph read
+subzie 2080
+number-blocks: 64
+filename: soc-sign-epinions.bin nVtx: 131828 nonzero: 841372 AvgTime: 0.157101 part1V: 64480 part1E: 697565 part2V: 67348 part2E: 143807 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3072441
+nVtx: 3072441
+nEdge: 234370166
+nVtx: 3072441, nVtx: 3072441, nEdge: 234370166
+graph read
+subzie 48032
+number-blocks: 64
+filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 2.2132 part1V: 1248832 part1E: 111675855 part2V: 1823609 part2E: 122694311 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1393383
+nVtx: 1393383
+nEdge: 3843320
+nVtx: 1393383, nVtx: 1393383, nEdge: 3843320
+graph read
+subzie 21792
+number-blocks: 64
+filename: roadNet-TX.bin nVtx: 1393383 nonzero: 3843320 AvgTime: 0.175384 part1V: 697344 part1E: 1930115 part2V: 696039 part2E: 1913205 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 27770
+nVtx: 27770
+nEdge: 352807
+nVtx: 27770, nVtx: 27770, nEdge: 352807
+graph read
+subzie 448
+number-blocks: 62
+filename: cit-HepTh.bin nVtx: 27770 nonzero: 352807 AvgTime: 0.115038 part1V: 14784 part1E: 196286 part2V: 12986 part2E: 156521 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 62586
+nVtx: 62586
+nEdge: 147892
+nVtx: 62586, nVtx: 62586, nEdge: 147892
+graph read
+subzie 992
+number-blocks: 64
+filename: p2p-Gnutella31.bin nVtx: 62586 nonzero: 147892 AvgTime: 0.113306 part1V: 37696 part1E: 83308 part2V: 24890 part2E: 64584 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3774768
+nVtx: 3774768
+nEdge: 16518948
+nVtx: 3774768, nVtx: 3774768, nEdge: 16518948
+graph read
+subzie 59008
+number-blocks: 64
+filename: cit-Patents.bin nVtx: 3774768 nonzero: 16518948 AvgTime: 0.382502 part1V: 2832384 part1E: 7388998 part2V: 942384 part2E: 9129950 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 77357
+nVtx: 77357
+nEdge: 516575
+nVtx: 77357, nVtx: 77357, nEdge: 516575
+graph read
+subzie 1216
+number-blocks: 64
+filename: soc-sign-Slashdot081106.bin nVtx: 77357 nonzero: 516575 AvgTime: 0.126625 part1V: 31616 part1E: 417109 part2V: 45741 part2E: 99466 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 36682
+nVtx: 36682
+nEdge: 88328
+nVtx: 36682, nVtx: 36682, nEdge: 88328
+graph read
+subzie 576
+number-blocks: 64
+filename: p2p-Gnutella30.bin nVtx: 36682 nonzero: 88328 AvgTime: 0.108526 part1V: 20736 part1E: 51577 part2V: 15946 part2E: 36751 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8717
+nVtx: 8717
+nEdge: 31525
+nVtx: 8717, nVtx: 8717, nEdge: 31525
+graph read
+subzie 160
+number-blocks: 55
+filename: p2p-Gnutella06.bin nVtx: 8717 nonzero: 31525 AvgTime: 0.100119 part1V: 4960 part1E: 19586 part2V: 3757 part2E: 11939 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+graph read
+subzie 96
+number-blocks: 55
+filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.094228 part1V: 2304 part1E: 12787 part2V: 2938 part2E: 16193 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 6301
+nVtx: 6301
+nEdge: 20777
+nVtx: 6301, nVtx: 6301, nEdge: 20777
+graph read
+subzie 128
+number-blocks: 50
+filename: p2p-Gnutella08.bin nVtx: 6301 nonzero: 20777 AvgTime: 0.095945 part1V: 3200 part1E: 11947 part2V: 3101 part2E: 8830 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+graph read
+subzie 416
+number-blocks: 64
+filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.143154 part1V: 13312 part1E: 35705 part2V: 13206 part2E: 29664 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 31379
+nVtx: 31379
+nEdge: 106762
+nVtx: 31379, nVtx: 31379, nEdge: 106762
+graph read
+subzie 512
+number-blocks: 62
+filename: as-caida.bin nVtx: 31379 nonzero: 106762 AvgTime: 0.11441 part1V: 13312 part1E: 73029 part2V: 18067 part2E: 33733 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+graph read
+subzie 1312
+number-blocks: 63
+filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.128565 part1V: 34112 part1E: 790851 part2V: 48056 part2E: 157613 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 23133
+nVtx: 23133
+nEdge: 186936
+nVtx: 23133, nVtx: 23133, nEdge: 186936
+graph read
+subzie 384
+number-blocks: 61
+filename: ca-CondMat.bin nVtx: 23133 nonzero: 186936 AvgTime: 0.140505 part1V: 11520 part1E: 93345 part2V: 11613 part2E: 93591 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+graph read
+subzie 5120
+number-blocks: 64
+filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.214893 part1V: 148480 part1E: 450013 part2V: 177249 part2E: 1047121 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82144
+nVtx: 82144
+nEdge: 549202
+nVtx: 82144, nVtx: 82144, nEdge: 549202
+graph read
+subzie 1312
+number-blocks: 63
+filename: soc-sign-Slashdot090221.bin nVtx: 82144 nonzero: 549202 AvgTime: 0.140405 part1V: 40672 part1E: 467106 part2V: 41472 part2E: 82096 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8114
+nVtx: 8114
+nEdge: 26013
+nVtx: 8114, nVtx: 8114, nEdge: 26013
+graph read
+subzie 128
+number-blocks: 64
+filename: p2p-Gnutella09.bin nVtx: 8114 nonzero: 26013 AvgTime: 0.127697 part1V: 4096 part1E: 15030 part2V: 4018 part2E: 10983 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 75888
+nVtx: 75888
+nEdge: 508837
+nVtx: 75888, nVtx: 75888, nEdge: 508837
+graph read
+subzie 1216
+number-blocks: 63
+filename: soc-Epinions1.bin nVtx: 75888 nonzero: 508837 AvgTime: 0.119113 part1V: 37696 part1E: 463876 part2V: 38192 part2E: 44961 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 12008
+nVtx: 12008
+nEdge: 237010
+nVtx: 12008, nVtx: 12008, nEdge: 237010
+graph read
+subzie 192
+number-blocks: 63
+filename: ca-HepPh.bin nVtx: 12008 nonzero: 237010 AvgTime: 0.129194 part1V: 6528 part1E: 135084 part2V: 5480 part2E: 101926 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1971281
+nVtx: 1971281
+nEdge: 5533214
+nVtx: 1971281, nVtx: 1971281, nEdge: 5533214
+graph read
+subzie 30816
+number-blocks: 64
+filename: roadNet-CA.bin nVtx: 1971281 nonzero: 5533214 AvgTime: 0.153452 part1V: 893664 part1E: 2537203 part2V: 1077617 part2E: 2996011 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8297
+nVtx: 8297
+nEdge: 103689
+nVtx: 8297, nVtx: 8297, nEdge: 103689
+graph read
+subzie 160
+number-blocks: 52
+filename: wiki-Vote.bin nVtx: 8297 nonzero: 103689 AvgTime: 0.111124 part1V: 4000 part1E: 73360 part2V: 4297 part2E: 30329 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 403394
+nVtx: 403394
+nEdge: 3387388
+nVtx: 403394, nVtx: 403394, nEdge: 3387388
+graph read
+subzie 6304
+number-blocks: 64
+filename: amazon0601.bin nVtx: 403394 nonzero: 3387388 AvgTime: 0.11881 part1V: 214336 part1E: 1945314 part2V: 189058 part2E: 1442074 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+graph read
+subzie 10720
+number-blocks: 64
+filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.17264 part1V: 364480 part1E: 4001184 part2V: 320750 part2E: 3599411 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8846
+nVtx: 8846
+nEdge: 31839
+nVtx: 8846, nVtx: 8846, nEdge: 31839
+graph read
+subzie 160
+number-blocks: 56
+filename: p2p-Gnutella05.bin nVtx: 8846 nonzero: 31839 AvgTime: 0.110664 part1V: 4480 part1E: 17542 part2V: 4366 part2E: 14297 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 77360
+nVtx: 77360
+nEdge: 905468
+nVtx: 77360, nVtx: 77360, nEdge: 905468
+graph read
+subzie 1216
+number-blocks: 64
+filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.123321 part1V: 34048 part1E: 765870 part2V: 43312 part2E: 139598 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 9877
+nVtx: 9877
+nEdge: 51971
+nVtx: 9877, nVtx: 9877, nEdge: 51971
+graph read
+subzie 160
+number-blocks: 62
+filename: ca-HepTh.bin nVtx: 9877 nonzero: 51971 AvgTime: 0.131517 part1V: 4960 part1E: 26535 part2V: 4917 part2E: 25436 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 410236
+nVtx: 410236
+nEdge: 3356824
+nVtx: 410236, nVtx: 410236, nEdge: 3356824
+graph read
+subzie 6432
+number-blocks: 64
+filename: amazon0505.bin nVtx: 410236 nonzero: 3356824 AvgTime: 0.157134 part1V: 205824 part1E: 1856260 part2V: 204412 part2E: 1500564 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 22687
+nVtx: 22687
+nEdge: 54705
+nVtx: 22687, nVtx: 22687, nEdge: 54705
+graph read
+subzie 384
+number-blocks: 60
+filename: p2p-Gnutella25.bin nVtx: 22687 nonzero: 54705 AvgTime: 0.100698 part1V: 12288 part1E: 31640 part2V: 10399 part2E: 23065 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1134890
+nVtx: 1134890
+nEdge: 5975248
+nVtx: 1134890, nVtx: 1134890, nEdge: 5975248
+graph read
+subzie 17760
+number-blocks: 64
+filename: com-youtube.ungraph.bin nVtx: 1134890 nonzero: 5975248 AvgTime: 0.231369 part1V: 159840 part1E: 3315807 part2V: 975050 part2E: 2659441 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+graph read
+subzie 320
+number-blocks: 59
+filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.117446 part1V: 7680 part1E: 162861 part2V: 11092 part2E: 233299 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+graph read
+subzie 17056
+number-blocks: 64
+filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.163163 part1V: 545792 part1E: 1543139 part2V: 545128 part2E: 1540657 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 2394385
+nVtx: 2394385
+nEdge: 5021410
+nVtx: 2394385, nVtx: 2394385, nEdge: 5021410
+graph read
+subzie 37440
+number-blocks: 64
+filename: wiki-Talk.bin nVtx: 2394385 nonzero: 5021410 AvgTime: 0.379913 part1V: 262080 part1E: 4899750 part2V: 2132305 part2E: 121660 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 456626
+nVtx: 456626
+nEdge: 14855842
+nVtx: 456626, nVtx: 456626, nEdge: 14855842
+graph read
+subzie 7136
+number-blocks: 64
+filename: higgs-social_network.bin nVtx: 456626 nonzero: 14855842 AvgTime: 0.169656 part1V: 171264 part1E: 9952337 part2V: 285362 part2E: 4903505 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 265214
+nVtx: 265214
+nEdge: 420045
+nVtx: 265214, nVtx: 265214, nEdge: 420045
+graph read
+subzie 4160
+number-blocks: 64
+filename: email-EuAll.bin nVtx: 265214 nonzero: 420045 AvgTime: 0.130951 part1V: 120640 part1E: 265137 part2V: 144574 part2E: 154908 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 36692
+nVtx: 36692
+nEdge: 367662
+nVtx: 36692, nVtx: 36692, nEdge: 367662
+graph read
+subzie 576
+number-blocks: 64
+filename: email-Enron.bin nVtx: 36692 nonzero: 367662 AvgTime: 0.115321 part1V: 19008 part1E: 309653 part2V: 17684 part2E: 58009 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 334863
+nVtx: 334863
+nEdge: 1851744
+nVtx: 334863, nVtx: 334863, nEdge: 1851744
+graph read
+subzie 5248
+number-blocks: 64
+filename: com-amazon.ungraph.bin nVtx: 334863 nonzero: 1851744 AvgTime: 0.124318 part1V: 167936 part1E: 1179209 part2V: 166927 part2E: 672535 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+graph read
+subzie 4416
+number-blocks: 64
+filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.169115 part1V: 128064 part1E: 1050369 part2V: 153839 part2E: 1262128 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 81871
+nVtx: 81871
+nEdge: 545671
+nVtx: 81871, nVtx: 81871, nEdge: 545671
+graph read
+subzie 1280
+number-blocks: 64
+filename: soc-sign-Slashdot090216.bin nVtx: 81871 nonzero: 545671 AvgTime: 0.125019 part1V: 34560 part1E: 441306 part2V: 47311 part2E: 104365 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+graph read
+subzie 544
+number-blocks: 64
+filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.119333 part1V: 17408 part1E: 232455 part2V: 17138 part2E: 189123 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+graph read
+subzie 6272
+number-blocks: 64
+filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.141941 part1V: 200704 part1E: 1718479 part2V: 200023 part2E: 1481961 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 10879
+nVtx: 10879
+nEdge: 39994
+nVtx: 10879, nVtx: 10879, nEdge: 39994
+graph read
+subzie 192
+number-blocks: 57
+filename: p2p-Gnutella04.bin nVtx: 10879 nonzero: 39994 AvgTime: 0.109571 part1V: 6336 part1E: 24959 part2V: 4543 part2E: 15035 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3997962
+nVtx: 3997962
+nEdge: 69362378
+nVtx: 3997962, nVtx: 3997962, nEdge: 69362378
+graph read
+subzie 62496
+number-blocks: 64
+filename: com-lj.ungraph.bin nVtx: 3997962 nonzero: 69362378 AvgTime: 0.699384 part1V: 749952 part1E: 37054206 part2V: 3248010 part2E: 32308172 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 11492
+nVtx: 11492
+nEdge: 46818
+nVtx: 11492, nVtx: 11492, nEdge: 46818
+graph read
+subzie 192
+number-blocks: 60
+filename: Oregon-1.bin nVtx: 11492 nonzero: 46818 AvgTime: 0.11338 part1V: 5184 part1E: 33960 part2V: 6308 part2E: 12858 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 11806
+nVtx: 11806
+nEdge: 65460
+nVtx: 11806, nVtx: 11806, nEdge: 65460
+graph read
+subzie 192
+number-blocks: 62
+filename: Oregon-2.bin nVtx: 11806 nonzero: 65460 AvgTime: 0.127135 part1V: 5376 part1E: 48270 part2V: 6430 part2E: 17190 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+graph read
+subzie 14336
+number-blocks: 64
+filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.177336 part1V: 458752 part1E: 2562699 part2V: 457676 part2E: 2542340 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+graph read
+subzie 26528
+number-blocks: 64
+filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.402108 part1V: 450976 part1E: 13232365 part2V: 1245439 part2E: 8958231 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+graph read
+subzie 4096
+number-blocks: 64
+filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.115852 part1V: 155648 part1E: 745281 part2V: 106463 part2E: 489596 number-blocks: 8 
+			------- 64 ---------- 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 7716
+nVtx: 7716
+nEdge: 26467
+nVtx: 7716, nVtx: 7716, nEdge: 26467
+graph read
+subzie 64
+number-blocks: 121
+filename: as-735.bin nVtx: 7716 nonzero: 26467 AvgTime: 0.204023 part1V: 4096 part1E: 19336 part2V: 3620 part2E: 7131 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+graph read
+subzie 2496
+number-blocks: 128
+filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.271728 part1V: 137280 part1E: 1328164 part2V: 179800 part2E: 771568 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 4847571
+nVtx: 4847571
+nEdge: 68993773
+nVtx: 4847571, nVtx: 4847571, nEdge: 68993773
+graph read
+subzie 37888
+number-blocks: 128
+filename: soc-LiveJournal1.bin nVtx: 4847571 nonzero: 68993773 AvgTime: 0.881727 part1V: 1174528 part1E: 42308543 part2V: 3673043 part2E: 26685230 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1632803
+nVtx: 1632803
+nEdge: 30622564
+nVtx: 1632803, nVtx: 1632803, nEdge: 30622564
+graph read
+subzie 12768
+number-blocks: 128
+filename: soc-pokec-relationships.bin nVtx: 1632803 nonzero: 30622564 AvgTime: 0.528125 part1V: 510720 part1E: 18444590 part2V: 1122083 part2E: 12177974 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 131828
+nVtx: 131828
+nEdge: 841372
+nVtx: 131828, nVtx: 131828, nEdge: 841372
+graph read
+subzie 1056
+number-blocks: 125
+filename: soc-sign-epinions.bin nVtx: 131828 nonzero: 841372 AvgTime: 0.274624 part1V: 52800 part1E: 632977 part2V: 79028 part2E: 208395 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3072441
+nVtx: 3072441
+nEdge: 234370166
+nVtx: 3072441, nVtx: 3072441, nEdge: 234370166
+graph read
+subzie 24032
+number-blocks: 128
+filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 2.34634 part1V: 1225632 part1E: 106934453 part2V: 1846809 part2E: 127435713 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1393383
+nVtx: 1393383
+nEdge: 3843320
+nVtx: 1393383, nVtx: 1393383, nEdge: 3843320
+graph read
+subzie 10912
+number-blocks: 128
+filename: roadNet-TX.bin nVtx: 1393383 nonzero: 3843320 AvgTime: 0.25706 part1V: 818400 part1E: 2262671 part2V: 574983 part2E: 1580649 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 27770
+nVtx: 27770
+nEdge: 352807
+nVtx: 27770, nVtx: 27770, nEdge: 352807
+graph read
+subzie 224
+number-blocks: 124
+filename: cit-HepTh.bin nVtx: 27770 nonzero: 352807 AvgTime: 0.224998 part1V: 13664 part1E: 191901 part2V: 14106 part2E: 160906 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 62586
+nVtx: 62586
+nEdge: 147892
+nVtx: 62586, nVtx: 62586, nEdge: 147892
+graph read
+subzie 512
+number-blocks: 123
+filename: p2p-Gnutella31.bin nVtx: 62586 nonzero: 147892 AvgTime: 0.244679 part1V: 31744 part1E: 69794 part2V: 30842 part2E: 78098 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3774768
+nVtx: 3774768
+nEdge: 16518948
+nVtx: 3774768, nVtx: 3774768, nEdge: 16518948
+graph read
+subzie 29504
+number-blocks: 128
+filename: cit-Patents.bin nVtx: 3774768 nonzero: 16518948 AvgTime: 0.484304 part1V: 2684864 part1E: 6272137 part2V: 1089904 part2E: 10246811 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 77357
+nVtx: 77357
+nEdge: 516575
+nVtx: 77357, nVtx: 77357, nEdge: 516575
+graph read
+subzie 608
+number-blocks: 128
+filename: soc-sign-Slashdot081106.bin nVtx: 77357 nonzero: 516575 AvgTime: 0.237578 part1V: 38304 part1E: 443029 part2V: 39053 part2E: 73546 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 36682
+nVtx: 36682
+nEdge: 88328
+nVtx: 36682, nVtx: 36682, nEdge: 88328
+graph read
+subzie 288
+number-blocks: 128
+filename: p2p-Gnutella30.bin nVtx: 36682 nonzero: 88328 AvgTime: 0.253845 part1V: 18432 part1E: 46656 part2V: 18250 part2E: 41672 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8717
+nVtx: 8717
+nEdge: 31525
+nVtx: 8717, nVtx: 8717, nEdge: 31525
+graph read
+subzie 96
+number-blocks: 91
+filename: p2p-Gnutella06.bin nVtx: 8717 nonzero: 31525 AvgTime: 0.153166 part1V: 4704 part1E: 18759 part2V: 4013 part2E: 12766 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+graph read
+subzie 64
+number-blocks: 82
+filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.138779 part1V: 2944 part1E: 16695 part2V: 2298 part2E: 12285 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 6301
+nVtx: 6301
+nEdge: 20777
+nVtx: 6301, nVtx: 6301, nEdge: 20777
+graph read
+subzie 64
+number-blocks: 99
+filename: p2p-Gnutella08.bin nVtx: 6301 nonzero: 20777 AvgTime: 0.179342 part1V: 3200 part1E: 11947 part2V: 3101 part2E: 8830 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+graph read
+subzie 224
+number-blocks: 119
+filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.226492 part1V: 13440 part1E: 35989 part2V: 13078 part2E: 29380 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 31379
+nVtx: 31379
+nEdge: 106762
+nVtx: 31379, nVtx: 31379, nEdge: 106762
+graph read
+subzie 256
+number-blocks: 123
+filename: as-caida.bin nVtx: 31379 nonzero: 106762 AvgTime: 0.213136 part1V: 14848 part1E: 76497 part2V: 16531 part2E: 30265 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+graph read
+subzie 672
+number-blocks: 123
+filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.246241 part1V: 34944 part1E: 796375 part2V: 47224 part2E: 152089 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 23133
+nVtx: 23133
+nEdge: 186936
+nVtx: 23133, nVtx: 23133, nEdge: 186936
+graph read
+subzie 192
+number-blocks: 121
+filename: ca-CondMat.bin nVtx: 23133 nonzero: 186936 AvgTime: 0.207012 part1V: 12096 part1E: 98867 part2V: 11037 part2E: 88069 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+graph read
+subzie 2560
+number-blocks: 128
+filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.298452 part1V: 143360 part1E: 443804 part2V: 182369 part2E: 1053330 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82144
+nVtx: 82144
+nEdge: 549202
+nVtx: 82144, nVtx: 82144, nEdge: 549202
+graph read
+subzie 672
+number-blocks: 123
+filename: soc-sign-Slashdot090221.bin nVtx: 82144 nonzero: 549202 AvgTime: 0.232914 part1V: 32256 part1E: 434715 part2V: 49888 part2E: 114487 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8114
+nVtx: 8114
+nEdge: 26013
+nVtx: 8114, nVtx: 8114, nEdge: 26013
+graph read
+subzie 64
+number-blocks: 127
+filename: p2p-Gnutella09.bin nVtx: 8114 nonzero: 26013 AvgTime: 0.234104 part1V: 4096 part1E: 15030 part2V: 4018 part2E: 10983 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 75888
+nVtx: 75888
+nEdge: 508837
+nVtx: 75888, nVtx: 75888, nEdge: 508837
+graph read
+subzie 608
+number-blocks: 125
+filename: soc-Epinions1.bin nVtx: 75888 nonzero: 508837 AvgTime: 0.215602 part1V: 37696 part1E: 463876 part2V: 38192 part2E: 44961 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 12008
+nVtx: 12008
+nEdge: 237010
+nVtx: 12008, nVtx: 12008, nEdge: 237010
+graph read
+subzie 96
+number-blocks: 126
+filename: ca-HepPh.bin nVtx: 12008 nonzero: 237010 AvgTime: 0.236244 part1V: 5760 part1E: 120543 part2V: 6248 part2E: 116467 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1971281
+nVtx: 1971281
+nEdge: 5533214
+nVtx: 1971281, nVtx: 1971281, nEdge: 5533214
+graph read
+subzie 15424
+number-blocks: 128
+filename: roadNet-CA.bin nVtx: 1971281 nonzero: 5533214 AvgTime: 0.276957 part1V: 1064256 part1E: 3004680 part2V: 907025 part2E: 2528534 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8297
+nVtx: 8297
+nEdge: 103689
+nVtx: 8297, nVtx: 8297, nEdge: 103689
+graph read
+subzie 96
+number-blocks: 87
+filename: wiki-Vote.bin nVtx: 8297 nonzero: 103689 AvgTime: 0.161791 part1V: 3648 part1E: 70081 part2V: 4649 part2E: 33608 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 403394
+nVtx: 403394
+nEdge: 3387388
+nVtx: 403394, nVtx: 403394, nEdge: 3387388
+graph read
+subzie 3168
+number-blocks: 128
+filename: amazon0601.bin nVtx: 403394 nonzero: 3387388 AvgTime: 0.246119 part1V: 202752 part1E: 1846934 part2V: 200642 part2E: 1540454 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+graph read
+subzie 5376
+number-blocks: 128
+filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.258271 part1V: 333312 part1E: 3750167 part2V: 351918 part2E: 3850428 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8846
+nVtx: 8846
+nEdge: 31839
+nVtx: 8846, nVtx: 8846, nEdge: 31839
+graph read
+subzie 96
+number-blocks: 93
+filename: p2p-Gnutella05.bin nVtx: 8846 nonzero: 31839 AvgTime: 0.165709 part1V: 4512 part1E: 17619 part2V: 4334 part2E: 14220 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 77360
+nVtx: 77360
+nEdge: 905468
+nVtx: 77360, nVtx: 77360, nEdge: 905468
+graph read
+subzie 608
+number-blocks: 128
+filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.262451 part1V: 34048 part1E: 765870 part2V: 43312 part2E: 139598 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 9877
+nVtx: 9877
+nEdge: 51971
+nVtx: 9877, nVtx: 9877, nEdge: 51971
+graph read
+subzie 96
+number-blocks: 103
+filename: ca-HepTh.bin nVtx: 9877 nonzero: 51971 AvgTime: 0.198485 part1V: 4896 part1E: 26200 part2V: 4981 part2E: 25771 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 410236
+nVtx: 410236
+nEdge: 3356824
+nVtx: 410236, nVtx: 410236, nEdge: 3356824
+graph read
+subzie 3232
+number-blocks: 127
+filename: amazon0505.bin nVtx: 410236 nonzero: 3356824 AvgTime: 0.260853 part1V: 206848 part1E: 1864923 part2V: 203388 part2E: 1491901 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 22687
+nVtx: 22687
+nEdge: 54705
+nVtx: 22687, nVtx: 22687, nEdge: 54705
+graph read
+subzie 192
+number-blocks: 119
+filename: p2p-Gnutella25.bin nVtx: 22687 nonzero: 54705 AvgTime: 0.196539 part1V: 13824 part1E: 34992 part2V: 8863 part2E: 19713 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1134890
+nVtx: 1134890
+nEdge: 5975248
+nVtx: 1134890, nVtx: 1134890, nEdge: 5975248
+graph read
+subzie 8896
+number-blocks: 128
+filename: com-youtube.ungraph.bin nVtx: 1134890 nonzero: 5975248 AvgTime: 0.329185 part1V: 222400 part1E: 3726181 part2V: 912490 part2E: 2249067 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+graph read
+subzie 160
+number-blocks: 118
+filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.214499 part1V: 9600 part1E: 202715 part2V: 9172 part2E: 193445 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+graph read
+subzie 8544
+number-blocks: 128
+filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.263737 part1V: 546816 part1E: 1545985 part2V: 544104 part2E: 1537811 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 2394385
+nVtx: 2394385
+nEdge: 5021410
+nVtx: 2394385, nVtx: 2394385, nEdge: 5021410
+graph read
+subzie 18720
+number-blocks: 128
+filename: wiki-Talk.bin nVtx: 2394385 nonzero: 5021410 AvgTime: 0.392628 part1V: 243360 part1E: 4894377 part2V: 2151025 part2E: 127033 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 456626
+nVtx: 456626
+nEdge: 14855842
+nVtx: 456626, nVtx: 456626, nEdge: 14855842
+graph read
+subzie 3584
+number-blocks: 128
+filename: higgs-social_network.bin nVtx: 456626 nonzero: 14855842 AvgTime: 0.285485 part1V: 207872 part1E: 11089545 part2V: 248754 part2E: 3766297 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 265214
+nVtx: 265214
+nEdge: 420045
+nVtx: 265214, nVtx: 265214, nEdge: 420045
+graph read
+subzie 2080
+number-blocks: 128
+filename: email-EuAll.bin nVtx: 265214 nonzero: 420045 AvgTime: 0.236274 part1V: 139360 part1E: 284467 part2V: 125854 part2E: 135578 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 36692
+nVtx: 36692
+nEdge: 367662
+nVtx: 36692, nVtx: 36692, nEdge: 367662
+graph read
+subzie 288
+number-blocks: 128
+filename: email-Enron.bin nVtx: 36692 nonzero: 367662 AvgTime: 0.234371 part1V: 19008 part1E: 309653 part2V: 17684 part2E: 58009 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 334863
+nVtx: 334863
+nEdge: 1851744
+nVtx: 334863, nVtx: 334863, nEdge: 1851744
+graph read
+subzie 2624
+number-blocks: 128
+filename: com-amazon.ungraph.bin nVtx: 334863 nonzero: 1851744 AvgTime: 0.240108 part1V: 170560 part1E: 1192799 part2V: 164303 part2E: 658945 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+graph read
+subzie 2208
+number-blocks: 128
+filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.252557 part1V: 121440 part1E: 995382 part2V: 160463 part2E: 1317115 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 81871
+nVtx: 81871
+nEdge: 545671
+nVtx: 81871, nVtx: 81871, nEdge: 545671
+graph read
+subzie 640
+number-blocks: 128
+filename: soc-sign-Slashdot090216.bin nVtx: 81871 nonzero: 545671 AvgTime: 0.254919 part1V: 33280 part1E: 436111 part2V: 48591 part2E: 109560 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+graph read
+subzie 288
+number-blocks: 120
+filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.219859 part1V: 18720 part1E: 240290 part2V: 15826 part2E: 181288 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+graph read
+subzie 3136
+number-blocks: 128
+filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.227725 part1V: 200704 part1E: 1718479 part2V: 200023 part2E: 1481961 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 10879
+nVtx: 10879
+nEdge: 39994
+nVtx: 10879, nVtx: 10879, nEdge: 39994
+graph read
+subzie 96
+number-blocks: 114
+filename: p2p-Gnutella04.bin nVtx: 10879 nonzero: 39994 AvgTime: 0.19075 part1V: 4704 part1E: 19255 part2V: 6175 part2E: 20739 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3997962
+nVtx: 3997962
+nEdge: 69362378
+nVtx: 3997962, nVtx: 3997962, nEdge: 69362378
+graph read
+subzie 31264
+number-blocks: 128
+filename: com-lj.ungraph.bin nVtx: 3997962 nonzero: 69362378 AvgTime: 0.765327 part1V: 844128 part1E: 39502931 part2V: 3153834 part2E: 29859447 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 11492
+nVtx: 11492
+nEdge: 46818
+nVtx: 11492, nVtx: 11492, nEdge: 46818
+graph read
+subzie 96
+number-blocks: 120
+filename: Oregon-1.bin nVtx: 11492 nonzero: 46818 AvgTime: 0.237392 part1V: 5184 part1E: 33960 part2V: 6308 part2E: 12858 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 11806
+nVtx: 11806
+nEdge: 65460
+nVtx: 11806, nVtx: 11806, nEdge: 65460
+graph read
+subzie 96
+number-blocks: 123
+filename: Oregon-2.bin nVtx: 11806 nonzero: 65460 AvgTime: 0.215826 part1V: 5952 part1E: 49890 part2V: 5854 part2E: 15570 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+graph read
+subzie 7168
+number-blocks: 128
+filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.310682 part1V: 451584 part1E: 2522812 part2V: 464844 part2E: 2582227 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+graph read
+subzie 13280
+number-blocks: 128
+filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.527894 part1V: 517920 part1E: 14122834 part2V: 1178495 part2E: 8067762 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+graph read
+subzie 2048
+number-blocks: 128
+filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.239158 part1V: 131072 part1E: 627582 part2V: 131039 part2E: 607295 number-blocks: 8 
+			------- 128 ---------- 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 7716
+nVtx: 7716
+nEdge: 26467
+nVtx: 7716, nVtx: 7716, nEdge: 26467
+graph read
+subzie 32
+number-blocks: 242
+filename: as-735.bin nVtx: 7716 nonzero: 26467 AvgTime: 0.495905 part1V: 3712 part1E: 18381 part2V: 4004 part2E: 8086 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+graph read
+subzie 1248
+number-blocks: 255
+filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.439974 part1V: 165984 part1E: 1483272 part2V: 151096 part2E: 616460 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 4847571
+nVtx: 4847571
+nEdge: 68993773
+nVtx: 4847571, nVtx: 4847571, nEdge: 68993773
+graph read
+subzie 18944
+number-blocks: 256
+filename: soc-LiveJournal1.bin nVtx: 4847571 nonzero: 68993773 AvgTime: 1.05401 part1V: 1269248 part1E: 43880940 part2V: 3578323 part2E: 25112833 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1632803
+nVtx: 1632803
+nEdge: 30622564
+nVtx: 1632803, nVtx: 1632803, nEdge: 30622564
+graph read
+subzie 6400
+number-blocks: 256
+filename: soc-pokec-relationships.bin nVtx: 1632803 nonzero: 30622564 AvgTime: 0.774324 part1V: 595200 part1E: 20564084 part2V: 1037603 part2E: 10058480 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 131828
+nVtx: 131828
+nEdge: 841372
+nVtx: 131828, nVtx: 131828, nEdge: 841372
+graph read
+subzie 544
+number-blocks: 243
+filename: soc-sign-epinions.bin nVtx: 131828 nonzero: 841372 AvgTime: 0.480437 part1V: 62016 part1E: 687251 part2V: 69812 part2E: 154121 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3072441
+nVtx: 3072441
+nEdge: 234370166
+nVtx: 3072441, nVtx: 3072441, nEdge: 234370166
+graph read
+subzie 12032
+number-blocks: 256
+filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 2.51332 part1V: 1239296 part1E: 109876467 part2V: 1833145 part2E: 124493699 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1393383
+nVtx: 1393383
+nEdge: 3843320
+nVtx: 1393383, nVtx: 1393383, nEdge: 3843320
+graph read
+subzie 5472
+number-blocks: 255
+filename: roadNet-TX.bin nVtx: 1393383 nonzero: 3843320 AvgTime: 0.510688 part1V: 694944 part1E: 1923254 part2V: 698439 part2E: 1920066 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 27770
+nVtx: 27770
+nEdge: 352807
+nVtx: 27770, nVtx: 27770, nEdge: 352807
+graph read
+subzie 128
+number-blocks: 217
+filename: cit-HepTh.bin nVtx: 27770 nonzero: 352807 AvgTime: 0.403319 part1V: 13824 part1E: 192604 part2V: 13946 part2E: 160203 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 62586
+nVtx: 62586
+nEdge: 147892
+nVtx: 62586, nVtx: 62586, nEdge: 147892
+graph read
+subzie 256
+number-blocks: 245
+filename: p2p-Gnutella31.bin nVtx: 62586 nonzero: 147892 AvgTime: 0.440435 part1V: 31232 part1E: 68770 part2V: 31354 part2E: 79122 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3774768
+nVtx: 3774768
+nEdge: 16518948
+nVtx: 3774768, nVtx: 3774768, nEdge: 16518948
+graph read
+subzie 14752
+number-blocks: 256
+filename: cit-Patents.bin nVtx: 3774768 nonzero: 16518948 AvgTime: 0.686316 part1V: 2404576 part1E: 4254478 part2V: 1370192 part2E: 12264470 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 77357
+nVtx: 77357
+nEdge: 516575
+nVtx: 77357, nVtx: 77357, nEdge: 516575
+graph read
+subzie 320
+number-blocks: 242
+filename: soc-sign-Slashdot081106.bin nVtx: 77357 nonzero: 516575 AvgTime: 0.44202 part1V: 35520 part1E: 432512 part2V: 41837 part2E: 84063 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 36682
+nVtx: 36682
+nEdge: 88328
+nVtx: 36682, nVtx: 36682, nEdge: 88328
+graph read
+subzie 160
+number-blocks: 230
+filename: p2p-Gnutella30.bin nVtx: 36682 nonzero: 88328 AvgTime: 0.435648 part1V: 18400 part1E: 46556 part2V: 18282 part2E: 41772 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8717
+nVtx: 8717
+nEdge: 31525
+nVtx: 8717, nVtx: 8717, nEdge: 31525
+graph read
+subzie 64
+number-blocks: 137
+filename: p2p-Gnutella06.bin nVtx: 8717 nonzero: 31525 AvgTime: 0.22355 part1V: 5248 part1E: 20474 part2V: 3469 part2E: 11051 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+graph read
+subzie 32
+number-blocks: 164
+filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.271969 part1V: 3104 part1E: 17574 part2V: 2138 part2E: 11406 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 6301
+nVtx: 6301
+nEdge: 20777
+nVtx: 6301, nVtx: 6301, nEdge: 20777
+graph read
+subzie 32
+number-blocks: 197
+filename: p2p-Gnutella08.bin nVtx: 6301 nonzero: 20777 AvgTime: 0.367925 part1V: 3168 part1E: 11860 part2V: 3133 part2E: 8917 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+graph read
+subzie 128
+number-blocks: 208
+filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.391401 part1V: 13312 part1E: 35705 part2V: 13206 part2E: 29664 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 31379
+nVtx: 31379
+nEdge: 106762
+nVtx: 31379, nVtx: 31379, nEdge: 106762
+graph read
+subzie 128
+number-blocks: 246
+filename: as-caida.bin nVtx: 31379 nonzero: 106762 AvgTime: 0.422009 part1V: 14976 part1E: 76971 part2V: 16403 part2E: 29791 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+graph read
+subzie 352
+number-blocks: 234
+filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.419177 part1V: 38016 part1E: 814310 part2V: 44152 part2E: 134154 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 23133
+nVtx: 23133
+nEdge: 186936
+nVtx: 23133, nVtx: 23133, nEdge: 186936
+graph read
+subzie 96
+number-blocks: 241
+filename: ca-CondMat.bin nVtx: 23133 nonzero: 186936 AvgTime: 0.454526 part1V: 11520 part1E: 93345 part2V: 11613 part2E: 93591 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+graph read
+subzie 1280
+number-blocks: 255
+filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.529631 part1V: 151040 part1E: 454166 part2V: 174689 part2E: 1042968 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82144
+nVtx: 82144
+nEdge: 549202
+nVtx: 82144, nVtx: 82144, nEdge: 549202
+graph read
+subzie 352
+number-blocks: 234
+filename: soc-sign-Slashdot090221.bin nVtx: 82144 nonzero: 549202 AvgTime: 0.43005 part1V: 40480 part1E: 466680 part2V: 41664 part2E: 82522 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8114
+nVtx: 8114
+nEdge: 26013
+nVtx: 8114, nVtx: 8114, nEdge: 26013
+graph read
+subzie 32
+number-blocks: 254
+filename: p2p-Gnutella09.bin nVtx: 8114 nonzero: 26013 AvgTime: 0.492413 part1V: 4064 part1E: 14940 part2V: 4050 part2E: 11073 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 75888
+nVtx: 75888
+nEdge: 508837
+nVtx: 75888, nVtx: 75888, nEdge: 508837
+graph read
+subzie 320
+number-blocks: 238
+filename: soc-Epinions1.bin nVtx: 75888 nonzero: 508837 AvgTime: 0.408679 part1V: 34560 part1E: 458289 part2V: 41328 part2E: 50548 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 12008
+nVtx: 12008
+nEdge: 237010
+nVtx: 12008, nVtx: 12008, nEdge: 237010
+graph read
+subzie 64
+number-blocks: 188
+filename: ca-HepPh.bin nVtx: 12008 nonzero: 237010 AvgTime: 0.34239 part1V: 5824 part1E: 121444 part2V: 6184 part2E: 115566 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1971281
+nVtx: 1971281
+nEdge: 5533214
+nVtx: 1971281, nVtx: 1971281, nEdge: 5533214
+graph read
+subzie 7712
+number-blocks: 256
+filename: roadNet-CA.bin nVtx: 1971281 nonzero: 5533214 AvgTime: 0.57143 part1V: 987136 part1E: 2792707 part2V: 984145 part2E: 2740507 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8297
+nVtx: 8297
+nEdge: 103689
+nVtx: 8297, nVtx: 8297, nEdge: 103689
+graph read
+subzie 64
+number-blocks: 130
+filename: wiki-Vote.bin nVtx: 8297 nonzero: 103689 AvgTime: 0.235086 part1V: 4416 part1E: 77376 part2V: 3881 part2E: 26313 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 403394
+nVtx: 403394
+nEdge: 3387388
+nVtx: 403394, nVtx: 403394, nEdge: 3387388
+graph read
+subzie 1600
+number-blocks: 253
+filename: amazon0601.bin nVtx: 403394 nonzero: 3387388 AvgTime: 0.469267 part1V: 201600 part1E: 1837185 part2V: 201794 part2E: 1550203 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+graph read
+subzie 2688
+number-blocks: 255
+filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.474441 part1V: 368256 part1E: 4018019 part2V: 316974 part2E: 3582576 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 8846
+nVtx: 8846
+nEdge: 31839
+nVtx: 8846, nVtx: 8846, nEdge: 31839
+graph read
+subzie 64
+number-blocks: 139
+filename: p2p-Gnutella05.bin nVtx: 8846 nonzero: 31839 AvgTime: 0.264521 part1V: 4480 part1E: 17542 part2V: 4366 part2E: 14297 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 77360
+nVtx: 77360
+nEdge: 905468
+nVtx: 77360, nVtx: 77360, nEdge: 905468
+graph read
+subzie 320
+number-blocks: 242
+filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.437582 part1V: 36800 part1E: 781838 part2V: 40560 part2E: 123630 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 9877
+nVtx: 9877
+nEdge: 51971
+nVtx: 9877, nVtx: 9877, nEdge: 51971
+graph read
+subzie 64
+number-blocks: 155
+filename: ca-HepTh.bin nVtx: 9877 nonzero: 51971 AvgTime: 0.271571 part1V: 4992 part1E: 26697 part2V: 4885 part2E: 25274 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 410236
+nVtx: 410236
+nEdge: 3356824
+nVtx: 410236, nVtx: 410236, nEdge: 3356824
+graph read
+subzie 1632
+number-blocks: 252
+filename: amazon0505.bin nVtx: 410236 nonzero: 3356824 AvgTime: 0.449434 part1V: 197472 part1E: 1786152 part2V: 212764 part2E: 1570672 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 22687
+nVtx: 22687
+nEdge: 54705
+nVtx: 22687, nVtx: 22687, nEdge: 54705
+graph read
+subzie 96
+number-blocks: 237
+filename: p2p-Gnutella25.bin nVtx: 22687 nonzero: 54705 AvgTime: 0.41997 part1V: 11328 part1E: 29515 part2V: 11359 part2E: 25190 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1134890
+nVtx: 1134890
+nEdge: 5975248
+nVtx: 1134890, nVtx: 1134890, nEdge: 5975248
+graph read
+subzie 4448
+number-blocks: 256
+filename: com-youtube.ungraph.bin nVtx: 1134890 nonzero: 5975248 AvgTime: 0.547896 part1V: 280224 part1E: 4063622 part2V: 854666 part2E: 1911626 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+graph read
+subzie 96
+number-blocks: 196
+filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.384711 part1V: 9312 part1E: 196086 part2V: 9460 part2E: 200074 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+graph read
+subzie 4288
+number-blocks: 255
+filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.534655 part1V: 548864 part1E: 1552035 part2V: 542056 part2E: 1531761 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 2394385
+nVtx: 2394385
+nEdge: 5021410
+nVtx: 2394385, nVtx: 2394385, nEdge: 5021410
+graph read
+subzie 9376
+number-blocks: 256
+filename: wiki-Talk.bin nVtx: 2394385 nonzero: 5021410 AvgTime: 0.533953 part1V: 703200 part1E: 4967043 part2V: 1691185 part2E: 54367 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 456626
+nVtx: 456626
+nEdge: 14855842
+nVtx: 456626, nVtx: 456626, nEdge: 14855842
+graph read
+subzie 1792
+number-blocks: 255
+filename: higgs-social_network.bin nVtx: 456626 nonzero: 14855842 AvgTime: 0.539859 part1V: 216832 part1E: 11324647 part2V: 239794 part2E: 3531195 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 265214
+nVtx: 265214
+nEdge: 420045
+nVtx: 265214, nVtx: 265214, nEdge: 420045
+graph read
+subzie 1056
+number-blocks: 252
+filename: email-EuAll.bin nVtx: 265214 nonzero: 420045 AvgTime: 0.429638 part1V: 137280 part1E: 282664 part2V: 127934 part2E: 137381 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 36692
+nVtx: 36692
+nEdge: 367662
+nVtx: 36692, nVtx: 36692, nEdge: 367662
+graph read
+subzie 160
+number-blocks: 230
+filename: email-Enron.bin nVtx: 36692 nonzero: 367662 AvgTime: 0.415459 part1V: 18720 part1E: 308107 part2V: 17972 part2E: 59555 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 334863
+nVtx: 334863
+nEdge: 1851744
+nVtx: 334863, nVtx: 334863, nEdge: 1851744
+graph read
+subzie 1312
+number-blocks: 256
+filename: com-amazon.ungraph.bin nVtx: 334863 nonzero: 1851744 AvgTime: 0.514791 part1V: 158752 part1E: 1129586 part2V: 176111 part2E: 722158 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+graph read
+subzie 1120
+number-blocks: 252
+filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.478357 part1V: 143360 part1E: 1175256 part2V: 138543 part2E: 1137241 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 81871
+nVtx: 81871
+nEdge: 545671
+nVtx: 81871, nVtx: 81871, nEdge: 545671
+graph read
+subzie 320
+number-blocks: 256
+filename: soc-sign-Slashdot090216.bin nVtx: 81871 nonzero: 545671 AvgTime: 0.455568 part1V: 38400 part1E: 455279 part2V: 43471 part2E: 90392 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+graph read
+subzie 160
+number-blocks: 216
+filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.37728 part1V: 17760 part1E: 234504 part2V: 16786 part2E: 187074 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+graph read
+subzie 1568
+number-blocks: 256
+filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.482883 part1V: 241472 part1E: 2059488 part2V: 159255 part2E: 1140952 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 10879
+nVtx: 10879
+nEdge: 39994
+nVtx: 10879, nVtx: 10879, nEdge: 39994
+graph read
+subzie 64
+number-blocks: 170
+filename: p2p-Gnutella04.bin nVtx: 10879 nonzero: 39994 AvgTime: 0.340676 part1V: 5888 part1E: 23346 part2V: 4991 part2E: 16648 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 3997962
+nVtx: 3997962
+nEdge: 69362378
+nVtx: 3997962, nVtx: 3997962, nEdge: 69362378
+graph read
+subzie 15648
+number-blocks: 256
+filename: com-lj.ungraph.bin nVtx: 3997962 nonzero: 69362378 AvgTime: 1.01257 part1V: 1095360 part1E: 44815582 part2V: 2902602 part2E: 24546796 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 11492
+nVtx: 11492
+nEdge: 46818
+nVtx: 11492, nVtx: 11492, nEdge: 46818
+graph read
+subzie 64
+number-blocks: 180
+filename: Oregon-1.bin nVtx: 11492 nonzero: 46818 AvgTime: 0.306573 part1V: 6144 part1E: 36552 part2V: 5348 part2E: 10266 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 11806
+nVtx: 11806
+nEdge: 65460
+nVtx: 11806, nVtx: 11806, nEdge: 65460
+graph read
+subzie 64
+number-blocks: 185
+filename: Oregon-2.bin nVtx: 11806 nonzero: 65460 AvgTime: 0.317155 part1V: 6016 part1E: 50073 part2V: 5790 part2E: 15387 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+graph read
+subzie 3584
+number-blocks: 256
+filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.504549 part1V: 433664 part1E: 2422979 part2V: 482764 part2E: 2682060 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+graph read
+subzie 6656
+number-blocks: 255
+filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.781179 part1V: 512512 part1E: 14045619 part2V: 1183903 part2E: 8144977 number-blocks: 8 
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+graph read
+subzie 1024
+number-blocks: 256
+filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.50397 part1V: 131072 part1E: 627582 part2V: 131039 part2E: 607295 number-blocks: 8 
