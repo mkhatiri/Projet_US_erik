@@ -90,6 +90,7 @@ int main(int argc, char *argv[])
   }
 
 
+  std::cerr<<"filename: "<< filename << " ";
   main_pr<int,int,float>(nVtx, xadj, adj, val, prior, pr, lambda, nTry, totaltime, algo_out);
   
   totaltime /= nTry;

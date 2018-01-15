@@ -398,7 +398,7 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 			if (*h_eps0 +*h_eps1 < 0) // deactivited for testing purposes
 				iter = maxiter;
 
-			std::cerr<<*h_eps0+*h_eps1<<std::endl;
+		//	std::cerr<<*h_eps0+*h_eps1<<std::endl;
 
 		}
 

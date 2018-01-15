@@ -207,16 +207,32 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 //	int nb_blocks = 128;
 	int stream_number = 2;
 
+	
 
 	int X, subsize;
-	X = (int) rowBlockSize1/(nb_blocks) ;
+	if(rowBlockSize1 >= nb_blocks)
+	{
+		X = (int) rowBlockSize1/(nb_blocks) ;
+		cerr << endl << "X = rowBlockSize1 = " << rowBlockSize1 << "/  nb_blocks = " <<  nb_blocks << " = " << X << endl ;
+	}	
+	else{
+		X = (int) rowBlockSize1 / 4;
+		cerr << endl << "X = rowBlockSize1 = " << rowBlockSize1 << "/  nb_blocks = " <<  nb_blocks << " = " << X << endl ;
+	}
 
-	if(X % 64 == 0){
+if(X >=64)
+{	if(X % 64 == 0){
 		subsize = X;  
+		cerr << "if -  subsize=" << subsize << endl ;
 	}else{
 		X = X / 64 ;
 		subsize = (X+1) * 64;
+		cerr << "else - subsize=" << subsize << endl ;
 	}
+}else{
+		subsize = X; 	
+}
+
 
 
 	int xadjPtr1 =  ((rowBlocks[rowBlockSize1] >> (64-32)) & ((1UL << 32) - 1UL));
@@ -247,6 +263,7 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 */
 
 
+	cerr << "task lengh = " << tasks->size() << endl ;
 
 	for (int TRY=0; TRY<THROW_AWAY+nTry; ++TRY)
 	{
@@ -277,10 +294,11 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 
 			while(index < nb_tasks-1){
 				stream_container<int, int, float> *current_stream;
-				Task t = get_task(tasks, index++);
+				Task t = get_task(tasks, index);
 				streams->pop(current_stream);
 				put_work_on_stream<int,int,float>(current_stream,t);
 				cudaPrintError("before kernel");
+
 
 
 		
@@ -298,12 +316,19 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 				cudaStreamAddCallback(current_stream->stream, call_back , current_stream , 0);
                                 cudaPrintError("after callback");
 
+
+
+				cerr << index << " -> task id = " << t.id << " rowBlockSize=" << t.rowBlockSize << " rowBlocksPtr=" << t.rowBlocksPtr << " subsize=" << subsize << endl ;
+
+
+
+				index++;
 			}
 
 			cudaThreadSynchronize();
 
 			if (cusparseStatus != CUSPARSE_STATUS_SUCCESS)
-				std::cerr<<"err"<<std::endl;
+				std::cerr<<"err-1"<<std::endl;
 
 
 
@@ -313,17 +338,17 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 			cublasStatus = cublasSaxpy (cublasHandle, nVtx, &epsalpha, d_prout, 1, d_prin, 1); // d_prin = d_prout*-1 + d_prin
 
 			if (cublasStatus != CUBLAS_STATUS_SUCCESS)
-				std::cerr<<"err"<<std::endl;
+				std::cerr<<"err-2"<<std::endl;
 
 			cublasStatus = cublasSasum(cublasHandle, nVtx, d_prin, 1, &eps);
 			if (cublasStatus != CUBLAS_STATUS_SUCCESS)
-				std::cerr<<"err"<<std::endl;
+				std::cerr<<"err-3"<<std::endl;
 
 			//stopping condition
 			if (eps < 0) // deactivited for testing purposes
 				iter = 20;
 
-			std::cerr<<eps<<std::endl;
+//			std::cerr<<eps<<std::endl;
 
 		}
 
