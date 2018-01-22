@@ -167,6 +167,7 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 	//declarer rowBlocks
 	rowBlocks = (unsigned long*) calloc(sizeof(unsigned long),rowBlockSize1);
 
+//	rowBlockSize1;
 	//calculer rowBlocks
 	ComputeRowBlocks<int,int>( rowBlocks, rowBlockSize2, xadj, nVtx, blkSize, blkMultiplier, rows_for_vector, nThreadPerBlock, allocate_row_blocks);
 
@@ -210,7 +211,8 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 	
 
 	int X, subsize;
-	if(rowBlockSize1 >= nb_blocks)
+	subsize = (int) rowBlockSize1/(nb_blocks) ;
+/*	if(rowBlockSize1 >= nb_blocks)
 	{
 		X = (int) rowBlockSize1/(nb_blocks) ;
 		cerr << endl << "X = rowBlockSize1 = " << rowBlockSize1 << "/  nb_blocks = " <<  nb_blocks << " = " << X << endl ;
@@ -232,7 +234,7 @@ if(X >=64)
 }else{
 		subsize = X; 	
 }
-
+*/
 
 
 	int xadjPtr1 =  ((rowBlocks[rowBlockSize1] >> (64-32)) & ((1UL << 32) - 1UL));
@@ -270,7 +272,7 @@ if(X >=64)
 		if (TRY >= THROW_AWAY)
 			start = util::timestamp();
 
-		for (int iter = 0; iter < 40 ; ++ iter) {
+		for (int iter = 0; iter < 1 ; ++ iter) {
 
 			int index = 0;
 			//setup prin
@@ -292,24 +294,26 @@ if(X >=64)
 			//for float it is S.
 			//does prout = alpha A prin + beta prout
 
-			while(index < nb_tasks-1){
+			while(index < nb_tasks){
 				stream_container<int, int, float> *current_stream;
 				Task t = get_task(tasks, index);
 				streams->pop(current_stream);
 				put_work_on_stream<int,int,float>(current_stream,t);
 				cudaPrintError("before kernel");
-
+				
+				 cout << "index" << index << endl;
 
 
 		
-			//	cout << " current_stream->rowBlockSize +1 "  << current_stream->rowBlockSize+1 <<endl;
-			//	cout <<" current_stream->rowBlocksPtr "<<  current_stream->rowBlocksPtr <<endl;
-			//	cout <<" current_stream->d_rowBlocks "<< current_stream->d_rowBlocks <<endl;
+				cout << " current_stream->rowBlockSize +1 "  << current_stream->rowBlockSize <<endl;
+				cout <<" current_stream->rowBlocksPtr "<<  current_stream->rowBlocksPtr <<endl;
+				cout <<" current_stream->d_rowBlocks "<< current_stream->d_rowBlocks <<endl;
+				cout <<" (current_stream->d_rowBlocks + current_stream->rowBlocksPtr ) "<< (current_stream->d_rowBlocks + current_stream->rowBlocksPtr ) <<endl;
 				
-			//	cout <<" current_stream->stream "<< current_stream->stream <<endl;
+				cout <<" current_stream->stream "<< current_stream->stream <<endl;
 
 
-				csr_adaptative<<<(current_stream->rowBlockSize + 1 ) , nThreadPerBlock, mmshared_size, current_stream->stream >>>(current_stream->d_val, current_stream->d_adj, current_stream->d_xadj, current_stream->d_prin, current_stream->d_prout, (current_stream->d_rowBlocks + current_stream->rowBlocksPtr ), current_stream->alpha, current_stream->beta, current_stream->d_blkSize, current_stream->d_blkMultiplier, current_stream->d_rows_for_vector, current_stream->rowBlockSize);
+				csr_adaptative<<<(current_stream->rowBlockSize + 1 ) , nThreadPerBlock, mmshared_size, current_stream->stream >>>(current_stream->d_val, current_stream->d_adj, current_stream->d_xadj, current_stream->d_prin, current_stream->d_prout, (current_stream->d_rowBlocks + current_stream->rowBlocksPtr), current_stream->alpha, current_stream->beta, current_stream->d_blkSize, current_stream->d_blkMultiplier, current_stream->d_rows_for_vector, current_stream->rowBlockSize);
                                 cudaPrintError("after kernel");
 
                                 cudaPrintError("befor callback");
@@ -318,7 +322,7 @@ if(X >=64)
 
 
 
-				cerr << index << " -> task id = " << t.id << " rowBlockSize=" << t.rowBlockSize << " rowBlocksPtr=" << t.rowBlocksPtr << " subsize=" << subsize << endl ;
+//				cerr << index << " -> task id = " << t.id << " rowBlockSize=" << t.rowBlockSize << " rowBlocksPtr=" << t.rowBlocksPtr << " subsize=" << subsize << endl ;
 
 
 
@@ -345,16 +349,19 @@ if(X >=64)
 				std::cerr<<"err-3"<<std::endl;
 
 			//stopping condition
-			if (eps < 0) // deactivited for testing purposes
-				iter = 20;
+		//	if (eps < 0) // deactivited for testing purposes
+		//		iter = 20;
 
-//			std::cerr<<eps<<std::endl;
+			std::cerr<<eps<<std::endl;
 
 		}
 
 		checkCudaErrors(cudaMemcpy(prout, d_prout, nVtx*sizeof(*prout), cudaMemcpyDeviceToHost));
 
-		std::cerr<<"PR[0]="<<prout[0]<<std::endl;
+//		std::cerr<<"PR[0]="<<prout[0]<<std::endl;
+
+for(int i=0; i<nVtx; i++)
+      std::cerr<<"PR["<< i <<"]="<<prout[i]<<std::endl;
 
 		if (TRY >= THROW_AWAY)
 		{
