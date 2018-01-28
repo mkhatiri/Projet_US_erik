@@ -31,6 +31,7 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 	int nb_blocks = 0;
 	int blk_size = 0;
 	int nb_threads = 0;
+	int V = 0;
 
 	{
 		char* str = getenv ("NBTHREAD");
@@ -62,6 +63,16 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
                         ss>>nb_blocks;
                         if (!ss)
                                 std::cerr<<"NBBLOCK invalid"<<std::endl;
+                }
+        }
+
+	{
+                char* str = getenv ("VAL");
+                if (str) {
+                        std::stringstream ss (str);
+                        ss>>V;
+                        if (!ss)
+                                std::cerr<<"val invalid"<<std::endl;
                 }
         }
 
@@ -108,6 +119,9 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 	Scalar *d_alpha;
 	Scalar *d_beta;
 
+				cudaPrintError(" cudaDeviceReset() -1 ");
+	cudaDeviceReset();
+				cudaPrintError(" cudaDeviceReset() -2 ");
 	/* Get handle to the CUBLAS context */
 	cublasHandle_t cublasHandle = 0;
 	cublasStatus_t cublasStatus;
@@ -123,6 +137,7 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 
 	cusparseSetMatType(descr,CUSPARSE_MATRIX_TYPE_GENERAL);
 	cusparseSetMatIndexBase(descr,CUSPARSE_INDEX_BASE_ZERO);
+
 
 	//memalloc
 
@@ -160,18 +175,45 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 	int rowBlockSize1;
 	int rowBlockSize2;
 
+	int *rBS;
+
+//**************************************************
+	int *method;
+	int *d_method;
+
+
+	method = (int*) calloc(sizeof(int), 3);
+	checkCudaErrors( cudaMalloc((void**)&d_method, 3*sizeof(int)));
+
+	checkCudaErrors( cudaMemcpy(d_method, method, 3*sizeof(int), cudaMemcpyHostToDevice) );
+//*********************************************
+
+
+	unsigned long* rowBlockstest;
 
 	cout <<" comput rowBlocks " << endl;
 	//calculer rowBlockSize
 	rowBlockSize1 = ComputeRowBlocksSize<int,int>(xadj, nVtx, blkSize, blkMultiplier, rows_for_vector, nThreadPerBlock);
 	//declarer rowBlocks
-	rowBlocks = (unsigned long*) calloc(sizeof(unsigned long),rowBlockSize1);
 
-//	rowBlockSize1;
+	cerr << "rowBlockSize1=" << rowBlockSize1 << endl;
+	
+	rowBlockSize2 = rowBlockSize1;
+
+
+	rowBlocks = (unsigned long*) calloc(sizeof(unsigned long),rowBlockSize1);
+	rowBlockstest = (unsigned long*) calloc(sizeof(unsigned long),rowBlockSize1);
+	rBS = (int*) calloc(sizeof(int*),1);
+
 	//calculer rowBlocks
 	ComputeRowBlocks<int,int>( rowBlocks, rowBlockSize2, xadj, nVtx, blkSize, blkMultiplier, rows_for_vector, nThreadPerBlock, allocate_row_blocks);
 
 	cout << "fin de calcule de rowBlocks" <<endl;
+
+
+	cerr << "rowBlockSize2=" << rowBlockSize2 << endl;
+
+
 
 	//	if(rowBlocks[rowBlockSize1] == 0){
 	//		rowBlockSize1--;
@@ -179,7 +221,7 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 
 
 	//malloc for device variable
-	checkCudaErrors( cudaMalloc((void**)&d_rowBlocks, (rowBlockSize1*sizeof(unsigned long))));
+	checkCudaErrors( cudaMalloc((void**)&d_rowBlocks, ((rowBlockSize1)*sizeof(unsigned long))));
 	checkCudaErrors( cudaMalloc((void**)&d_blkSize, 1*sizeof(unsigned int)));
 	checkCudaErrors( cudaMalloc((void**)&d_rows_for_vector,1*sizeof(unsigned int)));
 	checkCudaErrors( cudaMalloc((void**)&d_blkMultiplier, 1*sizeof(unsigned int)));
@@ -188,7 +230,7 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 
 
 	//send data to device
-	checkCudaErrors( cudaMemcpy(d_rowBlocks, rowBlocks, rowBlockSize1*sizeof(unsigned long), cudaMemcpyHostToDevice));
+	checkCudaErrors( cudaMemcpy(d_rowBlocks, rowBlocks, (rowBlockSize1)*sizeof(unsigned long), cudaMemcpyHostToDevice));
 	checkCudaErrors( cudaMemcpy(d_blkSize, &blkSize, 1*sizeof(unsigned int), cudaMemcpyHostToDevice));
 	checkCudaErrors( cudaMemcpy(d_rows_for_vector, &rows_for_vector, 1*sizeof(unsigned int), cudaMemcpyHostToDevice));
 	checkCudaErrors( cudaMemcpy(d_blkMultiplier, &blkMultiplier, 1*sizeof(unsigned int), cudaMemcpyHostToDevice));
@@ -204,14 +246,12 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 
 	tbb::concurrent_bounded_queue<stream_container<int,int,float>* >* streams = new tbb::concurrent_bounded_queue<stream_container<int,int,float>* >;
 
-
 //	int nb_blocks = 128;
 	int stream_number = 2;
-
 	
 
 	int X, subsize;
-	subsize = (int) rowBlockSize1/(nb_blocks) ;
+	subsize = (int) (rowBlockSize1-1)/(nb_blocks) ;
 /*	if(rowBlockSize1 >= nb_blocks)
 	{
 		X = (int) rowBlockSize1/(nb_blocks) ;
@@ -221,9 +261,11 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 		X = (int) rowBlockSize1 / 4;
 		cerr << endl << "X = rowBlockSize1 = " << rowBlockSize1 << "/  nb_blocks = " <<  nb_blocks << " = " << X << endl ;
 	}
-
-if(X >=64)
-{	if(X % 64 == 0){
+*/
+/*if(X >=64)
+{
+************************
+	if(X % 64 == 0){
 		subsize = X;  
 		cerr << "if -  subsize=" << subsize << endl ;
 	}else{
@@ -231,15 +273,16 @@ if(X >=64)
 		subsize = (X+1) * 64;
 		cerr << "else - subsize=" << subsize << endl ;
 	}
+****************
 }else{
 		subsize = X; 	
 }
-*/
+*************************/
 
 
 	int xadjPtr1 =  ((rowBlocks[rowBlockSize1] >> (64-32)) & ((1UL << 32) - 1UL));
 
-	cout << "rowBlockSize : "<< rowBlockSize1 << "last row " << xadjPtr1 << endl;
+	cout << "rowBlockSize : "<< rowBlockSize1 << " last row " << xadjPtr1 << endl;
 	
 	cout << "subsize : "<< subsize << endl;
 	cout << "start creat stream " <<endl;
@@ -248,24 +291,42 @@ if(X >=64)
 	creat_stream<int, int, float>(d_rowBlocks, d_a, d_b, d_val, d_xadj, d_adj, d_prin, d_prout, d_blkSize, d_rows_for_vector, d_blkMultiplier, streams, stream_number );
 	cout << "end creat stream " <<endl;
 
+	rowBlockSize1--;
 	cout << "start split task " <<endl;
 	int nb_tasks = split_input_to_tasks(rowBlocks, rowBlockSize1, subsize, *tasks);
 	cout << "fin split task " <<endl;
+int cum=0;
+int S=0;
+unsigned int total_row=0;
+for(int nbT=0; nbT< nb_tasks; nbT++){
 
+	Task t = get_task(tasks, nbT);
+	cerr << "task_id="<< t.id << " t.rowBlocksPtr=" << t.rowBlocksPtr << " t.rowBlockSize=" << t.rowBlockSize <<endl;
+	S += t.rowBlockSize;
+	cum=0;
+	
+	for(int Bid=t.rowBlocksPtr ; Bid< S; Bid++)
+		{
+		unsigned int row = ((rowBlocks[Bid] >> 32) & ((1UL << 32) - 1UL));	 // OWBITS = 32
+		unsigned int stop_row = ((rowBlocks[Bid + 1] >> 32) & ((1UL << 32) - 1UL));
+		unsigned int num_rows = stop_row - row;
+		total_row += num_rows;
+		//cerr << cum  << " sum= "<< S << "row["<< Bid <<"]="<< row << " stop_row=" << stop_row << " num_row="  << num_rows << " Total_rows=" << total_row << endl;
+		cum++;
+		}
+}
 
-	cout << "nb_tasks " << nb_tasks << endl;
+//	for(int i=0; i<nb_tasks; i++){
+//		Task t = get_task(tasks, i);
+//		cerr << "id : " << t.id <<" - rowBlocksPtr " << t.rowBlocksPtr <<" - rowBlockSize " << t.rowBlockSize <<endl;
 
+//	}
 
-/*
-	for(int i=0; i<nb_tasks; i++){
-		Task t = get_task(tasks, i);
-		cout << "id : " << t.id <<" - rowBlocksPtr " << t.rowBlocksPtr <<" - rowBlockSize " << t.rowBlockSize <<endl;
-
-	}
-*/
 
 
 	cerr << "task lengh = " << tasks->size() << endl ;
+
+	int m1=0, m2=0, m3=0;
 
 	for (int TRY=0; TRY<THROW_AWAY+nTry; ++TRY)
 	{
@@ -302,19 +363,30 @@ if(X >=64)
 				cudaPrintError("before kernel");
 				
 				 cout << "index" << index << endl;
+				 cerr << "index" << index << endl;
 
 
-		
-				cout << " current_stream->rowBlockSize +1 "  << current_stream->rowBlockSize <<endl;
-				cout <<" current_stream->rowBlocksPtr "<<  current_stream->rowBlocksPtr <<endl;
-				cout <<" current_stream->d_rowBlocks "<< current_stream->d_rowBlocks <<endl;
-				cout <<" (current_stream->d_rowBlocks + current_stream->rowBlocksPtr ) "<< (current_stream->d_rowBlocks + current_stream->rowBlocksPtr ) <<endl;
+checkCudaErrors(cudaMemcpy(rowBlockstest, (current_stream->d_rowBlocks+current_stream->rowBlocksPtr),(current_stream->rowBlockSize+1)*sizeof(unsigned long), cudaMemcpyDeviceToHost));
+		cerr << "=current_stream->rowBlockSize " << current_stream->rowBlockSize  << endl;		
+for(int i=0;i<=current_stream->rowBlockSize;i++)
+{
+	
+	int x =  ((rowBlockstest[i] >> (64-32)) & ((1UL << 32) - 1UL));
+//	std::cerr<< "i=" << i << " current_stream->rowBlockSize=" << current_stream->rowBlockSize  << " rowblokstest[" <<i <<"]="<< x <<std::endl;
+
+}
+//	cout <<" fin .......... " <<endl;
+
+				cerr << index << " -> task id = " << t.id << "current_stream->rowBlockSize=" << current_stream->rowBlockSize << " rowBlocksPtr=" << t.rowBlocksPtr << " subsize=" << subsize << "current_stream->rowBlocksPtr " << current_stream->rowBlocksPtr ;
+				cerr << " nTheeadPerBlock=" << nThreadPerBlock  << " mmshared_size=" << mmshared_size << endl ;
+	
+				csr_adaptative<<< current_stream->rowBlockSize , nThreadPerBlock, mmshared_size, current_stream->stream >>>(current_stream->d_val, current_stream->d_adj, current_stream->d_xadj, current_stream->d_prin, current_stream->d_prout, (current_stream->d_rowBlocks + current_stream->rowBlocksPtr), current_stream->alpha, current_stream->beta, current_stream->d_blkSize, current_stream->d_blkMultiplier, current_stream->d_rows_for_vector, current_stream->rowBlockSize, d_method);
+
+                                cudaPrintError("after kernel1");
+
+				checkCudaErrors(cudaMemcpy(method, d_method, 3*sizeof(int), cudaMemcpyDeviceToHost));
+				std::cerr << index << " method Stm="<< method[0]-m1 << " V ="<< method[1]-m2 << " VL="<< method[2]-m3 << endl;
 				
-				cout <<" current_stream->stream "<< current_stream->stream <<endl;
-
-
-				csr_adaptative<<<(current_stream->rowBlockSize + 1 ) , nThreadPerBlock, mmshared_size, current_stream->stream >>>(current_stream->d_val, current_stream->d_adj, current_stream->d_xadj, current_stream->d_prin, current_stream->d_prout, (current_stream->d_rowBlocks + current_stream->rowBlocksPtr), current_stream->alpha, current_stream->beta, current_stream->d_blkSize, current_stream->d_blkMultiplier, current_stream->d_rows_for_vector, current_stream->rowBlockSize);
-                                cudaPrintError("after kernel");
 
                                 cudaPrintError("befor callback");
 				cudaStreamAddCallback(current_stream->stream, call_back , current_stream , 0);
@@ -322,14 +394,15 @@ if(X >=64)
 
 
 
-//				cerr << index << " -> task id = " << t.id << " rowBlockSize=" << t.rowBlockSize << " rowBlocksPtr=" << t.rowBlocksPtr << " subsize=" << subsize << endl ;
 
 
 
 				index++;
 			}
 
-			cudaThreadSynchronize();
+                                cudaPrintError("befor Synch");
+				cudaThreadSynchronize();
+                                cudaPrintError("after Synch");
 
 			if (cusparseStatus != CUSPARSE_STATUS_SUCCESS)
 				std::cerr<<"err-1"<<std::endl;
@@ -348,27 +421,33 @@ if(X >=64)
 			if (cublasStatus != CUBLAS_STATUS_SUCCESS)
 				std::cerr<<"err-3"<<std::endl;
 
+
+                                cudaPrintError("cublas");
+
+
+
 			//stopping condition
 		//	if (eps < 0) // deactivited for testing purposes
 		//		iter = 20;
 
-			std::cerr<<eps<<std::endl;
+			std::cerr<< "VAL=" << V << " -> "<< eps<<std::endl;
 
 		}
 
 		checkCudaErrors(cudaMemcpy(prout, d_prout, nVtx*sizeof(*prout), cudaMemcpyDeviceToHost));
 
 //		std::cerr<<"PR[0]="<<prout[0]<<std::endl;
+				checkCudaErrors(cudaMemcpy(method, d_method, 3*sizeof(int), cudaMemcpyDeviceToHost));
+				std::cerr << " method Stm="<< method[0]-m1 << " V ="<< method[1]-m2 << " VL="<< method[2]-m3 << endl;
 
 for(int i=0; i<nVtx; i++)
-      std::cerr<<"PR["<< i <<"]="<<prout[i]<<std::endl;
+     std::cerr<<"PR["<< i <<"]="<<prout[i]<<std::endl;
 
 		if (TRY >= THROW_AWAY)
 		{
 			util::timestamp stop;  
 			totaltime += stop - start;
 		}
-
 
 
 		/*    
@@ -387,7 +466,7 @@ evict_array_from_cache(prout, nVtx*sizeof(*prout));
 }
 }
 #endif
-		 */
+	 */
 }
 
 
@@ -398,7 +477,10 @@ cudaFree(d_blkMultiplier);
 cudaFree(d_a);
 cudaFree(d_b);
 
-
+free(rowBlocks);
+free(method);
+free(rowBlockstest);
+free(rBS);
 
 #ifdef SHOWLOADBALANCE
 std::cout<<"load balance"<<std::endl;
@@ -406,7 +488,7 @@ for (int i=0; i< 244; ++i)
 std::cout<<count[i]<<std::endl;
 #endif
 
-delete[] prin_;
+//delete[] prin_;
 
 
 

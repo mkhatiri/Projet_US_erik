@@ -83,7 +83,10 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 	for( i = 1; i <= nRows; i++ )
 	{
 		EdgeType row_length = ( xadj[ i ] - xadj[ i - 1 ] );
-		//std::cout << "log " << " row_length " << row_length <<std::endl;
+	if (allocate_row_blocks)
+                                {
+		std::cout << i << " row_length " << row_length << " - " << endl;
+				}
 		sum += row_length;
 		//		std::cout << "i" << i <<std::endl;
 
@@ -93,13 +96,13 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 		// roughly the same length. Long rows can be reduced horizontally.
 		// Short rows can be reduced one-thread-per-row. Try not to mix them.
 		if ( row_length > blkSize){
-			//std::cout << " row_lenght > 20 at iter : " << i <<std::endl;
+		//	std::cout << " row_lenght > 20 at iter : " << i <<std::endl;
 			consecutive_long_rows++;
 		} else if ( consecutive_long_rows > 0 )
 		{
-			//std::cout << " row_lenght < 20  and CLR > 0 at iter : " << i <<std::endl;
+		//	std::cout << " row_lenght < 20  and CLR > 0 at iter : " << i <<std::endl;
 			// If it turns out we WERE in a long-row region, cut if off now.
-			if (row_length < (blkSize/2) ) // Now we're in a short-row region
+			if (row_length < 32 ) // Now we're in a short-row region
 				consecutive_long_rows = -1;
 			else
 				consecutive_long_rows++;
@@ -116,7 +119,7 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 				if (allocate_row_blocks)
 				{
 					*rowBlocks = ( (i-1) << 32) ;
-					//std::cout << "Long :  R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum " << sum <<std::endl;
+					std::cout << "Long :  R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum " << sum <<std::endl;
 					// If this row fits into CSR-Stream, calculate how many rows
 					// can be used to do a parallel reduction.
 					// Fill in the low-order bits with the numThreadsForRed
@@ -138,7 +141,7 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 			if (allocate_row_blocks)
 			{
 				*rowBlocks = ( (i - 1) << (64 - ROW_BITS) );
-				//std::cout << "short : R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum " << sum <<std::endl;
+				std::cout << "short : R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum " << sum <<std::endl;
 				if (((i-1) - last_i) > rows_for_vector){
 					*(rowBlocks-1) |= numThreadsForReduction((i - 1) - last_i,WGSIZE);
 				}
@@ -167,12 +170,12 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 				for( unsigned long w = 1; w < numWGReq; w++ )
 				{
 					*rowBlocks = ( (i - 1) << (64 - ROW_BITS) );
-					//	std::cout << "!!! mediun :  R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum " << sum << std::endl;
+						std::cout << "!!! mediun :  R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum " << sum << std::endl;
 					*rowBlocks |= static_cast< unsigned long >( w );
 					rowBlocks++;
 				}
 				*rowBlocks = ( i << (64 - ROW_BITS) );
-				//std::cout << "mediun :  R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum " << sum << std::endl;
+				std::cout << "mediun :  R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum " << sum << std::endl;
 				rowBlocks++;
 			}
 			total_row_blocks += numWGReq;
@@ -188,7 +191,7 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 			if (allocate_row_blocks)
 			{
 				*rowBlocks = ( i << (64 - ROW_BITS) );
-				//std::cout << "more : R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum "<< sum << std::endl;
+				std::cout << "more : R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum "<< sum << std::endl;
 				if ((i - last_i) > rows_for_vector)
 					*(rowBlocks-1) |= numThreadsForReduction(i - last_i, WGSIZE);
 				rowBlocks++;
@@ -204,7 +207,7 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 			if (allocate_row_blocks)
 			{
 				*rowBlocks = ( i << (64 - ROW_BITS) );
-				//std::cout << "exacte : R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum " << sum << std::endl;
+				std::cout << "exacte : R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum " << sum << std::endl;
 				if ((i - last_i) > rows_for_vector)
 					*(rowBlocks-1) |= numThreadsForReduction(i - last_i, WGSIZE);
 				rowBlocks++;
@@ -220,7 +223,7 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 	if ( allocate_row_blocks && (*(rowBlocks-1) >> (64 - ROW_BITS)) != static_cast< unsigned long >(nRows) )
 	{
 		*rowBlocks = (static_cast< unsigned long >( nRows ) << 32 ) ;
-		//std::cout << "Last : iter : " << i << " R_rowBlocks " << (i-1) << " rowBlocks " << *(rowBlocks) << std::endl;
+		std::cout << "Last : iter : " << i << " R_rowBlocks " << (i-1) << " rowBlocks " << *(rowBlocks) << std::endl;
 		if ((nRows - last_i) > rows_for_vector)
 			*(rowBlocks-1) |= numThreadsForReduction(i - last_i, WGSIZE);
 		rowBlocks++;
@@ -234,7 +237,7 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 		// Update the size of rowBlocks to reflect the actual amount of memory used
 		// We're multiplying the size by two because the extended precision form of
 		// CSR-Adaptive requires more space for the final global reduction.
-		rowBlockSize = 2 * dist;
+		rowBlockSize =   dist;
 	}
 	else
 		rowBlockSize  =  total_row_blocks;
@@ -274,45 +277,48 @@ int split_input_to_tasks(unsigned long *rowBlocks, int rowBlockSize, int subsize
 	int subRowBlockSize = 0;
 	int ptr = 0;
 
-	while(ptr <= rowBlockSize){
+	cerr << "sub=" << subsize<<endl;
+	while(ptr < rowBlockSize){
+		cerr << "ptr=" << ptr << " rowBlockSize=" << rowBlockSize << endl;
 		Task t ;
 		t.id = id++;
 		t.rowBlocksPtr = ptr;
 		ptr += subsize;
 
-		if (ptr <= rowBlockSize){
+		if (ptr < rowBlockSize){
 			int xadjPtr1 =  ((rowBlocks[ptr] >> (64-32)) & ((1UL << 32) - 1UL));
 			int xadjPtr2 =  ((rowBlocks[ptr+1] >> (64-32)) & ((1UL << 32) - 1UL));
 
-//			cout << "xadjPtr1 "  << xadjPtr1 <<endl; 
-//			cout << "xadjPtr2 "  << xadjPtr2 <<endl; 
+			cout << ptr <<" xadjPtr1 "  << xadjPtr1 <<endl; 
+			cout << ptr+1 <<" xadjPtr2 "  << xadjPtr2 <<endl; 
 
 			while (xadjPtr1 == xadjPtr2){
 
-				ptr ++;
+				ptr++;
 				xadjPtr1 =  ((rowBlocks[ptr] >> (64-32)) & ((1UL << 32) - 1UL));
 				xadjPtr2 =  ((rowBlocks[ptr+1] >> (64-32)) & ((1UL << 32) - 1UL));
-//				cout << "   xadjPtr1 "  << xadjPtr1 <<endl;
-//				cout << "   xadjPtr2 "  << xadjPtr2 <<endl; 
+				cout << " -  xadjPtr1 "  << xadjPtr1 <<endl;
+				cout << " -  xadjPtr2 "  << xadjPtr2 <<endl; 
 
 			}
 
-		if(ptr <= rowBlockSize){
-			t.rowBlockSize = (ptr - subRowBlockSize);
+		if(ptr < rowBlockSize){
+			t.rowBlockSize = (ptr - subRowBlockSize)   ;
 //			std::cout << id << " rowBlocks[Ptr] " << rowBlocks[ptr]  << " Ptr "  << t.rowBlocksPtr << " - subRowBlockSize " << subRowBlockSize  << " t.rowBlockSize : "  << t.rowBlockSize << endl;
 			subRowBlockSize = ptr;
-			ptr++;
 			}else{
-				t.rowBlockSize = rowBlockSize - subRowBlockSize;
+				t.rowBlockSize = rowBlockSize - subRowBlockSize  ;
+			//ptr++;
 			}
 		}else{
 //			std::cout << id << "end ... " << endl;
-			t.rowBlockSize = rowBlockSize - subRowBlockSize;
+			t.rowBlockSize = rowBlockSize - subRowBlockSize  ;
 //			std::cout << id << " rowBlocks[Ptr] " << rowBlocks[ptr] << " Ptr "  << t.rowBlocksPtr << " - subRowBlockSize " << subRowBlockSize  << " t.rowBlockSize : "  << t.rowBlockSize << endl;
-			ptr++;
+			//ptr++;
 		}
 
 		tasks.push_back(t); 
+		cerr << "t.id="<<t.id<<" t.rowBlocksPtr="<<t.rowBlocksPtr<<" t.rowBlockSize="<<t.rowBlockSize<<endl;
 	}
 	return id;
 }

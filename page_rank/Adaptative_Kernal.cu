@@ -266,7 +266,7 @@ __device__ void csr_vectorL(float* partialSums, float* vals, int* cols, int* row
 
 __global__ void csr_adaptative(float* vals, int* cols, int* rowPtrs, float* vec, float* out,
 		unsigned long* rowBlocks, float* d_alpha, float* d_beta, unsigned int* d_blkSize, 
-		unsigned int* d_blkMultiple, unsigned int* d_rowForVector, int rowBlockSize){
+		unsigned int* d_blkMultiple, unsigned int* d_rowForVector, int rowBlockSize, int * method){
 
 	const unsigned int blkSize = *d_blkSize;
 	const unsigned int blkMultiple = *d_blkMultiple;
@@ -280,7 +280,7 @@ __global__ void csr_adaptative(float* vals, int* cols, int* rowPtrs, float* vec,
 
 	int WGSIZE = blockDim.x;
 
-	if (Bid < rowBlockSize) {
+	if (Bid < rowBlockSize - 1) {
 		unsigned int row = ((rowBlocks[Bid] >> 32) & ((1UL << 32) - 1UL));	 // OWBITS = 32
 		unsigned int stop_row = ((rowBlocks[Bid + 1] >> 32) & ((1UL << 32) - 1UL));
 		unsigned int num_rows = stop_row - row;
@@ -291,6 +291,10 @@ __global__ void csr_adaptative(float* vals, int* cols, int* rowPtrs, float* vec,
 		unsigned int vecStart = wg*(unsigned int)(blkSize*blkMultiple) + rowPtrs[row];
 		unsigned int vecEnd = (rowPtrs[row + 1] > vecStart + blkSize*blkMultiple) ? vecStart + blkSize*blkMultiple : rowPtrs[row+1];
 
+	
+		if(Tid == 0 && Bid == 1)
+				atomicAdd(&method[1], 1);
+
 		/*	if (num_rows == 0 || (num_rows == 1 && wg)) // CSR-LongRows case
 			{
 			num_rows = rowForVector;
@@ -299,22 +303,27 @@ __global__ void csr_adaptative(float* vals, int* cols, int* rowPtrs, float* vec,
 		//	tab[Bid] = 15;	
 		}*/
 
-//		if(row <= stop_row){
-			if (num_rows > rowForVector) //CSR-Stream case
+		if(row <= stop_row){
+			if (num_rows > rowForVector ) //CSR-Stream case
 			{
+
+				atomicAdd(&method[0], 1);
 				csr_stream(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, WGSIZE);
 			}else if (num_rows >= 1 && !wg){ // CSR-Vector case.
-				csr_vector(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, WGSIZE);
+				atomicAdd(&method[1], 1);
+				//	csr_vector(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, WGSIZE);
 			}else{ //CSR-LongRows
-				csr_vectorL(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, vecStart, vecEnd, WGSIZE);
+				//	csr_vectorL(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, vecStart, vecEnd, WGSIZE);
 			}
-//		}
-	}}
-
-__global__ void csr_adaptativeT(int *a){
-
-	int index = blockIdx.x*blockDim.x +  threadIdx.x;
-	a[index] = __clz(512)  ;
-
-
+		}
+	}else{
+		atomicAdd(&method[2], 1);
+	}
 }
+	__global__ void csr_adaptativeT(int *a){
+
+		int index = blockIdx.x*blockDim.x +  threadIdx.x;
+		a[index] = __clz(512)  ;
+
+
+	}
