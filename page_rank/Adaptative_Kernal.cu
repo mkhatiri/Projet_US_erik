@@ -9,9 +9,102 @@
 
 
 
-__device__ void csr_stream(double* partialSums, double* vals, int* cols, int* rowPtrs, double* vec, double* out, unsigned long* rowBlocks, double alpha, double beta, const unsigned int BLOCKSIZE , const unsigned int ROWS_FOR_VECTOR, const unsigned int BLOCK_MULTIPLIER, const unsigned int Bid, const unsigned Tid, unsigned int row, unsigned int stop_row, unsigned int wg, int WG_SIZE  ){
+__device__ float two_fma( const float x_vals, const float x_vec, float y, float * sumk_err )
+{
+    float x = x_vals * x_vec;
+    const float sumk_s = x + y;
+    if (fabs(x) < fabs(y))
+    {
+        const float swap = x;
+        x = y;
+        y = swap;
+    }
+    (*sumk_err) += (y - (sumk_s - x));
+    // 2Sum in the FMA case. Poor performance on low-DPFP GPUs.
+    //const float bp = fma(-x_vals, x_vec, sumk_s);
+    //(*sumk_err) += (fma(x_vals, x_vec, -(sumk_s - bp)) + (y - bp));
+    return sumk_s;
+}
 
-	double temp_sum = 0.;
+
+
+ __device__ float two_sum( float x, float y, float *sumk_err )
+{
+    const float sumk_s = x + y;
+    // We use this 2Sum algorithm to perform a compensated summation,
+    // which can reduce the cummulative rounding errors in our SpMV summation.
+    // Our compensated sumation is based on the SumK algorithm (with K==2) from
+    // Ogita, Rump, and Oishi, "Accurate Sum and Dot Product" in
+    // SIAM J. on Scientific Computing 26(6) pp 1955-1988, Jun. 2005.
+    // 2Sum can be done in 6 FLOPs without a branch. However, calculating
+    // double precision is slower than single precision on every existing GPU.
+    // As such, replacing 2Sum with Fast2Sum when using DPFP results in better
+    // performance (~5% higher total). This is true even though we must ensure
+    // that |a| > |b|. Branch divergence is better than the DPFP slowdown.
+    // Thus, for DPFP, our compensated summation algorithm is actually described
+    // by both Pichat and Neumaier in "Correction d'une somme en arithmetique
+    // a virgule flottante" (J. Numerische Mathematik 19(5) pp. 400-406, 1972)
+    // and "Rundungsfehleranalyse einiger Verfahren zur Summation endlicher
+    // Summen (ZAMM Z. Angewandte Mathematik und Mechanik 54(1) pp. 39-51,
+    // 1974), respectively.
+    if (fabs(x) < fabs(y))
+    {
+        const float swap = x;
+        x = y;
+        y = swap;
+    }
+    (*sumk_err) += (y - (sumk_s - x));
+    // Original 6 FLOP 2Sum algorithm.
+    //const float bp = sumk_s - x;
+    //(*sumk_err) += ((x - (sumk_s - bp)) + (y - bp));
+    return sumk_s;
+}
+
+__device__ float sum2_reduce( float cur_sum,   float * err, 
+	float *  partial,
+        const unsigned int lid,
+        const unsigned int thread_lane,
+        const unsigned int max_size,
+        const unsigned int reduc_size )
+{
+    if ( max_size > reduc_size )
+    {
+//#ifdef EXTENDED_PRECISION
+        const unsigned int partial_dest = lid + reduc_size;
+        if (thread_lane < reduc_size)
+            cur_sum  = two_sum(cur_sum, partial[partial_dest], err);
+        // We reuse the LDS entries to move the error values down into lower
+        // threads. This saves LDS space, allowing higher occupancy, but requires
+        // more barriers, which can reduce performance.
+	__syncthreads();
+        //barrier(CLK_LOCAL_MEM_FENCE);
+        // Have all of those upper threads pass their temporary errors
+        // into a location that the lower threads can read.
+        partial[lid] = (thread_lane >= reduc_size) ? *err : partial[lid];
+	__syncthreads();
+
+        //barrier(CLK_LOCAL_MEM_FENCE);
+        if (thread_lane < reduc_size) // Add those errors in.
+        {
+            *err += partial[partial_dest];
+            partial[lid] = cur_sum;
+        }
+//#else
+//        cur_sum += partial[lid + reduc_size];
+//        barrier( CLK_LOCAL_MEM_FENCE );
+//        partial[lid] = cur_sum;
+//#endif
+    }
+    return cur_sum;
+}
+
+
+
+__device__ void csr_stream(float* partialSums, float* vals, int* cols, int* rowPtrs, float* vec, float* out, unsigned long* rowBlocks, float alpha, float beta, const unsigned int BLOCKSIZE , const unsigned int ROWS_FOR_VECTOR, const unsigned int BLOCK_MULTIPLIER, const unsigned int Bid, const unsigned Tid, unsigned int row, unsigned int stop_row, unsigned int wg, int WG_SIZE  ){
+
+	float temp_sum = 0.;
+	float sumk_e = 0.;
+	float new_error = 0.;
 	//int WG_SIZE = blockDim.x;
 	const unsigned int numThreadsForRed = wg;
 	const unsigned int col = rowPtrs[row] + Tid;
@@ -49,13 +142,13 @@ __device__ void csr_stream(double* partialSums, double* vals, int* cols, int* ro
 			// numThreadsForRed of MAX_UINT. Noticable performance gain to avoid a
 			// long induction variable here, though.
 			for(unsigned int local_cur_val = local_first_val + threadInBlock; local_cur_val < local_last_val; local_cur_val += numThreadsForRed)
-			//	temp_sum += partialSums[local_cur_val] ; 	
 				temp_sum = two_sum(partialSums[local_cur_val], temp_sum, &sumk_e);
+				//temp_sum += partialSums[local_cur_val] ; 
 			
 				
 		}
 		__syncthreads(); // barrier(CLK_LOCAL_MEM_FENCE);       
-
+		 temp_sum = two_sum(temp_sum, sumk_e, &new_error);
 		partialSums[Tid] = temp_sum;
 
 
@@ -68,12 +161,13 @@ __device__ void csr_stream(double* partialSums, double* vals, int* cols, int* ro
 		{
 			__syncthreads(); // barrier(CLK_LOCAL_MEM_FENCE); 
 
-			if ( numThreadsForRed > i ){
-				temp_sum += partialSums[Tid + i];
-				__syncthreads(); // barrier(CLK_LOCAL_MEM_FENCE);       
-				partialSums[Tid] = temp_sum;
-
-			}	
+	//	/	if ( numThreadsForRed > i ){
+			//	temp_sum += partialSums[Tid + i];
+			//	__syncthreads(); // barrier(CLK_LOCAL_MEM_FENCE);       
+			//	partialSums[Tid] = temp_sum;
+//
+//			}	
+			 temp_sum = sum2_reduce(temp_sum, &new_error, partialSums, Tid, threadInBlock, numThreadsForRed, i);
 		}
 
 		if (threadInBlock == 0 && local_row < stop_row)
@@ -82,11 +176,10 @@ __device__ void csr_stream(double* partialSums, double* vals, int* cols, int* ro
 			// If so, just do a write rather than a read-write. Measured to be a slight (~5%)
 			// performance improvement.
 			if (beta != 0.)
-				temp_sum = std::fma(beta, out[local_row], temp_sum);
-			//	out[local_row] = beta* out[local_row] + temp_sum;
-			else
-			//	out[local_row] = temp_sum;
-				out[local_row] = temp_sum + sumk_e;
+				temp_sum = two_fma(beta, out[local_row], temp_sum, &new_error);
+				//out[local_row] = beta* out[local_row] + temp_sum;
+		//	else
+				out[local_row] = temp_sum + new_error;
 
 		}
 	}else{
@@ -107,21 +200,21 @@ __device__ void csr_stream(double* partialSums, double* vals, int* cols, int* ro
 			// After you've done the reduction into the temp_sum register,
 			// put that into the output for each row.
 			if (beta != 0.)
-			//	out[local_row] = beta* out[local_row] + temp_sum;
+		//		out[local_row] = beta* out[local_row] + temp_sum;
 				temp_sum = two_fma(beta, out[local_row], temp_sum, &sumk_e);
-			else
-				out[local_row] = temp_sum + sumk_e;
-				//out[local_row] = temp_sum;
+		//	else
+			//	out[local_row] = temp_sum;
 
+			out[local_row] = temp_sum + sumk_e;
 			local_row += WG_SIZE;
 		}
 	}
 }
 
-__device__ void csr_vector(double* partialSums, double* vals, int* cols, int* rowPtrs, double* vec, double* out,
-		unsigned long* rowBlocks, double alpha, double beta, const unsigned int BLOCKSIZE , const unsigned int ROWS_FOR_VECTOR, const unsigned int BLOCK_MULTIPLIER, const unsigned int Bid, const unsigned Tid, unsigned int row, unsigned int stop_row, unsigned int wg, int WG_SIZE   ){
+__device__ void csr_vector(float* partialSums, float* vals, int* cols, int* rowPtrs, float* vec, float* out,
+		unsigned long* rowBlocks, float alpha, float beta, const unsigned int BLOCKSIZE , const unsigned int ROWS_FOR_VECTOR, const unsigned int BLOCK_MULTIPLIER, const unsigned int Bid, const unsigned Tid, unsigned int row, unsigned int stop_row, unsigned int wg, int WG_SIZE   ){
 
-	double temp_sum = 0.;
+	float temp_sum = 0.;
 
 	while (row < stop_row){
 		temp_sum = 0.;
@@ -157,8 +250,8 @@ __device__ void csr_vector(double* partialSums, double* vals, int* cols, int* ro
 		if (Tid == 0UL)
 		{
 			if (beta != 0.)
-			//	out[row] = beta* out[row] + temp_sum;
-			        temp_sum = two_fma(beta, out[local_row], temp_sum, &sumk_e);
+				out[row] = beta* out[row] + temp_sum;
+			//                      temp_sum = two_fma(beta, out[local_row], temp_sum, &sumk_e);
 			else
 				out[row] = temp_sum;
 
@@ -168,8 +261,8 @@ __device__ void csr_vector(double* partialSums, double* vals, int* cols, int* ro
 
 }
 
-__device__ void csr_vectorL(double* partialSums, double* vals, int* cols, int* rowPtrs, double* vec, double* out,
-		unsigned long* rowBlocks, double alpha, double beta, const unsigned int BLOCKSIZE , const unsigned int ROWS_FOR_VECTOR, const unsigned int BLOCK_MULTIPLIER, const unsigned int Bid, const unsigned Tid, unsigned int row, unsigned int stop_row, unsigned int wg, unsigned int vecStart,  unsigned int vecEnd, int WG_SIZE ){
+__device__ void csr_vectorL(float* partialSums, float* vals, int* cols, int* rowPtrs, float* vec, float* out,
+		unsigned long* rowBlocks, float alpha, float beta, const unsigned int BLOCKSIZE , const unsigned int ROWS_FOR_VECTOR, const unsigned int BLOCK_MULTIPLIER, const unsigned int Bid, const unsigned Tid, unsigned int row, unsigned int stop_row, unsigned int wg, unsigned int vecStart,  unsigned int vecEnd, int WG_SIZE ){
 
 	// In CSR-LongRows, we have more than one workgroup calculating this row.
 	// The output values for those types of rows are stored using atomic_add, because
@@ -185,7 +278,7 @@ __device__ void csr_vectorL(double* partialSums, double* vals, int* cols, int* r
 	// You can use that to find the global ID for the first workgroup calculating
 	// this long row.
 
-	double temp_sum = 0.;
+	float temp_sum = 0.;
 	const unsigned int first_wg_in_row = Bid - (rowBlocks[Bid] & ((1UL << 24) - 1UL)); //  WGBITS = 24
 	const unsigned int compare_value = rowBlocks[Bid] & (1UL << 24);
 
@@ -194,7 +287,7 @@ __device__ void csr_vectorL(double* partialSums, double* vals, int* cols, int* r
 	if(Bid == first_wg_in_row && Tid == 0UL)
 	{
 		// The first workgroup handles the output initialization.
-		volatile double out_val = out[row];
+		volatile float out_val = out[row];
 		temp_sum = (beta - 1.) * out_val;
 		atomicXor( (unsigned int*)  &rowBlocks[first_wg_in_row], (unsigned int) (1UL << 24)); // Release other workgroups.
 	}
@@ -269,19 +362,19 @@ __device__ void csr_vectorL(double* partialSums, double* vals, int* cols, int* r
 
 
 
-__global__ void csr_adaptative(double* vals, int* cols, int* rowPtrs, double* vec, double* out,
-		unsigned long* rowBlocks, double* d_alpha, double* d_beta, unsigned int* d_blkSize, 
+__global__ void csr_adaptative(float* vals, int* cols, int* rowPtrs, float* vec, float* out,
+		unsigned long* rowBlocks, float* d_alpha, float* d_beta, unsigned int* d_blkSize, 
 		unsigned int* d_blkMultiple, unsigned int* d_rowForVector, int rowBlockSize, int * method){
 
 	const unsigned int blkSize = *d_blkSize;
 	const unsigned int blkMultiple = *d_blkMultiple;
 	const unsigned int rowForVector = *d_rowForVector;
 
-	extern __shared__ double partialSums[];
+	extern __shared__ float partialSums[];
 	int Bid = blockIdx.x ;
 	int Tid = threadIdx.x;
-	const double alpha = *d_alpha;
-	const double beta = *d_beta;
+	const float alpha = *d_alpha;
+	const float beta = *d_beta;
 
 	int WGSIZE = blockDim.x;
 
@@ -297,10 +390,8 @@ __global__ void csr_adaptative(double* vals, int* cols, int* rowPtrs, double* ve
 		unsigned int vecEnd = (rowPtrs[row + 1] > vecStart + blkSize*blkMultiple) ? vecStart + blkSize*blkMultiple : rowPtrs[row+1];
 
 	
-		if(Tid == 0 && Bid == 1)
-				atomicAdd(&method[1], 1);
 
-		/*	if (num_rows == 0 || (num_rows == 1 && wg)) // CSR-LongRows case
+			/*if (num_rows == 0 || (num_rows == 1 && wg)) // CSR-LongRows case
 			{
 			num_rows = rowForVector;
 			stop_row = (wg ? row : (row + 1));
@@ -311,18 +402,16 @@ __global__ void csr_adaptative(double* vals, int* cols, int* rowPtrs, double* ve
 		if(row <= stop_row){
 			if (num_rows > rowForVector ) //CSR-Stream case
 			{
-
 				atomicAdd(&method[0], 1);
 				csr_stream(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, WGSIZE);
 			}else if (num_rows >= 1 && !wg){ // CSR-Vector case.
 				atomicAdd(&method[1], 1);
-				//	csr_vector(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, WGSIZE);
+				csr_vector(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, WGSIZE);
 			}else{ //CSR-LongRows
-				//	csr_vectorL(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, vecStart, vecEnd, WGSIZE);
+				atomicAdd(&method[2], 1);
+				csr_vectorL(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, vecStart, vecEnd, WGSIZE);
 			}
 		}
-	}else{
-		atomicAdd(&method[2], 1);
 	}
 }
 	__global__ void csr_adaptativeT(int *a){
