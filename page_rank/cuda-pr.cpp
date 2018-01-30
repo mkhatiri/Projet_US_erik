@@ -89,7 +89,7 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
       if (TRY >= THROW_AWAY)
 	start = util::timestamp();
 
-      for (int iter = 0; iter < 40 ; ++ iter) {
+      for (int iter = 0; iter < 1 ; ++ iter) {
 
 	//setup prin
 	if (iter == 0)
@@ -135,8 +135,8 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 	  std::cerr<<"err"<<std::endl;
 	
 	//stopping condition
-	if (eps < 0) // deactivited for testing purposes
-	  iter = 20;
+//	if (eps < 0) // deactivited for testing purposes
+//	  iter = 20;
 
 	std::cerr<<eps<<std::endl;
 	
@@ -144,7 +144,9 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 
       checkCudaErrors(cudaMemcpy(prout, d_prout, nVtx*sizeof(*prout), cudaMemcpyDeviceToHost));
 
-      std::cerr<<"PR[0]="<<prout[0]<<std::endl;
+
+for(int i=0; i<nVtx; i++)
+      std::cerr<<"PR["<< i <<"]="<<prout[i]<<std::endl;
 
       if (TRY >= THROW_AWAY)
 	{

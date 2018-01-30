@@ -5,6 +5,7 @@
 #include "math.h"
 #include "timestamp.hpp"
 #include "AdaptativeUtils.hpp"
+#include <stdio.h>
 
 
 
@@ -49,6 +50,8 @@ __device__ void csr_stream(float* partialSums, float* vals, int* cols, int* rowP
 			// long induction variable here, though.
 			for(unsigned int local_cur_val = local_first_val + threadInBlock; local_cur_val < local_last_val; local_cur_val += numThreadsForRed)
 				temp_sum += partialSums[local_cur_val] ; 	//temp_sum = two_sum(partialSums[local_cur_val], temp_sum, &sumk_e);
+			
+				
 		}
 		__syncthreads(); // barrier(CLK_LOCAL_MEM_FENCE);       
 
