@@ -16,7 +16,6 @@
 #include "helper_cuda.h"
 
 
-
 void cudaPrintError(std::string m) {
 	cudaError_t err = cudaGetLastError();
 	if (err != cudaSuccess) {
@@ -167,7 +166,7 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 		// This is csr-vector case; bottom WG_BITS == workgroup ID
 		if( ( i - last_i == 1 ) && sum > blkSize )
 		{
-			int numWGReq = static_cast< int >( ceil( (double)row_length / (blkMultiplier*blkSize) ) );
+			int numWGReq = static_cast< int >( ceil( (float)row_length / (blkMultiplier*blkSize) ) );
 
 			// Check to ensure #workgroups can fit in WG_BITS bits, if not
 			// then the last workgroup will do all the remaining work
