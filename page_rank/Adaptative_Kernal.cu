@@ -126,14 +126,16 @@ __device__ float atomic_add_float_extended( float * ptr,  float temp, float * ol
 
 __device__ float atomic_add_float_extended44( float * ptr,  float temp, float * old_sum ){
 	unsigned int newVal;
-	unsigned int *prevVal;
+	unsigned int prevVal;
 
 	do{
-		prevVal = reinterpret_cast<unsigned int *>(ptr);
-		newVal = __float_as_int(temp + __int_as_float(*ptr));
-	}while( atomicCAS((unsigned int *)(ptr) , *prevVal, newVal) != *prevVal);
+		prevVal = __float_as_uint(*ptr);
+		newVal =  __float_as_uint( __int_as_float(temp) + *ptr);
+		if(threadIdx.x == 0)
+		printf(" Bid%dXTid%d prevVal=%d, newVal=%d \n", blockIdx.x, threadIdx.x , __int_as_float(prevVal) ,__int_as_float(newVal));
+	}while( atomicCAS((unsigned int *)(ptr) , prevVal, newVal) != prevVal);
 	if (old_sum != 0)
-		*old_sum = __int_as_float(*prevVal);
+		*old_sum = __int_as_float(prevVal);
 	return __int_as_float(newVal);
 
 
@@ -166,7 +168,10 @@ __device__ float atomic_two_sum_float( float * x_ptr,
 	// Have to wait until the return from the atomic op to know what X was.
 	float sumk_s = 0.;
 	float x;
+		printf(" 1-atomic_two_sum_float BID%d  x_ptr=%0.9f y=%0.9f x=%0.9f sumk_s=%0.9f \n  ", blockIdx.x, * x_ptr, y, x, sumk_s);
 	sumk_s = atomic_add_float_extended(x_ptr, y, &x);
+	if(threadIdx.x == 0)
+		printf(" 2-atomic_two_sum_float BID%d  x_ptr=%0.9f y=%0.9f x=%0.9f sumk_s=%0.9f \n  ", blockIdx.x, * x_ptr, y, x, sumk_s);
 	if (fabs(x) < fabs(y))
 	{
 		const float swap = x;
@@ -385,14 +390,14 @@ __device__ void csr_vectorL(float* partialSums, float* vals, int* cols, int* row
 	// For every other workgroup, bit 24 holds the value they wait on.
 	// If your bit 24 == first_wg's bit 24, you spin loop.
 	// The first workgroup will eventually flip this bit, and you can move forward.
-//	__syncthreads(); // barrier(CLK_GLOBAL_MEM_FENCE );       
- __threadfence_block() ;
+	__syncthreads(); // barrier(CLK_GLOBAL_MEM_FENCE );       
+// __threadfence_block() ;
 
 	while(Bid != first_wg_in_row && 
 			Tid == 0U && 
 			((atomicMax(( unsigned int*) &rowBlocks[first_wg_in_row],(unsigned int) 0UL)  & (1UL << 24)  ) == compare_value)); //WGBITS = 24
- __threadfence_block(); 
-//	__syncthreads(); // barrier(CLK_GLOBAL_MEM_FENCE );       
+// __threadfence_block(); 
+	__syncthreads(); // barrier(CLK_GLOBAL_MEM_FENCE );       
 
 	// After you've passed the barrier, update your local flag to make sure that
 	// the next time through, you know what to wait on.
@@ -421,10 +426,10 @@ __device__ void csr_vectorL(float* partialSums, float* vals, int* cols, int* row
 			//		temp_sum += alpha*vals[col + j]*vec[cols[col + j]];
 
 
-				if(2*WG_SIZE <= BLOCK_MULTIPLIER*BLOCKSIZE){
-					j += WG_SIZE;
-					*temp_sum = two_fma(alpha*vals[col + j], vec[cols[col + j]], *temp_sum, &sumk_e);
-				}
+			//	if(2*WG_SIZE <= BLOCK_MULTIPLIER*BLOCKSIZE){
+			//		j += WG_SIZE;
+			//		*temp_sum = two_fma(alpha*vals[col + j], vec[cols[col + j]], *temp_sum, &sumk_e);
+			//	}
 
 
 		}
@@ -455,15 +460,17 @@ __device__ void csr_vectorL(float* partialSums, float* vals, int* cols, int* row
 		atomic_two_sum_float(&out[row], *temp_sum, &new_error);
 		unsigned int error_loc = gridDim.x + first_wg_in_row + 1;
 
+		printf("1-Bid%d, new_error=%0.9f, rowBlocks[error_loc]=%0.9f, wg=%d\n", Bid, new_error, rowBlocks[error_loc] , wg);
 		atomic_add_float_extended((float *) &(rowBlocks[error_loc]), new_error, 0);
+		printf("2-Bid%d, new_error=%0.9f, rowBlocks[error_loc]=%0.9f, wg=%d\n", Bid, new_error, rowBlocks[error_loc] , wg);
 
 
 		if (row != stop_row)
 		{	
 
 			for(int i=0; i< 100000; i++)
-				printf("i=%d Tid%d\n", i, Tid);
-			printf("1-if BID%d rowErr[first_wg_in_row]=%1.9f, wg=%d \n", Bid , rowErr[first_wg_in_row], wg );
+				int x = i+3;
+			printf("1-if BID%d rowErr[first_wg_in_row]=%1.9f, wg=%d \n", Bid , rowBlocks[first_wg_in_row], wg );
 			while((atomicMax((unsigned int* ) &rowBlocks[first_wg_in_row], 0UL)  & ((1UL << 24) -1) ) == wg);
 
 
@@ -474,10 +481,10 @@ __device__ void csr_vectorL(float* partialSums, float* vals, int* cols, int* row
 			rowBlocks[error_loc] = 0UL;
 			rowBlocks[first_wg_in_row] = rowBlocks[Bid] - wg;
 		}else{
-			printf("1-else BID%d rowBlocks[first_wg_in_row]=%1.9f, wg=%d \n", Bid , rowBlocks[first_wg_in_row], wg);
-			//atomic_add_float_extended((float *) &(rowBlocks[first_wg_in_row]), 1, 0); 
-			atomicInc((unsigned int *) &rowErr[first_wg_in_row], (unsigned int ) 1);
-			printf("2-else BID%d rowBlocks[first_wg_in_row]=%1.9f, wg=%d \n", Bid,  rowBlocks[first_wg_in_row], wg );
+			printf("1-else BID%d rowBlocks[first_wg_in_row]=%1.9f, wg=%d \n", Bid , rowBlocks[first_wg_in_row] & ((1UL << 24) -1) , wg);
+			atomic_add_float_extended((float *) &(rowBlocks[first_wg_in_row]), 1, 0); 
+	//		atomicInc((unsigned int *) &rowBlocks[first_wg_in_row], (unsigned int ) 1);
+			printf("2-else BID%d rowBlocks[first_wg_in_row]=%1.9f, wg=%d \n", Bid,  rowBlocks[first_wg_in_row] & ((1UL << 24) -1) , wg );
 
 
 
