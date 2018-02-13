@@ -177,7 +177,6 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 				for( unsigned long w = 1; w < numWGReq; w++ )
 				{
 					*rowBlocks = ( (i - 1) << (64 - ROW_BITS) );
-				//**		std::cout << "!!! mediun :  R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum " << sum << std::endl;
 					*rowBlocks |= static_cast< unsigned long >( w );
 					rowBlocks++;
 				}
@@ -285,6 +284,13 @@ int split_input_to_tasks(unsigned long *rowBlocks, int rowBlockSize, int subsize
 	int ptr = 0;
 	bool verifi = false;
 	//cerr << "sub=" << subsize<<endl;
+	if(subsize == rowBlockSize ){
+		Task t ;
+		t.id = id++;
+		t.rowBlocksPtr = ptr;
+		t.rowBlockSize = rowBlockSize;
+		tasks.push_back(t);
+	}else{
 	while(ptr < rowBlockSize){
 		//cerr << "ptr=" << ptr << " rowBlockSize=" << rowBlockSize << endl;
 		Task t ;
@@ -323,9 +329,9 @@ int split_input_to_tasks(unsigned long *rowBlocks, int rowBlockSize, int subsize
 //			std::cout << id << " rowBlocks[Ptr] " << rowBlocks[ptr] << " Ptr "  << t.rowBlocksPtr << " - subRowBlockSize " << subRowBlockSize  << " t.rowBlockSize : "  << t.rowBlockSize << endl;
 			//ptr++;
 		}
-
 		tasks.push_back(t); 
 	//	cerr << "t.id="<<t.id<<" t.rowBlocksPtr="<<t.rowBlocksPtr<<" t.rowBlockSize="<<t.rowBlockSize<<endl;
+	}
 	}
 	return id;
 }

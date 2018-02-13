@@ -61,7 +61,7 @@ __global__ void csr_adaptativeT(int* a);
 
 __global__ void csr_adaptative(float* vals, int* cols, int* rowPtrs, float* vec, float* out,
                 unsigned long* rowBlocks, float* d_alpha, float* d_beta, unsigned int* d_blkSize,
-                unsigned int* d_blkMultiple, unsigned int* d_rowForVector, int rowBlockSize, int* method);
+                unsigned int* d_blkMultiple, unsigned int* d_rowForVector, int rowBlockSize, int* method, float * rowErr);
  
 
 unsigned int flp2(unsigned int x);
@@ -100,6 +100,7 @@ size_t ComputeRowBlocksSize( const EdgeType* rowDelimiters, const EdgeType nRows
 void CUDART_CB call_back(cudaStream_t Stream, cudaError_t err, void* data);
 
 void cudaPrintError(std::string m);
+  
 
 #endif
 
