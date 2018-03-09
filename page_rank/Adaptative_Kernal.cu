@@ -191,10 +191,12 @@ __device__ void csr_stream(float* partialSums, float* vals, int* cols, int* rowP
 	const unsigned int numThreadsForRed = wg;
 	const unsigned int col = rowPtrs[row] + Tid;
 	
-	if (Bid != (gridDim.x - 1))
+
+	if (Bid != (gridDim.x - 2))
 	{
 		for(int i = 0; i < BLOCKSIZE; i += WG_SIZE)
 			partialSums[Tid + i] = alpha * vals[col + i] * vec[cols[col + i]];
+			//printf("A TID=%d, i=%d, BLOCKSIZE=%d, WG_SIZE=%d, (Tid+i)=%d, (col+i)=%d, gridDim.x=%d, Bid=%d  \n ",Tid, i, BLOCKSIZE, WG_SIZE, (Tid+i), (col+i), gridDim.x ,Bid  );
 	}
 	else
 	{
@@ -206,9 +208,10 @@ __device__ void csr_stream(float* partialSums, float* vals, int* cols, int* rowP
 		// This causes a minor performance loss because this is the last workgroup
 		// to be launched, and this loop can't be unrolled.
 		const unsigned int max_to_load = rowPtrs[stop_row] - rowPtrs[row];
-		for(int i = 0; i < max_to_load; i += WG_SIZE)
-			partialSums[Tid + i] = alpha * vals[col + i] * vec[cols[col + i]];
-	}
+		for(int i = 0; i < max_to_load && (col+i < rowPtrs[stop_row]) ; i += WG_SIZE)
+	{		partialSums[Tid + i] =  alpha *  vals[col + i] * vec[cols[col + i]];
+		//	printf("B TID=%d, i=%d, (col+i)=%d,  max_to_load=%d , rowPtrs[stop_row]=%d \n ",Tid, i, (col+i), max_to_load, rowPtrs[stop_row]   );
+	}}
 	__syncthreads(); // barrier(CLK_LOCAL_MEM_FENCE);  	
 
 	if(numThreadsForRed > 1)
@@ -499,7 +502,7 @@ __device__ void csr_vectorL(float* partialSums, float* vals, int* cols, int* row
 
 __global__ void csr_adaptative(float* vals, int* cols, int* rowPtrs, float* vec, float* out,
 		unsigned long* rowBlocks, float* d_alpha, float* d_beta, unsigned int* d_blkSize, 
-		unsigned int* d_blkMultiple, unsigned int* d_rowForVector, int rowBlockSize, int * method, float * rowErr){
+		unsigned int* d_blkMultiple, unsigned int* d_rowForVector, int rowBlockSize, int * method){
 
 	const unsigned int blkSize = *d_blkSize;
 	const unsigned int blkMultiple = *d_blkMultiple;
@@ -531,7 +534,7 @@ __global__ void csr_adaptative(float* vals, int* cols, int* rowPtrs, float* vec,
 
 	//	printf("Tid=%d row=%d, stop_row=%d \n ", Tid, row, stop_row);
 		
-		   if (num_rows == 0 || (num_rows == 1 && wg)) // CSR-LongRows case
+		   if ((num_rows == 1 && wg)) // CSR-LongRows case
 		   {
 		   num_rows = rowForVector;
 		   stop_row = (wg ? row : (row + 1));
@@ -543,20 +546,20 @@ __global__ void csr_adaptative(float* vals, int* cols, int* rowPtrs, float* vec,
 
 			if (num_rows > rowForVector ) //CSR-Stream case
 			{
-				atomicAdd(&method[0], 1);
+			//	atomicAdd(&method[0], 1);
 				//		if(Tid==0)
 				//printf("stream : BID=%d, TID=%d \n", Bid, Tid);
 				csr_stream(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, WGSIZE, temp_sum, sumk_e, new_error, method);
 			}else if (num_rows >= 1 && !wg){ // CSR-Vector case.
-				atomicAdd(&method[1], 1);
+			//	atomicAdd(&method[1], 1);
 				//		if(Tid==0)
 				//		printf("Vector : BID=%d, TID=%d \n", Bid, Tid);
 				csr_vector(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, WGSIZE, temp_sum, sumk_e, new_error);
 			}else{ //CSR-LongRows
-				atomicAdd(&method[2], 1);
+				//atomicAdd(&method[2], 1);
 				//	if(Tid==0)
 				//	printf("VL : BID=%d, TID=%d \n", Bid, Tid);
-				csr_vectorL(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, vecStart, vecEnd, WGSIZE, &temp_sum, sumk_e, new_error, rowErr);
+				//csr_vectorL(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, vecStart, vecEnd, WGSIZE, &temp_sum, sumk_e, new_error, rowErr);
 			}
 		}
 	}else{

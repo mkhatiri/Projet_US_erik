@@ -258,6 +258,14 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 
 	int rowBlockSize1;
 	int rowBlockSize2;
+	int *method;
+	int *d_method;
+//	float *rowErr;
+
+	method = (int*) calloc(sizeof(int), 5);
+	checkCudaErrors( cudaMalloc((void**)&d_method, 5*sizeof(int)));
+
+	checkCudaErrors( cudaMemcpy(d_method, method, 5*sizeof(int), cudaMemcpyHostToDevice) );
 
 
 	//calculer rowBlockSize
@@ -266,28 +274,29 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 
 	//declarer rowBlocks
 	rowBlocks = (unsigned long*) calloc(sizeof(unsigned long),rowBlockSize1);
+	rowBlockSize2 = rowBlockSize1;
 
 	//calculer rowBlocks
 	ComputeRowBlocks<int,int>( rowBlocks, rowBlockSize2, xadj, nVtx, blkSize, blkMultiplier, rows_for_vector, nThreadPerBlock, allocate_row_blocks);
 	//cout << "rowBlockSize2 : " << rowBlockSize2 <<endl;
 
 	int end = ((rowBlocks[rowBlockSize1] >> (64-32)) & ((1UL << 32) - 1UL));
-	//	cout << " end : " << end <<endl;
+		cout << " end : " << end <<endl;
 	//		if(end == 0){
 	//			rowBlockSize1--;
 	//		}
 
-	int mediumRowblocks = cutRowBlocks(rowBlocks, rowBlockSize1);
-	int part2 = rowBlockSize1 - mediumRowblocks;
+//	int mediumRowblocks = cutRowBlocks(rowBlocks, rowBlockSize1);
+//	int part2 = rowBlockSize1 - mediumRowblocks;
 
-	//	int medium =  ((rowBlocks[mediumRowblocks] >> (64-32)) & ((1UL << 32) - 1UL));
-	//	end = ((rowBlocks[rowBlockSize1] >> (64-32)) & ((1UL << 32) - 1UL));
+//	int medium =  ((rowBlocks[mediumRowblocks] >> (64-32)) & ((1UL << 32) - 1UL));
+//	end = ((rowBlocks[rowBlockSize1] >> (64-32)) & ((1UL << 32) - 1UL));
 
-	//	cout << "rowBlockSize1 : " << rowBlockSize1 << endl;
-	//	cout << "mediumRowBlocks :" << mediumRowblocks << endl;
-	//	cout << " - medium : " << medium <<endl;
-	//	cout << " - part2 = " << part2 << endl;
-	//	cout << " - end : -- > " << end << endl;
+	cout << "rowBlockSize1 : " << rowBlockSize1 << endl;
+//	cout << "mediumRowBlocks :" << mediumRowblocks << endl;
+//	cout << " - medium : " << medium <<endl;
+//	cout << " - part2 = " << part2 << endl;
+//	cout << " - end : -- > " << end << endl;
 
 	//malloc for device 0 variable
 	cudaSetDevice(0);
@@ -338,11 +347,11 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 	int mmshared_size =  (blkSize + 1) * sizeof(float);
 
 	// int nb_blocks = 512;
-	int stream_number = 2;
+	int stream_number = 1;
 
 
 	int X, subsize;
-	X = (int) rowBlockSize1/(nb_blocks) ;
+/*	X = (int) rowBlockSize1/(nb_blocks) ;
 
 	if(X % 64 == 0){
 		subsize = X;
@@ -350,7 +359,17 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 		X = X / 64 ;
 		subsize = (X+1) * 64;
 	}
+*/
 
+	subsize = (rowBlockSize1 / nb_blocks);
+//	if( rowBlockSize1/subsize > 4 )
+//		nb_blocks =  (int) (rowBlockSize1)/subsize;
+//	else
+//		{
+			subsize = rowBlockSize1/16;
+		nb_blocks =1;
+//		}
+	
 
 	int xadjPtr1 =  ((rowBlocks[rowBlockSize1] >> (64-32)) & ((1UL << 32) - 1UL));
 
@@ -364,7 +383,13 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 	cout << "fin split task " <<endl;
 	cout << "nb_tasks " << nb_tasks << endl;
 
+	nb_tasks--;
+	for(int tt=0; tt<=nb_tasks; tt++)
+	{
+		Task  t = get_task(tasks, tt);
+		cout << "id=" << t.id << " rowBlocksPtr=" << t.rowBlocksPtr << " index=" << ((rowBlocks[t.rowBlocksPtr] >> (64-32)) & ((1UL << 32) - 1UL)) << " rowBlockSize="  << t.rowBlockSize << endl;
 
+	}
 
 
 
@@ -376,20 +401,22 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 		if (TRY >= THROW_AWAY)
 			start = util::timestamp();
 
-		int maxiter = 40;
+		int maxiter = 1;
 
-		medium =  ((rowBlocks[mediumRowblocks] >> (64-32)) & ((1UL << 32) - 1UL));
+		//	medium =  ((rowBlocks[mediumRowblocks] >> (64-32)) & ((1UL << 32) - 1UL));
 		//for GPU0
 
 		cudaSetDevice(0);
 		//setup prin
-		//cudaMemcpyAsync(d_prin0, d_prior0, nVtx*sizeof(*prior), cudaMemcpyDeviceToDevice,stream0);
-		cudaMemcpyAsync(d_prin0, d_prior0, (medium)*sizeof(*prior), cudaMemcpyDeviceToDevice,stream0);
+		cudaMemcpyAsync(d_prin0, d_prior0, nVtx*sizeof(*prior), cudaMemcpyDeviceToDevice,stream0);
+		//cudaMemcpyAsync(d_prin0, d_prior0, (medium)*sizeof(*prior), cudaMemcpyDeviceToDevice,stream0);
 
 
 		cudaSetDevice(1);
 		//setup prin
-		cudaMemcpyAsync(d_prin1+medium, d_prior1+medium, (nVtx-medium)*sizeof(*prior), cudaMemcpyDeviceToDevice,stream1);
+		cudaMemcpyAsync(d_prin1, d_prior1, nVtx*sizeof(*prior), cudaMemcpyDeviceToDevice,stream1);
+
+		//	cudaMemcpyAsync(d_prin1+medium, d_prior1+medium, (nVtx-medium)*sizeof(*prior), cudaMemcpyDeviceToDevice,stream1);
 
 
 		cudaSetDevice(1);
@@ -404,46 +431,70 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 
 			int top = 0;
 			int bottom = nb_tasks;
-			cudaSetDevice(1);
-			cudaMemcpyAsync(d_prin1, d_prin0, (medium)*sizeof(*d_prin0), cudaMemcpyDeviceToDevice, stream1);
 
-			cudaSetDevice(0);
-			cudaMemcpyAsync(d_prin0+medium, d_prin1+medium, (nVtx-medium)*sizeof(*d_prin0), cudaMemcpyDeviceToDevice, stream0);
+			if(iter == 0 ){
+				cudaSetDevice(0);
+				//setup prin
+				cudaMemcpyAsync(d_prout0, d_prior0, nVtx*sizeof(*prior), cudaMemcpyDeviceToDevice,stream0);
+				//cudaMemcpyAsync(d_prin0, d_prior0, (medium)*sizeof(*prior), cudaMemcpyDeviceToDevice,stream0);
 
 
-			cudaSetDevice(0);
-			cudaMemcpyAsync(d_prout0, d_prior0, (medium)*sizeof(*prior), cudaMemcpyDeviceToDevice, stream0);
+				cudaSetDevice(1);
+				//setup prin
+				cudaMemcpyAsync(d_prout1, d_prior1, nVtx*sizeof(*prior), cudaMemcpyDeviceToDevice,stream1);
 
-			cudaSetDevice(1);
-			cudaMemcpyAsync(d_prout1+medium, d_prior1+medium, (nVtx-medium)*sizeof(*prior), cudaMemcpyDeviceToDevice, stream1);
 
+			}else{
+				cudaSetDevice(1);
+				cudaMemcpyAsync(d_prin1, d_prin0, (medium)*sizeof(*d_prin0), cudaMemcpyDeviceToDevice, stream1);
+
+				cudaSetDevice(0);
+				cudaMemcpyAsync(d_prin0+medium, d_prin1+medium, (nVtx-medium)*sizeof(*d_prin0), cudaMemcpyDeviceToDevice, stream0);
+
+
+				cudaSetDevice(0);
+				cudaMemcpyAsync(d_prout0, d_prior0, (medium)*sizeof(*prior), cudaMemcpyDeviceToDevice, stream0);
+
+				cudaSetDevice(1);
+				cudaMemcpyAsync(d_prout1+medium, d_prior1+medium, (nVtx-medium)*sizeof(*prior), cudaMemcpyDeviceToDevice, stream1);
+			}
 			cudaSetDevice(0);
 			cudaDeviceSynchronize();
 			cudaSetDevice(1);
 			cudaDeviceSynchronize();
 			int iteration = 0;
 
-			while(top < bottom){
+			while(top <= bottom){
 				iteration++;
 				//std::cout << " while : "<<  std::endl;
 				stream_container<int, int, float> *current_stream;
 				streams->pop(current_stream);
 				if(current_stream->device == 0){
-					// std::cout << "0 top++ : " << top <<std::endl;
-					Task  t = get_task(tasks, top++);
+					std::cout << "top : " << top <<std::endl;
+					Task  t = get_task(tasks, top);
+					top++;
+					cout << "id=" << t.id << " rowBlocksPtr=" << t.rowBlocksPtr << " index=" << ((rowBlocks[t.rowBlocksPtr] >> (64-32)) & ((1UL << 32) - 1UL)) << " rowBlockSize="  << t.rowBlockSize << " current_stream->stream=" << current_stream->stream << endl; 				
 					put_work_on_stream<int,int,float>(current_stream,t);
 				}else{
-					// std::cout << "1 bottom-- " << bottom << std::endl;
-					Task  t = get_task(tasks, --bottom);
+					std::cout << "bottom " << bottom << std::endl;
+					Task  t = get_task(tasks, bottom);
+					bottom--;
+					cout << "id=" << t.id << " rowBlocksPtr=" << t.rowBlocksPtr << " index=" << ((rowBlocks[t.rowBlocksPtr] >> (64-32)) & ((1UL << 32) - 1UL)) << " rowBlockSize="  << t.rowBlockSize <<   " current_stream->stream=" << current_stream->stream <<   endl; 				
 					put_work_on_stream<int,int,float>(current_stream,t);
 				}
-				cudaSetDevice(current_stream->device);
+				
+				   cudaSetDevice(current_stream->device);
+				   cout << "-> device=" << current_stream->device << endl;
+				   csr_adaptative<<<current_stream->rowBlockSize , nThreadPerBlock, mmshared_size, current_stream->stream >>>(current_stream->d_val, current_stream->d_adj, current_stream->d_xadj, current_stream->d_prin, current_stream->d_prout, (current_stream->d_rowBlocks + current_stream->rowBlocksPtr ), current_stream->alpha, current_stream->beta, current_stream->d_blkSize, current_stream->d_blkMultiplier, current_stream->d_rows_for_vector, current_stream->rowBlockSize, d_method );
+                                cudaPrintError("after kernel1");
 
-				csr_adaptative<<<(current_stream->rowBlockSize + 1 ) , nThreadPerBlock, mmshared_size, current_stream->stream >>>(current_stream->d_val, current_stream->d_adj, current_stream->d_xadj, current_stream->d_prin, current_stream->d_prout, (current_stream->d_rowBlocks + current_stream->rowBlocksPtr ), current_stream->alpha, current_stream->beta, current_stream->d_blkSize, current_stream->d_blkMultiplier, current_stream->d_rows_for_vector, current_stream->rowBlockSize);
-
-				cudaStreamAddCallback(current_stream->stream, call_back , current_stream , 0);
-				if(current_stream->device == 1)
+				   cudaStreamAddCallback(current_stream->stream, call_back , current_stream , 0);
+                                cudaPrintError("after calback");
+				   if(current_stream->device == 1)
+				{
 					medium = ((rowBlocks[current_stream->rowBlocksPtr] >> (64-32)) & ((1UL << 32) - 1UL));;
+					cout << "rowBlocksPtr=" << current_stream->rowBlocksPtr << " medium=" << medium << endl;
+				}
 			}
 
 			cudaSetDevice(0);
@@ -451,6 +502,7 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 			cudaSetDevice(1);
 			cudaDeviceSynchronize();
 
+			cout << "medium=" << medium << endl;
 			//compute epsilon
 			//using prin to compute epsilon
 			cudaSetDevice(0);
@@ -496,11 +548,15 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 		}
 
 		cudaSetDevice(0);
+		checkCudaErrors(cudaMemcpy(prout, d_prout0, medium*sizeof(*prout), cudaMemcpyDeviceToHost));
+		cudaSetDevice(0);
+		checkCudaErrors(cudaMemcpy(prout+medium, d_prout1+medium, (nVtx-medium)*sizeof(*prout), cudaMemcpyDeviceToHost));
 
-		checkCudaErrors(cudaMemcpy(prout, d_prout0, nVtx*sizeof(*prout), cudaMemcpyDeviceToHost));
-
-		std::cerr<<"PR[0]="<<prout[0]<<std::endl;
-
+		for(int i=0; i<nVtx; i++)
+		{
+			std::cerr.precision(10);
+			std::cerr<<"PR["<< i<< "]="<<prout[i]<<std::endl;
+		}
 		if (TRY >= THROW_AWAY)
 		{
 			util::timestamp stop;

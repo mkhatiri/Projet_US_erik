@@ -64,7 +64,8 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 	EdgeType total_row_blocks = 1; // Start at one because of rowBlock[0]
 
 	if (allocate_row_blocks)
-	{
+	{	
+		std::cout << "Begin" << std::endl;
 		rowBlocksBase = rowBlocks;
 		*rowBlocks = 0;
 		rowBlocks++;
@@ -82,12 +83,8 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 	for( i = 1; i <= nRows; i++ )
 	{
 		EdgeType row_length = ( xadj[ i ] - xadj[ i - 1 ] );
-	if (allocate_row_blocks)
-                                {
-		//std::cout << i << " row_length " << row_length << " - " << endl;
-				}
 		sum += row_length;
-		//		std::cout << "i" << i <<std::endl;
+		//	std::cout << "i" << i << " (i-last_i)=" << i-last_i << " sum=" <<  sum << " row_length=" << row_length << " blkSize=" << blkSize << std::endl;
 
 		// The following section of code calculates whether you're moving between
 		// a series of "short" rows and a series of "long" rows.
@@ -96,24 +93,20 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 		// Short rows can be reduced one-thread-per-row. Try not to mix them.
 
 		if ( row_length > blkSize){
-		//**	std::cout << "row_lenght1 > blkSize " << row_length << " at iter : " << i <<std::endl;
+		//	std::cout << "row_lenght1 > blkSize " << row_length << " at iter : " << i <<std::endl;
 			consecutive_long_rows++;
 		} else if ( consecutive_long_rows > 0 )
 		{
-		//**	std::cout << "else cons > 0  at iter : " << i <<std::endl;
+		//	std::cout << "else cons > 0  at iter : " << i <<std::endl;
 			// If it turns out we WERE in a long-row region, cut if off now.
 			if (row_length < 32 ) // Now we're in a short-row region
-			{//**	std::cout << "row_length2<32  at iter : " << i <<std::endl;
+			{	//std::cout << "row_length2<32  at iter : " << i <<std::endl;
 				consecutive_long_rows = -1;
 			}else{
 				consecutive_long_rows++;
-			//**	std::cout << "else row_length3 < 256  at iter : " << i <<std::endl;
+			//	std::cout << "else row_length3 < 256  at iter : " << i <<std::endl;
 			}
 		}
-		if (allocate_row_blocks)
-                                {
-			//**		std::cout << i << " row_length=" << row_length << " blkSize=" << blkSize << " consecutive_long_rows" <<consecutive_long_rows<< endl;
-				}
 
 		// If you just entered into a "long" row from a series of short rows,
 		// then we need to make sure we cut off those short rows. Put them in
@@ -123,10 +116,11 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 			// Assuming there *was* a previous workgroup. If not, nothing to do here.
 			if( i - last_i > 1 )
 			{
+			//std::cout  << "i=" << i << " =>  i-last_i =" << i-last_i << " > 1 "<< std::endl;
 				if (allocate_row_blocks)
 				{
 					*rowBlocks = ( (i-1) << 32) ;
-			//**		std::cout << "Long :  R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum " << sum <<std::endl;
+				//	std::cout << "Long :  R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum " << sum <<std::endl;
 					// If this row fits into CSR-Stream, calculate how many rows
 					// can be used to do a parallel reduction.
 					// Fill in the low-order bits with the numThreadsForRed
@@ -148,7 +142,7 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 			if (allocate_row_blocks)
 			{
 				*rowBlocks = ( (i - 1) << (64 - ROW_BITS) );
-			//**	std::cout << "short : R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum " << sum <<std::endl;
+			//	std::cout << "short : R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum " << sum <<std::endl;
 				if (((i-1) - last_i) > rows_for_vector){
 					*(rowBlocks-1) |= numThreadsForReduction((i - 1) - last_i,WGSIZE);
 				}
@@ -167,6 +161,7 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 		if( ( i - last_i == 1 ) && sum > blkSize )
 		{
 			int numWGReq = static_cast< int >( ceil( (float)row_length / (blkMultiplier*blkSize) ) );
+			//std::cout << "i=" << i << " => i-last_i =" << i-last_i << " = 1 "<< std::endl;
 
 			// Check to ensure #workgroups can fit in WG_BITS bits, if not
 			// then the last workgroup will do all the remaining work
@@ -174,14 +169,15 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 
 			if (allocate_row_blocks)
 			{
-				for( unsigned long w = 1; w < numWGReq; w++ )
+				for( int w = 1; w < numWGReq; w++ )
 				{
 					*rowBlocks = ( (i - 1) << (64 - ROW_BITS) );
 					*rowBlocks |= static_cast< unsigned long >( w );
 					rowBlocks++;
+				//	std::cout << "---- mediun :  R_rowBlocks " << i << " rowBlocks " << *rowBlocks << " sum " << sum << std::endl;
 				}
 				*rowBlocks = ( i << (64 - ROW_BITS) );
-			//**	std::cout << "mediun :  R_rowBlocks " << i << " rowBlocks " << *rowBlocks << " sum " << sum << std::endl;
+			//	std::cout << "mediun :  R_rowBlocks " << i << " rowBlocks " << *rowBlocks << " sum " << sum << std::endl;
 				rowBlocks++;
 			}
 			total_row_blocks += numWGReq;
@@ -197,7 +193,7 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 			if (allocate_row_blocks)
 			{
 				*rowBlocks = ( i << (64 - ROW_BITS) );
-			//**	std::cout << "more : R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum "<< sum << std::endl;
+				//std::cout << "more : R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum "<< sum << std::endl;
 				if ((i - last_i) > rows_for_vector)
 					*(rowBlocks-1) |= numThreadsForReduction(i - last_i, WGSIZE);
 				rowBlocks++;
@@ -213,7 +209,7 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 			if (allocate_row_blocks)
 			{
 				*rowBlocks = ( i << (64 - ROW_BITS) );
-			//**	std::cout << "exacte : R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum " << sum << std::endl;
+			//	std::cout << "exacte : R_rowBlocks " << (i-1) << " rowBlocks " << *rowBlocks << " sum " << sum << std::endl;
 				if ((i - last_i) > rows_for_vector)
 					*(rowBlocks-1) |= numThreadsForReduction(i - last_i, WGSIZE);
 				rowBlocks++;
@@ -229,7 +225,7 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 	if ( allocate_row_blocks && (*(rowBlocks-1) >> (64 - ROW_BITS)) != static_cast< unsigned long >(nRows) )
 	{
 		*rowBlocks = (static_cast< unsigned long >( nRows ) << 32 ) ;
-	//**	std::cout << "Last : iter : " << i << " R_rowBlocks " << (i-1) << " rowBlocks " << *(rowBlocks) << std::endl;
+	//	std::cout << "Last : iter : " << i << " R_rowBlocks " << (i-1) << " rowBlocks " << *(rowBlocks) << std::endl;
 		if ((nRows - last_i) > rows_for_vector)
 			*(rowBlocks-1) |= numThreadsForReduction(i - last_i, WGSIZE);
 		rowBlocks++;
