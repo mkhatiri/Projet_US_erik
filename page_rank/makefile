@@ -51,6 +51,9 @@ new-cuda-adaptative: new-cuda-adaptative.o graphIO.o AdaptativeUtils.o Adaptativ
 new-cuda-adaptative-2gpus: new-cuda-adaptative-2gpus.o graphIO.o AdaptativeUtils.o Adaptative_Kernal.o
 	$(LD) $(LDFLAGS) -m64 -o $@ graphIO.o AdaptativeUtils.o new-cuda-adaptative-2gpus.o Adaptative_Kernal.o $(LIBS) $(CUDALDFLAGS) -ltbb
 
+new-cuda-adaptative-2gpus-ws: new-cuda-adaptative-2gpus-ws.o graphIO.o AdaptativeUtils.o Adaptative_Kernal.o
+	$(LD) $(LDFLAGS) -m64 -o $@ graphIO.o AdaptativeUtils.o new-cuda-adaptative-2gpus-ws.o Adaptative_Kernal.o $(LIBS) $(CUDALDFLAGS) -ltbb
+
 new-cuda-adaptative-test: new-cuda-adaptative-test.o graphIO.o  AdaptativeUtils.o Adaptative_Kernal.o
 	$(LD) $(LDFLAGS)  -m64 -o $@ graphIO.o AdaptativeUtils.o new-cuda-adaptative-test.o Adaptative_Kernal.o $(LIBS) $(CUDALDFLAGS) -ltbb
 
