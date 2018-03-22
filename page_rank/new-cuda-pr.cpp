@@ -246,15 +246,17 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 					std::cerr<<"err"<<std::endl;
 
 				//stopping condition
-				if (eps < 0) // deactivited for testing purposes
-					iter = 20;
+			//	if (eps < 0) // deactivited for testing purposes
+				//	iter = 20;
 
-				//std::cerr<<eps<<std::endl;
+				std::cerr<<eps<<std::endl;
 
 			}
 
-			checkCudaErrors(cudaMemcpy(prout, d_prout, nVtx*sizeof(*prout), cudaMemcpyDeviceToHost));
+			checkCudaErrors(cudaMemcpy(prout, d_prout, 1*sizeof(*prout), cudaMemcpyDeviceToHost));
 
+
+			std::cerr.precision(10);
 			std::cerr<<"PR[0]="<<prout[0]<<std::endl<<std::endl;
 
 			if (TRY >= THROW_AWAY)

@@ -86,10 +86,10 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 
   for (int TRY=0; TRY<THROW_AWAY+nTry; ++TRY)
     {
-      if (TRY >= THROW_AWAY)
-	start = util::timestamp();
+      //if (TRY >= THROW_AWAY)
+//	start = util::timestamp();
 
-      for (int iter = 0; iter < 1 ; ++ iter) {
+      for (int iter = 0; iter < 40 ; ++ iter) {
 
 	//setup prin
 	if (iter == 0)
@@ -127,13 +127,17 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 	float epsalpha = -1;
 	cublasStatus = cublasSaxpy (cublasHandle, nVtx, &epsalpha, d_prout, 1, d_prin, 1); // d_prin = d_prout*-1 + d_prin
 
+
 	if (cublasStatus != CUBLAS_STATUS_SUCCESS)
 	  std::cerr<<"err"<<std::endl;
 
+	start = util::timestamp();
 	cublasStatus = cublasSasum(cublasHandle, nVtx, d_prin, 1, &eps);
 	if (cublasStatus != CUBLAS_STATUS_SUCCESS)
 	  std::cerr<<"err"<<std::endl;
 	
+		util::timestamp stop2;  
+		std::cout << "pr : totaltime = " << stop2 - start << std::endl;
 	//stopping condition
 //	if (eps < 0) // deactivited for testing purposes
 //	  iter = 20;
@@ -142,10 +146,10 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 	
       }
 
-      checkCudaErrors(cudaMemcpy(prout, d_prout, nVtx*sizeof(*prout), cudaMemcpyDeviceToHost));
+      checkCudaErrors(cudaMemcpy(prout, d_prout, 1*sizeof(*prout), cudaMemcpyDeviceToHost));
 
 
-for(int i=0; i<nVtx; i++)
+for(int i=0; i<1; i++)
       std::cerr<<"PR["<< i <<"]="<<prout[i]<<std::endl;
 
       if (TRY >= THROW_AWAY)
