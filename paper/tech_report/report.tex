@@ -6,4 +6,46 @@
 
 \maketitle
 
+\section{L'histoire vu de 10000 metres de haut}
+
+Equilibrage de charge sur 2 GPU
+\begin{itemize}
+\item donne des taches differentes a des gpus different.
+\item equilibre la charge
+  \begin{itemize}
+  \item static
+  \item dynamic par le CPU
+  \item dynamic par le GPU directement
+    \begin{itemize}
+    \item les taches idempotentes par ce que il n'y a pas de coherence
+      de memoire entre les gpus
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+Application - pagerank par plein de spmv:
+\begin{itemize}
+\item Est ce que l'on a une lib qui permet de couper le spmv en tache?
+\item cusparse se plante dans le temps de calcul.
+\item donc on reimplemente csr\_adaptive
+\end{itemize}
+
+\section{Vers une bonne implementation 1 gpu de csr\_adaptif}
+
+Experience:
+\begin{itemize}
+\item pour plein de matrice
+\item pour plein de parametre : le threshold 1 ligne par cuda-block, le nombre de thread par cuda-block, le nombre de nonzero par cuda-block
+\item le temps
+\item et compare a cusparse pour verifier qu'on fait pas n'importe quoi
+\end{itemize}
+
+Pour l'implementation 1 GPU, il n'y a pas de ctaches, de stream ou de
+merdier comme ca.
+
+Pour chaque matrice, avoir le temps de calcul pour tous les parametre
+et pour cusparse. Verifier que csr\_adaptif ca marche. 
+
+\section{Vers 2GPU}
+
 \end{document}
