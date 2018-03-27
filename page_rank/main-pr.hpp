@@ -70,40 +70,43 @@ int main(int argc, char *argv[])
   for (int i=0; i<nVtx; ++i)
     prior[i] = (float) (1./nVtx);
 
+  std::cerr.precision(10);
+  std::cout << "prior=" << prior[0] << std::endl;
+
   //alarm(2400); //most likely our run will not take that long. When the alarm is triggered, there will be no callback to process it and th eprocess will die.
 
   if (strrchr(argv[1], '/'))
-      filename = strrchr(argv[1], '/') + 1;
-  
+	  filename = strrchr(argv[1], '/') + 1;
+
   util::timestamp totaltime(0,0);  
-  
+
   std::string algo_out;
 
   std::cout<<"graph read"<<std::endl;
 
   //fixing nnz values to match page rank
   if (!val)
-    val = new float[xadj[nVtx]];
+	  val = new float[xadj[nVtx]];
   for (int i=0; i< nVtx; ++i) {
-    for (int p = xadj[i]; p< xadj[i+1]; ++p)
-      val[p] = 1./(xadj[i+1] - xadj[i]);
+	  for (int p = xadj[i]; p< xadj[i+1]; ++p)
+		  val[p] = 1./(xadj[i+1] - xadj[i]);
   }
 
 
   std::cerr<<"filename: "<< filename << " ";
   main_pr<int,int,float>(nVtx, xadj, adj, val, prior, pr, lambda, nTry, totaltime, algo_out);
-  
+
   totaltime /= nTry;
   totaltime.to_c_str(timestr, 20);
 
 #ifdef MPI_EN
   if (rank == 0) {
 #endif
-  std::cout<<"filename: "<<filename
-	   <<" nVtx: "<<nVtx
-	   <<" nonzero: "<<nEdge
-	   <<" AvgTime: "<<(float)totaltime
-	   <<" "<<algo_out; //<<std::endl;
+	  std::cout<<"filename: "<<filename
+		  <<" nVtx: "<<nVtx
+		  <<" nonzero: "<<nEdge
+		  <<" AvgTime: "<<(float)totaltime
+		  <<" "<<algo_out; //<<std::endl;
 
 
 #ifdef MPI_EN
@@ -112,12 +115,12 @@ int main(int argc, char *argv[])
   MPI_Finalize();
 #endif
 
-//   std::ofstream outfile ("a");
-//   for (int i=0; i< nVtx; ++i) {
-//     outfile<<out[i]<<'\n';
-//   }
-//   outfile<<std::flush;
-//   outfile.close();
+  //   std::ofstream outfile ("a");
+  //   for (int i=0; i< nVtx; ++i) {
+  //     outfile<<out[i]<<'\n';
+  //   }
+  //   outfile<<std::flush;
+  //   outfile.close();
 
 
 
