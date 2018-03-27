@@ -1,0 +1,17 @@
+#! /bin/bash
+
+
+cd ..
+MODE=nvcc OPT=yes make -e  new-cuda-adaptative cuda-pr 
+
+
+cd simulation 
+
+for i in $(ls /users/mkhatiri/PROJETCOMPLET/SNAP/) 
+do
+	echo $i
+	qsub -o "simulation_10_fois/"$i".o" -e "simulation_10_fois/"$i".e" -v graph=$i job_simulation.sh  
+done
+
+
+

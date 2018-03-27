@@ -57,7 +57,7 @@ unsigned long numThreadsForReduction(unsigned long num_rows,int WGSIZE)
 
 	template <typename VertexType, typename EdgeType>
 void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const EdgeType* xadj,
-		const EdgeType nRows, const int blkSize, const int blkMultiplier, 
+		const EdgeType nRows, const int blkSize, const int  shortblkSize, const int blkMultiplier, 
 		const int rows_for_vector, int WGSIZE, const bool allocate_row_blocks = true)
 {
 	unsigned long* rowBlocksBase;
@@ -99,7 +99,7 @@ void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const E
 		{
 		//	std::cout << "else cons > 0  at iter : " << i <<std::endl;
 			// If it turns out we WERE in a long-row region, cut if off now.
-			if (row_length < 32 ) // Now we're in a short-row region
+			if (row_length < shortblkSize) // Now we're in a short-row region
 			{	//std::cout << "row_length2<32  at iter : " << i <<std::endl;
 				consecutive_long_rows = -1;
 			}else{
@@ -264,11 +264,11 @@ int cutRowBlocks(unsigned long * rowBlocks, int rowBlockSize){
 
 
 	template <typename VertexType, typename EdgeType>
-size_t ComputeRowBlocksSize( const EdgeType* rowDelimiters, const EdgeType nRows, const unsigned int blkSize,
+size_t ComputeRowBlocksSize( const EdgeType* rowDelimiters, const EdgeType nRows, const unsigned int blkSize, const unsigned int  shortBlkSize,
 		const unsigned int blkMultiplier, const unsigned int rows_for_vector, int WGSIZE )
 {
 	EdgeType rowBlockSize;
-	ComputeRowBlocks<VertexType,EdgeType>( NULL, rowBlockSize, rowDelimiters, nRows, blkSize, blkMultiplier, rows_for_vector, WGSIZE, false);
+	ComputeRowBlocks<VertexType,EdgeType>( NULL, rowBlockSize, rowDelimiters, nRows, blkSize, shortBlkSize, blkMultiplier, rows_for_vector, WGSIZE, false);
 	return rowBlockSize;
 }
 
@@ -348,7 +348,7 @@ template <typename VertexType, typename EdgeType, typename Scalar>
 void creat_stream(unsigned long *d_rowBlocks, Scalar* alpha, Scalar* beta, Scalar* d_val, EdgeType* d_xadj, VertexType *d_adj, Scalar* d_prin, Scalar* d_prout, unsigned int* d_blkSize, unsigned int* d_rows_for_vector, unsigned int* d_blkMultiplier, tbb::concurrent_bounded_queue<stream_container<VertexType, EdgeType, Scalar>*>* streams, int stream_number ) {
 
 	for(int i=0 ; i < stream_number ; i++ ) {
-		cout <<" id "<< i << endl;
+//		cout <<" id "<< i << endl;
 		stream_container<VertexType, EdgeType, Scalar> * stream;
 		stream = (stream_container<VertexType, EdgeType, Scalar> * ) malloc(1*sizeof(stream_container<VertexType, EdgeType, Scalar>));
 
@@ -453,12 +453,12 @@ void add_new_idle_stream(tbb::concurrent_bounded_queue<stream_container<VertexTy
 
 template 
 void ComputeRowBlocks<int,int>(unsigned long * rowBlocks, int& rowBlockSize, const int* xadj,
-		const int nRows, const int blkSize, const int blkMultiplier,
+		const int nRows, const int blkSize, const int  shortBlkSize,  const int blkMultiplier,
 		const int rows_for_vector, int WGSIZE, const bool allocate_row_blocks = true );
 
 
 template 
-size_t ComputeRowBlocksSize<int,int>( const int* rowDelimiters, const int nRows, const unsigned int blkSize, const unsigned int blkMultiplier, const unsigned int rows_for_vector, int WGSIZE );
+size_t ComputeRowBlocksSize<int,int>( const int* rowDelimiters, const int nRows, const unsigned int blkSize, const unsigned  int  shortblkSize,  const unsigned int blkMultiplier, const unsigned int rows_for_vector, int WGSIZE );
 
 template       
 void creat_stream(unsigned long *d_rowBlocks, float* alpha, float* beta, float* d_val, int* d_xadj, int *d_adj, float* d_prin, float* d_prout, unsigned int* d_blkSize, unsigned int* d_rows_for_vector, unsigned int* d_blkMultiplier, tbb::concurrent_bounded_queue<stream_container<int, int,float>*>* streams, int stream_number );

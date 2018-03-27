@@ -57,12 +57,20 @@ struct Task {
 };
 
 
+__global__ void csr_adaptativeGPU0(int *d_end, int* d_begin,float* vals, int* cols, int* rowPtrs, float* vec, float* out,
+		unsigned long* rowBlocks, float* d_alpha, float* d_beta, unsigned int* d_blkSize, 
+		unsigned int* d_blkMultiple, unsigned int* d_rowForVector, int rowBlockSize);
+__global__ void csr_adaptativeGPU1(int *d_end, int* d_begin,float* vals, int* cols, int* rowPtrs, float* vec, float* out,
+		unsigned long* rowBlocks, float* d_alpha, float* d_beta, unsigned int* d_blkSize, 
+		unsigned int* d_blkMultiple, unsigned int* d_rowForVector, int rowBlockSize);
+
 __global__ void csr_adaptativeT(int* a);
 
 __global__ void csr_adaptative(float* vals, int* cols, int* rowPtrs, float* vec, float* out,
                 unsigned long* rowBlocks, float* d_alpha, float* d_beta, unsigned int* d_blkSize,
                 unsigned int* d_blkMultiple, unsigned int* d_rowForVector, int rowBlockSize, int* method);
  
+
 
 unsigned int flp2(unsigned int x);
 
@@ -90,12 +98,11 @@ unsigned long numThreadsForReduction(unsigned long num_rows, int WGSIZE);
 
 template <typename VertexType, typename EdgeType>
 void ComputeRowBlocks( unsigned long* rowBlocks, EdgeType& rowBlockSize, const EdgeType* xadj,
-		const EdgeType nRows, const int blkSize, const int blkMultiplier, 
+		const EdgeType nRows, const int blkSize, const int shortBlkSize, const int blkMultiplier, 
 		const int rows_for_vector, int WGSIZE, const bool allocate_row_blocks = true);
 
 template <typename VertexType, typename EdgeType>
-size_t ComputeRowBlocksSize( const EdgeType* rowDelimiters, const EdgeType nRows, const unsigned int blkSize,
-		const unsigned int blkMultiplier, const unsigned int rows_for_vector, int WGSIZE);
+size_t ComputeRowBlocksSize( const EdgeType* rowDelimiters, const EdgeType nRows, const unsigned int blkSize, const unsigned int shortBlkSize, const unsigned int blkMultiplier, const unsigned int rows_for_vector, int WGSIZE);
 
 void CUDART_CB call_back(cudaStream_t Stream, cudaError_t err, void* data);
 

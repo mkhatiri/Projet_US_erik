@@ -1,0 +1,1073 @@
+cph-gpu3.uncc.edu
+ 14:58:41 up 19 days,  3:45,  0 users,  load average: 0.37, 0.32, 0.17
+exec
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+cublas : totaltime = 0.000094
+cublas : totaltime = 0.000100
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000100
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000087
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000094
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000088
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000101
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000090
+start measuring
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000088
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000087
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000088
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000100
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000087
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000092
+pr with cusparse : totaltime = 0.035227
+start measuring
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000101
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000088
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000094
+cublas : totaltime = 0.000096
+cublas : totaltime = 0.000101
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000094
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000100
+cublas : totaltime = 0.000101
+cublas : totaltime = 0.000088
+cublas : totaltime = 0.000094
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000100
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000091
+pr with cusparse : totaltime = 0.035270
+start measuring
+cublas : totaltime = 0.000094
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000103
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000087
+cublas : totaltime = 0.000087
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000086
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000091
+pr with cusparse : totaltime = 0.035155
+start measuring
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000102
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000087
+cublas : totaltime = 0.000088
+cublas : totaltime = 0.000087
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000094
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000089
+pr with cusparse : totaltime = 0.035225
+start measuring
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000096
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000100
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000094
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000101
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000087
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000100
+pr with cusparse : totaltime = 0.035245
+start measuring
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000087
+cublas : totaltime = 0.000094
+cublas : totaltime = 0.000096
+cublas : totaltime = 0.000094
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000094
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000100
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000088
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000098
+pr with cusparse : totaltime = 0.035273
+start measuring
+cublas : totaltime = 0.000095
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000086
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000087
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000088
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000094
+cublas : totaltime = 0.000094
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000100
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000094
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000089
+pr with cusparse : totaltime = 0.035226
+start measuring
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000101
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000101
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000088
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000094
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000096
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000088
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000087
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000102
+cublas : totaltime = 0.000089
+pr with cusparse : totaltime = 0.035309
+start measuring
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000088
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000088
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000100
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000100
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000091
+pr with cusparse : totaltime = 0.035227
+start measuring
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000088
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000094
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000101
+cublas : totaltime = 0.000088
+cublas : totaltime = 0.000094
+cublas : totaltime = 0.000088
+cublas : totaltime = 0.000098
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000101
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000093
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000100
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000087
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000091
+cublas : totaltime = 0.000100
+cublas : totaltime = 0.000087
+cublas : totaltime = 0.000088
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000099
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000097
+cublas : totaltime = 0.000100
+pr with cusparse : totaltime = 0.035278
+filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.035243 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 25899 rowBlockSize: 25899 nThreadPerBlock: 32 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.311572 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 25899 rowBlockSize: 25899 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.064302 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 25899 rowBlockSize: 25899 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.055724 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12709 rowBlockSize: 12709 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.044178 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12709 rowBlockSize: 12709 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.041825 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12709 rowBlockSize: 12709 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.060529 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6302 rowBlockSize: 6302 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.038257 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6302 rowBlockSize: 6302 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.049741 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6302 rowBlockSize: 6302 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.066983 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3139 rowBlockSize: 3139 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.036363 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3139 rowBlockSize: 3139 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.044399 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3139 rowBlockSize: 3139 nThreadPerBlock: 1024 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.071875 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 25899 rowBlockSize: 25899 nThreadPerBlock: 32 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.061022 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 25899 rowBlockSize: 25899 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.054848 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 25899 rowBlockSize: 25899 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.058681 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12709 rowBlockSize: 12709 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.044573 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12709 rowBlockSize: 12709 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.041256 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12709 rowBlockSize: 12709 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.060626 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6302 rowBlockSize: 6302 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.038633 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6302 rowBlockSize: 6302 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.042418 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6302 rowBlockSize: 6302 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.066618 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3139 rowBlockSize: 3139 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.038533 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3139 rowBlockSize: 3139 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.049703 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3139 rowBlockSize: 3139 nThreadPerBlock: 1024 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.073394 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 25899 rowBlockSize: 25899 nThreadPerBlock: 32 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.062498 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 25899 rowBlockSize: 25899 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.05255 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 25899 rowBlockSize: 25899 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.056954 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12709 rowBlockSize: 12709 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.044124 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12709 rowBlockSize: 12709 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.044887 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12709 rowBlockSize: 12709 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.061023 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6302 rowBlockSize: 6302 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.038448 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6302 rowBlockSize: 6302 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.045633 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6302 rowBlockSize: 6302 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.062861 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3139 rowBlockSize: 3139 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.040868 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3139 rowBlockSize: 3139 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.046952 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3139 rowBlockSize: 3139 nThreadPerBlock: 1024 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.078688 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 25899 rowBlockSize: 25899 nThreadPerBlock: 32 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.061956 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 25899 rowBlockSize: 25899 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.055126 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 25899 rowBlockSize: 25899 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.056768 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12709 rowBlockSize: 12709 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.04397 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12709 rowBlockSize: 12709 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.039505 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12709 rowBlockSize: 12709 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.057114 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6302 rowBlockSize: 6302 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.045416 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6302 rowBlockSize: 6302 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.047789 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6302 rowBlockSize: 6302 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.07036 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3139 rowBlockSize: 3139 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.037468 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3139 rowBlockSize: 3139 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.044531 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3139 rowBlockSize: 3139 nThreadPerBlock: 1024 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.071669 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 25899 rowBlockSize: 25899 nThreadPerBlock: 32 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.063447 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 25899 rowBlockSize: 25899 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.05552 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 25899 rowBlockSize: 25899 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.052877 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12709 rowBlockSize: 12709 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.043481 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12709 rowBlockSize: 12709 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.043711 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12709 rowBlockSize: 12709 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.056702 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6302 rowBlockSize: 6302 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.037955 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6302 rowBlockSize: 6302 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.042233 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6302 rowBlockSize: 6302 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.064449 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3139 rowBlockSize: 3139 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.039896 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3139 rowBlockSize: 3139 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.04858 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 400727
+nVtx: 400727
+nEdge: 3200440
+nVtx: 400727, nVtx: 400727, nEdge: 3200440
+prior=2.49546e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3139 rowBlockSize: 3139 nThreadPerBlock: 1024 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: amazon0312.bin nVtx: 400727 nonzero: 3200440 AvgTime: 0.071416 

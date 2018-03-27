@@ -1,0 +1,683 @@
+cph-gpu1.uncc.edu
+ 14:58:41 up 19 days,  3:45,  0 users,  load average: 0.36, 0.32, 0.17
+exec
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+cublas : totaltime = 0.000075
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000072
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000061
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000071
+start measuring
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000072
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000071
+pr with cusparse : totaltime = 0.016823
+start measuring
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000073
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000071
+pr with cusparse : totaltime = 0.016819
+start measuring
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000074
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000072
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000070
+pr with cusparse : totaltime = 0.016808
+start measuring
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000076
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000070
+pr with cusparse : totaltime = 0.016820
+start measuring
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000074
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+pr with cusparse : totaltime = 0.016786
+start measuring
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000076
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000073
+cublas : totaltime = 0.000076
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000070
+pr with cusparse : totaltime = 0.016828
+start measuring
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000072
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000076
+cublas : totaltime = 0.000072
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000065
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+pr with cusparse : totaltime = 0.016767
+start measuring
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000076
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000075
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000065
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+pr with cusparse : totaltime = 0.016780
+start measuring
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000072
+cublas : totaltime = 0.000070
+pr with cusparse : totaltime = 0.016783
+start measuring
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000076
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000072
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000068
+pr with cusparse : totaltime = 0.016777
+filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.016799 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9812 rowBlockSize: 9812 nThreadPerBlock: 32 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.447399 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9812 rowBlockSize: 9812 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.447397 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9812 rowBlockSize: 9812 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.450598 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4862 rowBlockSize: 4862 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.451199 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4862 rowBlockSize: 4862 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.448599 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4862 rowBlockSize: 4862 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.4474 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2423 rowBlockSize: 2423 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.448599 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2423 rowBlockSize: 2423 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.442999 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2423 rowBlockSize: 2423 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.449799 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 1210 rowBlockSize: 1210 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.4509 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 1210 rowBlockSize: 1210 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.447599 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 1210 rowBlockSize: 1210 nThreadPerBlock: 1024 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.443101 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9812 rowBlockSize: 9812 nThreadPerBlock: 32 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.450999 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9812 rowBlockSize: 9812 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.441499 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9812 rowBlockSize: 9812 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.443399 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4862 rowBlockSize: 4862 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.450599 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4862 rowBlockSize: 4862 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.452099 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4862 rowBlockSize: 4862 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.445597 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2423 rowBlockSize: 2423 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.4479 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2423 rowBlockSize: 2423 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.442598 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 262111
+nVtx: 262111
+nEdge: 1234877
+nVtx: 262111, nVtx: 262111, nEdge: 1234877
+prior=3.81518e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2423 rowBlockSize: 2423 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.449499 

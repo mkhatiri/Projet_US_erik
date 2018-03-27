@@ -1,0 +1,779 @@
+cph-gpu1.uncc.edu
+ 10:56:43 up 18 days, 23:43,  0 users,  load average: 1.17, 1.21, 1.20
+exec
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000088
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000079
+start measuring
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000080
+pr with cusparse : totaltime = 0.056453
+start measuring
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000083
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000083
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000079
+pr with cusparse : totaltime = 0.056439
+start measuring
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000072
+cublas : totaltime = 0.000072
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000072
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000066
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000077
+pr with cusparse : totaltime = 0.053421
+filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.055437 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12099 rowBlockSize: 12099 nThreadPerBlock: 32 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.058388 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12099 rowBlockSize: 12099 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.048983 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12099 rowBlockSize: 12099 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.041965 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6574 rowBlockSize: 6574 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.0383 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6574 rowBlockSize: 6574 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.037177 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6574 rowBlockSize: 6574 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.037631 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3045 rowBlockSize: 3045 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.02163 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3045 rowBlockSize: 3045 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.026708 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3045 rowBlockSize: 3045 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.036232 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 1521 rowBlockSize: 1521 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.023482 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 1521 rowBlockSize: 1521 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.035208 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 1521 rowBlockSize: 1521 nThreadPerBlock: 1024 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.041621 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12099 rowBlockSize: 12099 nThreadPerBlock: 32 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.047171 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12099 rowBlockSize: 12099 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.036698 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12099 rowBlockSize: 12099 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.029889 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6574 rowBlockSize: 6574 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.028697 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6574 rowBlockSize: 6574 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.027631 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6574 rowBlockSize: 6574 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.030967 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3045 rowBlockSize: 3045 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.025074 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3045 rowBlockSize: 3045 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.026719 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3045 rowBlockSize: 3045 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.033417 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 1521 rowBlockSize: 1521 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.020092 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 1521 rowBlockSize: 1521 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.024596 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 1521 rowBlockSize: 1521 nThreadPerBlock: 1024 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.037911 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12099 rowBlockSize: 12099 nThreadPerBlock: 32 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.047343 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12099 rowBlockSize: 12099 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.033056 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12099 rowBlockSize: 12099 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.029887 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6574 rowBlockSize: 6574 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.035471 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6574 rowBlockSize: 6574 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.024135 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6574 rowBlockSize: 6574 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.030984 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3045 rowBlockSize: 3045 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.021377 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3045 rowBlockSize: 3045 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.030272 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3045 rowBlockSize: 3045 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.041905 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 1521 rowBlockSize: 1521 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.020082 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 1521 rowBlockSize: 1521 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.024634 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 1521 rowBlockSize: 1521 nThreadPerBlock: 1024 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.037927 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12099 rowBlockSize: 12099 nThreadPerBlock: 32 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.043738 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12099 rowBlockSize: 12099 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.033086 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12099 rowBlockSize: 12099 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.029856 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6574 rowBlockSize: 6574 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.032101 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6574 rowBlockSize: 6574 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.024125 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6574 rowBlockSize: 6574 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.030952 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3045 rowBlockSize: 3045 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.021463 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3045 rowBlockSize: 3045 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.028125 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3045 rowBlockSize: 3045 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.034647 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 1521 rowBlockSize: 1521 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.021174 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 1521 rowBlockSize: 1521 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.045045 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 1521 rowBlockSize: 1521 nThreadPerBlock: 1024 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.049686 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12099 rowBlockSize: 12099 nThreadPerBlock: 32 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.050494 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12099 rowBlockSize: 12099 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.052736 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 12099 rowBlockSize: 12099 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.036772 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6574 rowBlockSize: 6574 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.034133 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6574 rowBlockSize: 6574 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.02926 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 6574 rowBlockSize: 6574 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.033462 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3045 rowBlockSize: 3045 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.029982 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3045 rowBlockSize: 3045 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.024645 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 3045 rowBlockSize: 3045 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.039383 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 1521 rowBlockSize: 1521 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.025343 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 1521 rowBlockSize: 1521 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.029905 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 325729
+nVtx: 325729
+nEdge: 1497134
+nVtx: 325729, nVtx: 325729, nEdge: 1497134
+prior=3.07004e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 1521 rowBlockSize: 1521 nThreadPerBlock: 1024 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: web-NotreDame.bin nVtx: 325729 nonzero: 1497134 AvgTime: 0.044985 

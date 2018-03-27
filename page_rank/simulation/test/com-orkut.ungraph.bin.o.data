@@ -1,0 +1,30 @@
+cph-gpu3.uncc.edu
+filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.213 vtxsize: 4
+nb_blocks: 1 subsize: 1773146 rowBlockSize: 1773146 nThreadPerBlock: 32 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.86003 vtxsize: 4
+nb_blocks: 1 subsize: 1773146 rowBlockSize: 1773146 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.46338 vtxsize: 4
+nb_blocks: 1 subsize: 1773146 rowBlockSize: 1773146 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.63003 vtxsize: 4
+nb_blocks: 1 subsize: 1006343 rowBlockSize: 1006343 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.48282 vtxsize: 4
+nb_blocks: 1 subsize: 1006343 rowBlockSize: 1006343 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.41963 vtxsize: 4
+nb_blocks: 1 subsize: 1006343 rowBlockSize: 1006343 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 4.62865 vtxsize: 4
+nb_blocks: 1 subsize: 509638 rowBlockSize: 509638 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.50946 vtxsize: 4
+nb_blocks: 1 subsize: 509638 rowBlockSize: 509638 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.65504 vtxsize: 4
+nb_blocks: 1 subsize: 509638 rowBlockSize: 509638 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 5.6207 vtxsize: 4
+nb_blocks: 1 subsize: 249474 rowBlockSize: 249474 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.45804 vtxsize: 4
+nb_blocks: 1 subsize: 249474 rowBlockSize: 249474 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.95356 vtxsize: 4
+nb_blocks: 1 subsize: 249474 rowBlockSize: 249474 nThreadPerBlock: 1024 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 6.32728 vtxsize: 4
+nb_blocks: 1 subsize: 1773146 rowBlockSize: 1773146 nThreadPerBlock: 32 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.8593 vtxsize: 4
+nb_blocks: 1 subsize: 1773146 rowBlockSize: 1773146 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.46866 vtxsize: 4
+nb_blocks: 1 subsize: 1773146 rowBlockSize: 1773146 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.67898 vtxsize: 4
+nb_blocks: 1 subsize: 1006343 rowBlockSize: 1006343 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.48805 vtxsize: 4
+nb_blocks: 1 subsize: 1006343 rowBlockSize: 1006343 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.45507 vtxsize: 4
+nb_blocks: 1 subsize: 1006343 rowBlockSize: 1006343 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 4.6223 vtxsize: 4
+nb_blocks: 1 subsize: 509638 rowBlockSize: 509638 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.5097 vtxsize: 4
+nb_blocks: 1 subsize: 509638 rowBlockSize: 509638 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.66023 vtxsize: 4
+nb_blocks: 1 subsize: 509638 rowBlockSize: 509638 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 5.61806 vtxsize: 4
+nb_blocks: 1 subsize: 249474 rowBlockSize: 249474 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.45858 vtxsize: 4
+nb_blocks: 1 subsize: 249474 rowBlockSize: 249474 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.94929 vtxsize: 4
+nb_blocks: 1 subsize: 249474 rowBlockSize: 249474 nThreadPerBlock: 1024 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 6.32497 vtxsize: 4
+nb_blocks: 1 subsize: 1773146 rowBlockSize: 1773146 nThreadPerBlock: 32 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.86266 vtxsize: 4
+nb_blocks: 1 subsize: 1773146 rowBlockSize: 1773146 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.4839 vtxsize: 4
+nb_blocks: 1 subsize: 1773146 rowBlockSize: 1773146 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.6798 vtxsize: 4
+nb_blocks: 1 subsize: 1006343 rowBlockSize: 1006343 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: com-orkut.ungraph.bin nVtx: 3072441 nonzero: 234370166 AvgTime: 3.48161 vtxsize: 4

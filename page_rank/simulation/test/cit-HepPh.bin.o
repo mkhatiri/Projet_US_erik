@@ -1,0 +1,779 @@
+cph-gpu3.uncc.edu
+ 10:21:59 up 18 days, 23:09,  0 users,  load average: 0.92, 0.89, 0.51
+exec
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+cublas : totaltime = 0.000064
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000052
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000050
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000044
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000044
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000044
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+start measuring
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000044
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000051
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+pr with cusparse : totaltime = 0.009803
+start measuring
+cublas : totaltime = 0.000051
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000044
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000044
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000038
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000044
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+pr with cusparse : totaltime = 0.009723
+start measuring
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000044
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000052
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+pr with cusparse : totaltime = 0.009772
+filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.009766 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3656 rowBlockSize: 3656 nThreadPerBlock: 32 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.025866 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3656 rowBlockSize: 3656 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.019518 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3656 rowBlockSize: 3656 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.024678 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1750 rowBlockSize: 1750 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.021607 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1750 rowBlockSize: 1750 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.018213 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1750 rowBlockSize: 1750 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.021308 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 851 rowBlockSize: 851 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.034883 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 851 rowBlockSize: 851 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.027854 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 851 rowBlockSize: 851 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.026477 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 419 rowBlockSize: 419 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.017199 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 419 rowBlockSize: 419 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.015667 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 419 rowBlockSize: 419 nThreadPerBlock: 1024 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.03141 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3656 rowBlockSize: 3656 nThreadPerBlock: 32 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.018639 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3656 rowBlockSize: 3656 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.026665 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3656 rowBlockSize: 3656 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.027298 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1750 rowBlockSize: 1750 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.032472 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1750 rowBlockSize: 1750 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.027912 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1750 rowBlockSize: 1750 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.021325 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 851 rowBlockSize: 851 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.020416 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 851 rowBlockSize: 851 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.021963 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 851 rowBlockSize: 851 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.022927 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 419 rowBlockSize: 419 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.013784 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 419 rowBlockSize: 419 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.016521 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 419 rowBlockSize: 419 nThreadPerBlock: 1024 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.024298 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3656 rowBlockSize: 3656 nThreadPerBlock: 32 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.022188 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3656 rowBlockSize: 3656 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.020372 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3656 rowBlockSize: 3656 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.01757 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1750 rowBlockSize: 1750 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.018252 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1750 rowBlockSize: 1750 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.024787 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1750 rowBlockSize: 1750 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.02018 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 851 rowBlockSize: 851 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.020363 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 851 rowBlockSize: 851 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.028969 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 851 rowBlockSize: 851 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.026261 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 419 rowBlockSize: 419 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.013775 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 419 rowBlockSize: 419 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.01912 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 419 rowBlockSize: 419 nThreadPerBlock: 1024 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.038205 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3656 rowBlockSize: 3656 nThreadPerBlock: 32 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.02877 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3656 rowBlockSize: 3656 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.025487 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3656 rowBlockSize: 3656 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.021024 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1750 rowBlockSize: 1750 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.015432 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1750 rowBlockSize: 1750 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.031692 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1750 rowBlockSize: 1750 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.021517 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 851 rowBlockSize: 851 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.013553 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 851 rowBlockSize: 851 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.021649 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 851 rowBlockSize: 851 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.024705 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 419 rowBlockSize: 419 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.020836 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 419 rowBlockSize: 419 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.029631 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 419 rowBlockSize: 419 nThreadPerBlock: 1024 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.026663 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3656 rowBlockSize: 3656 nThreadPerBlock: 32 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.018597 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3656 rowBlockSize: 3656 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.023636 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3656 rowBlockSize: 3656 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.020951 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1750 rowBlockSize: 1750 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.028709 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1750 rowBlockSize: 1750 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.026743 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1750 rowBlockSize: 1750 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.021543 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 851 rowBlockSize: 851 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.020507 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 851 rowBlockSize: 851 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.014782 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 851 rowBlockSize: 851 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.023005 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 419 rowBlockSize: 419 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.020761 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 419 rowBlockSize: 419 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.022698 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 34546
+nVtx: 34546
+nEdge: 421578
+nVtx: 34546, nVtx: 34546, nEdge: 421578
+prior=2.89469e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 419 rowBlockSize: 419 nThreadPerBlock: 1024 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: cit-HepPh.bin nVtx: 34546 nonzero: 421578 AvgTime: 0.027941 

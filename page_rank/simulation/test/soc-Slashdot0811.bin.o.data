@@ -1,0 +1,40 @@
+cph-gpu1.uncc.edu
+filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.031199 vtxsize: 4
+nb_blocks: 1 subsize: 7397 rowBlockSize: 7397 nThreadPerBlock: 32 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.047953 vtxsize: 4
+nb_blocks: 1 subsize: 7397 rowBlockSize: 7397 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.036365 vtxsize: 4
+nb_blocks: 1 subsize: 7397 rowBlockSize: 7397 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.031051 vtxsize: 4
+nb_blocks: 1 subsize: 3948 rowBlockSize: 3948 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.039573 vtxsize: 4
+nb_blocks: 1 subsize: 3948 rowBlockSize: 3948 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.027145 vtxsize: 4
+nb_blocks: 1 subsize: 3948 rowBlockSize: 3948 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.038366 vtxsize: 4
+nb_blocks: 1 subsize: 1923 rowBlockSize: 1923 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.024866 vtxsize: 4
+nb_blocks: 1 subsize: 1923 rowBlockSize: 1923 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.027587 vtxsize: 4
+nb_blocks: 1 subsize: 1923 rowBlockSize: 1923 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.057631 vtxsize: 4
+nb_blocks: 1 subsize: 931 rowBlockSize: 931 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.027629 vtxsize: 4
+nb_blocks: 1 subsize: 931 rowBlockSize: 931 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.040466 vtxsize: 4
+nb_blocks: 1 subsize: 931 rowBlockSize: 931 nThreadPerBlock: 1024 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.059075 vtxsize: 4
+nb_blocks: 1 subsize: 7397 rowBlockSize: 7397 nThreadPerBlock: 32 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.03344 vtxsize: 4
+nb_blocks: 1 subsize: 7397 rowBlockSize: 7397 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.03826 vtxsize: 4
+nb_blocks: 1 subsize: 7397 rowBlockSize: 7397 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.030664 vtxsize: 4
+nb_blocks: 1 subsize: 3948 rowBlockSize: 3948 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.044291 vtxsize: 4
+nb_blocks: 1 subsize: 3948 rowBlockSize: 3948 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.047976 vtxsize: 4
+nb_blocks: 1 subsize: 3948 rowBlockSize: 3948 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.03887 vtxsize: 4
+nb_blocks: 1 subsize: 1923 rowBlockSize: 1923 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.028164 vtxsize: 4
+nb_blocks: 1 subsize: 1923 rowBlockSize: 1923 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.037929 vtxsize: 4
+nb_blocks: 1 subsize: 1923 rowBlockSize: 1923 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.046684 vtxsize: 4
+nb_blocks: 1 subsize: 931 rowBlockSize: 931 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.041701 vtxsize: 4
+nb_blocks: 1 subsize: 931 rowBlockSize: 931 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.059395 vtxsize: 4
+nb_blocks: 1 subsize: 931 rowBlockSize: 931 nThreadPerBlock: 1024 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.043457 vtxsize: 4
+nb_blocks: 1 subsize: 7397 rowBlockSize: 7397 nThreadPerBlock: 32 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.039368 vtxsize: 4
+nb_blocks: 1 subsize: 7397 rowBlockSize: 7397 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.034738 vtxsize: 4
+nb_blocks: 1 subsize: 7397 rowBlockSize: 7397 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.045719 vtxsize: 4
+nb_blocks: 1 subsize: 3948 rowBlockSize: 3948 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.033031 vtxsize: 4
+nb_blocks: 1 subsize: 3948 rowBlockSize: 3948 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.049814 vtxsize: 4
+nb_blocks: 1 subsize: 3948 rowBlockSize: 3948 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.04902 vtxsize: 4
+nb_blocks: 1 subsize: 1923 rowBlockSize: 1923 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.036704 vtxsize: 4
+nb_blocks: 1 subsize: 1923 rowBlockSize: 1923 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.030483 vtxsize: 4
+nb_blocks: 1 subsize: 1923 rowBlockSize: 1923 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.038733 vtxsize: 4
+nb_blocks: 1 subsize: 931 rowBlockSize: 931 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.030818 vtxsize: 4
+nb_blocks: 1 subsize: 931 rowBlockSize: 931 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.04481 vtxsize: 4
+nb_blocks: 1 subsize: 931 rowBlockSize: 931 nThreadPerBlock: 1024 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.058303 vtxsize: 4
+nb_blocks: 1 subsize: 7397 rowBlockSize: 7397 nThreadPerBlock: 32 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.04138 vtxsize: 4
+nb_blocks: 1 subsize: 7397 rowBlockSize: 7397 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0811.bin nVtx: 77360 nonzero: 905468 AvgTime: 0.057112 

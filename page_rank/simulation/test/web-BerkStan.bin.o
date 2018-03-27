@@ -1,0 +1,779 @@
+cph-gpu1.uncc.edu
+ 10:55:19 up 18 days, 23:42,  0 users,  load average: 1.07, 1.18, 1.18
+exec
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+cublas : totaltime = 0.000124
+cublas : totaltime = 0.000121
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000124
+cublas : totaltime = 0.000126
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000124
+cublas : totaltime = 0.000124
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000112
+cublas : totaltime = 0.000124
+cublas : totaltime = 0.000125
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000124
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000122
+cublas : totaltime = 0.000119
+cublas : totaltime = 0.000122
+cublas : totaltime = 0.000126
+cublas : totaltime = 0.000121
+cublas : totaltime = 0.000117
+cublas : totaltime = 0.000122
+cublas : totaltime = 0.000123
+cublas : totaltime = 0.000122
+cublas : totaltime = 0.000119
+cublas : totaltime = 0.000122
+cublas : totaltime = 0.000122
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000117
+cublas : totaltime = 0.000126
+cublas : totaltime = 0.000125
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000119
+cublas : totaltime = 0.000125
+cublas : totaltime = 0.000125
+cublas : totaltime = 0.000121
+cublas : totaltime = 0.000121
+cublas : totaltime = 0.000124
+start measuring
+cublas : totaltime = 0.000126
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000126
+cublas : totaltime = 0.000126
+cublas : totaltime = 0.000121
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000127
+cublas : totaltime = 0.000115
+cublas : totaltime = 0.000119
+cublas : totaltime = 0.000121
+cublas : totaltime = 0.000123
+cublas : totaltime = 0.000124
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000115
+cublas : totaltime = 0.000113
+cublas : totaltime = 0.000121
+cublas : totaltime = 0.000119
+cublas : totaltime = 0.000122
+cublas : totaltime = 0.000116
+cublas : totaltime = 0.000121
+cublas : totaltime = 0.000119
+cublas : totaltime = 0.000124
+cublas : totaltime = 0.000125
+cublas : totaltime = 0.000121
+cublas : totaltime = 0.000119
+cublas : totaltime = 0.000124
+cublas : totaltime = 0.000115
+cublas : totaltime = 0.000119
+cublas : totaltime = 0.000116
+cublas : totaltime = 0.000116
+cublas : totaltime = 0.000135
+cublas : totaltime = 0.000111
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000126
+cublas : totaltime = 0.000123
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000117
+pr with cusparse : totaltime = 0.073291
+start measuring
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000119
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000124
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000124
+cublas : totaltime = 0.000123
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000115
+cublas : totaltime = 0.000122
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000119
+cublas : totaltime = 0.000116
+cublas : totaltime = 0.000126
+cublas : totaltime = 0.000119
+cublas : totaltime = 0.000119
+cublas : totaltime = 0.000124
+cublas : totaltime = 0.000121
+cublas : totaltime = 0.000121
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000124
+cublas : totaltime = 0.000122
+cublas : totaltime = 0.000119
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000125
+cublas : totaltime = 0.000126
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000119
+cublas : totaltime = 0.000115
+cublas : totaltime = 0.000123
+cublas : totaltime = 0.000121
+cublas : totaltime = 0.000119
+cublas : totaltime = 0.000125
+cublas : totaltime = 0.000122
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000117
+cublas : totaltime = 0.000123
+pr with cusparse : totaltime = 0.073276
+start measuring
+cublas : totaltime = 0.000117
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000119
+cublas : totaltime = 0.000115
+cublas : totaltime = 0.000124
+cublas : totaltime = 0.000122
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000122
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000115
+cublas : totaltime = 0.000114
+cublas : totaltime = 0.000121
+cublas : totaltime = 0.000121
+cublas : totaltime = 0.000115
+cublas : totaltime = 0.000117
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000125
+cublas : totaltime = 0.000116
+cublas : totaltime = 0.000124
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000117
+cublas : totaltime = 0.000123
+cublas : totaltime = 0.000121
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000116
+cublas : totaltime = 0.000119
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000116
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000123
+cublas : totaltime = 0.000118
+cublas : totaltime = 0.000124
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000120
+cublas : totaltime = 0.000119
+pr with cusparse : totaltime = 0.073231
+filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.073266 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 66292 rowBlockSize: 66292 nThreadPerBlock: 32 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.144776 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 66292 rowBlockSize: 66292 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.105669 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 66292 rowBlockSize: 66292 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.114828 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 31924 rowBlockSize: 31924 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.074711 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 31924 rowBlockSize: 31924 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.073867 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 31924 rowBlockSize: 31924 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.117176 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 15277 rowBlockSize: 15277 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.061399 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 15277 rowBlockSize: 15277 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.07308 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 15277 rowBlockSize: 15277 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.126137 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 7540 rowBlockSize: 7540 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.05776 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 7540 rowBlockSize: 7540 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.079575 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 7540 rowBlockSize: 7540 nThreadPerBlock: 1024 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.142971 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 66292 rowBlockSize: 66292 nThreadPerBlock: 32 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.123029 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 66292 rowBlockSize: 66292 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.109216 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 66292 rowBlockSize: 66292 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.111392 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 31924 rowBlockSize: 31924 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.074649 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 31924 rowBlockSize: 31924 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.074836 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 31924 rowBlockSize: 31924 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.117232 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 15277 rowBlockSize: 15277 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.057955 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 15277 rowBlockSize: 15277 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.073069 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 15277 rowBlockSize: 15277 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.143585 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 7540 rowBlockSize: 7540 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.055607 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 7540 rowBlockSize: 7540 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.092842 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 7540 rowBlockSize: 7540 nThreadPerBlock: 1024 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.146394 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 66292 rowBlockSize: 66292 nThreadPerBlock: 32 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.123071 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 66292 rowBlockSize: 66292 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.109103 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 66292 rowBlockSize: 66292 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.111442 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 31924 rowBlockSize: 31924 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.074727 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 31924 rowBlockSize: 31924 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.080112 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 31924 rowBlockSize: 31924 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.117311 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 15277 rowBlockSize: 15277 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.054281 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 15277 rowBlockSize: 15277 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.073052 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 15277 rowBlockSize: 15277 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.126206 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 7540 rowBlockSize: 7540 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.059096 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 7540 rowBlockSize: 7540 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.079584 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 7540 rowBlockSize: 7540 nThreadPerBlock: 1024 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.143043 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 66292 rowBlockSize: 66292 nThreadPerBlock: 32 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.125912 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 66292 rowBlockSize: 66292 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.105727 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 66292 rowBlockSize: 66292 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.111513 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 31924 rowBlockSize: 31924 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.074724 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 31924 rowBlockSize: 31924 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.071411 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 31924 rowBlockSize: 31924 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.117234 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 15277 rowBlockSize: 15277 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.05433 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 15277 rowBlockSize: 15277 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.07307 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 15277 rowBlockSize: 15277 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.129816 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 7540 rowBlockSize: 7540 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.062858 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 7540 rowBlockSize: 7540 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.079718 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 7540 rowBlockSize: 7540 nThreadPerBlock: 1024 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.143053 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 66292 rowBlockSize: 66292 nThreadPerBlock: 32 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.123076 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 66292 rowBlockSize: 66292 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.109244 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 66292 rowBlockSize: 66292 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.111382 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 31924 rowBlockSize: 31924 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.078336 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 31924 rowBlockSize: 31924 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.07141 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 31924 rowBlockSize: 31924 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.117226 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 15277 rowBlockSize: 15277 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.054317 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 15277 rowBlockSize: 15277 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.073085 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 15277 rowBlockSize: 15277 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.126276 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 7540 rowBlockSize: 7540 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.055627 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 7540 rowBlockSize: 7540 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.083083 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 685230
+nVtx: 685230
+nEdge: 7600595
+nVtx: 685230, nVtx: 685230, nEdge: 7600595
+prior=1.45936e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 7540 rowBlockSize: 7540 nThreadPerBlock: 1024 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: web-BerkStan.bin nVtx: 685230 nonzero: 7600595 AvgTime: 0.144549 

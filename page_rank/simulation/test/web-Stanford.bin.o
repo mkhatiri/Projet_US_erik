@@ -1,0 +1,779 @@
+cph-gpu3.uncc.edu
+ 10:57:04 up 18 days, 23:44,  0 users,  load average: 1.05, 1.14, 1.07
+exec
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000076
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000076
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000072
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000072
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000071
+start measuring
+cublas : totaltime = 0.000072
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000075
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000069
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000076
+cublas : totaltime = 0.000072
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000085
+cublas : totaltime = 0.000083
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000075
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000071
+pr with cusparse : totaltime = 0.045266
+start measuring
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000070
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000076
+cublas : totaltime = 0.000074
+pr with cusparse : totaltime = 0.045311
+start measuring
+cublas : totaltime = 0.000072
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000076
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000076
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000071
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000067
+cublas : totaltime = 0.000073
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000076
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000076
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000076
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000078
+pr with cusparse : totaltime = 0.045269
+filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.045282 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 19628 rowBlockSize: 19628 nThreadPerBlock: 32 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.092213 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 19628 rowBlockSize: 19628 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.060313 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 19628 rowBlockSize: 19628 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.053531 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9466 rowBlockSize: 9466 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.053222 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9466 rowBlockSize: 9466 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.046327 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9466 rowBlockSize: 9466 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.054284 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4619 rowBlockSize: 4619 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.041769 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4619 rowBlockSize: 4619 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.042539 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4619 rowBlockSize: 4619 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.062775 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2286 rowBlockSize: 2286 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.038319 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2286 rowBlockSize: 2286 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.042303 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2286 rowBlockSize: 2286 nThreadPerBlock: 1024 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.064402 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 19628 rowBlockSize: 19628 nThreadPerBlock: 32 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.053314 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 19628 rowBlockSize: 19628 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.049699 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 19628 rowBlockSize: 19628 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.057844 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9466 rowBlockSize: 9466 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.04205 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9466 rowBlockSize: 9466 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.038356 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9466 rowBlockSize: 9466 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.053082 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4619 rowBlockSize: 4619 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.034694 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4619 rowBlockSize: 4619 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.043606 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4619 rowBlockSize: 4619 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.055932 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2286 rowBlockSize: 2286 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.042792 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2286 rowBlockSize: 2286 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.051683 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2286 rowBlockSize: 2286 nThreadPerBlock: 1024 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.060949 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 19628 rowBlockSize: 19628 nThreadPerBlock: 32 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.053259 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 19628 rowBlockSize: 19628 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.046257 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 19628 rowBlockSize: 19628 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.057509 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9466 rowBlockSize: 9466 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.060378 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9466 rowBlockSize: 9466 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.038276 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9466 rowBlockSize: 9466 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.053025 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4619 rowBlockSize: 4619 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.041151 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4619 rowBlockSize: 4619 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.042771 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4619 rowBlockSize: 4619 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.059412 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2286 rowBlockSize: 2286 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.034842 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2286 rowBlockSize: 2286 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.045052 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2286 rowBlockSize: 2286 nThreadPerBlock: 1024 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.064553 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 19628 rowBlockSize: 19628 nThreadPerBlock: 32 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.068767 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 19628 rowBlockSize: 19628 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.049807 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 19628 rowBlockSize: 19628 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.050758 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9466 rowBlockSize: 9466 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.042157 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9466 rowBlockSize: 9466 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.045283 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9466 rowBlockSize: 9466 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.057637 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4619 rowBlockSize: 4619 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.039179 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4619 rowBlockSize: 4619 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.043698 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4619 rowBlockSize: 4619 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.066297 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2286 rowBlockSize: 2286 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.03486 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2286 rowBlockSize: 2286 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.043927 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2286 rowBlockSize: 2286 nThreadPerBlock: 1024 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.068286 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 19628 rowBlockSize: 19628 nThreadPerBlock: 32 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.053255 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 19628 rowBlockSize: 19628 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.046172 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 19628 rowBlockSize: 19628 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.052875 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9466 rowBlockSize: 9466 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.039507 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9466 rowBlockSize: 9466 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.04533 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 9466 rowBlockSize: 9466 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.060281 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4619 rowBlockSize: 4619 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.034707 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4619 rowBlockSize: 4619 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.039081 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4619 rowBlockSize: 4619 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.055956 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2286 rowBlockSize: 2286 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.038306 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2286 rowBlockSize: 2286 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.045594 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 281903
+nVtx: 281903
+nEdge: 2312497
+nVtx: 281903, nVtx: 281903, nEdge: 2312497
+prior=3.54732e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2286 rowBlockSize: 2286 nThreadPerBlock: 1024 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: web-Stanford.bin nVtx: 281903 nonzero: 2312497 AvgTime: 0.068933 

@@ -1,0 +1,13 @@
+#! /bin/bash
+
+
+for i in $(ls test/*.data) 
+do
+    names="$names $i"
+done
+
+
+python3.5 writeResultInTex.py $names
+
+
+

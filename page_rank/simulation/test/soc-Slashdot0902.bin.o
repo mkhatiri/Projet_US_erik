@@ -1,0 +1,779 @@
+cph-gpu3.uncc.edu
+ 10:54:23 up 18 days, 23:41,  0 users,  load average: 1.03, 1.18, 1.07
+exec
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000044
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000057
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000056
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000057
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000051
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000057
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000056
+start measuring
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000056
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000057
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+pr with cusparse : totaltime = 0.032871
+start measuring
+cublas : totaltime = 0.000050
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+pr with cusparse : totaltime = 0.032833
+start measuring
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000044
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000056
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000050
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000048
+pr with cusparse : totaltime = 0.033300
+filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.033001 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 7755 rowBlockSize: 7755 nThreadPerBlock: 32 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.037419 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 7755 rowBlockSize: 7755 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.030809 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 7755 rowBlockSize: 7755 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.026177 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 4136 rowBlockSize: 4136 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.025119 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 4136 rowBlockSize: 4136 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.029128 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 4136 rowBlockSize: 4136 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.036696 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 2023 rowBlockSize: 2023 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.020016 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 2023 rowBlockSize: 2023 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.033305 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 2023 rowBlockSize: 2023 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.033674 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 975 rowBlockSize: 975 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.019487 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 975 rowBlockSize: 975 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.030257 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 975 rowBlockSize: 975 nThreadPerBlock: 1024 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.041921 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 7755 rowBlockSize: 7755 nThreadPerBlock: 32 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.029914 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 7755 rowBlockSize: 7755 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.026982 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 7755 rowBlockSize: 7755 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.02864 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 4136 rowBlockSize: 4136 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.022255 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 4136 rowBlockSize: 4136 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.024584 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 4136 rowBlockSize: 4136 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.028503 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 2023 rowBlockSize: 2023 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.022691 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 2023 rowBlockSize: 2023 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.030579 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 2023 rowBlockSize: 2023 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.039293 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 975 rowBlockSize: 975 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.022542 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 975 rowBlockSize: 975 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.026877 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 975 rowBlockSize: 975 nThreadPerBlock: 1024 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.033745 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 7755 rowBlockSize: 7755 nThreadPerBlock: 32 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.032263 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 7755 rowBlockSize: 7755 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.022382 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 7755 rowBlockSize: 7755 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.025306 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 4136 rowBlockSize: 4136 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.018441 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 4136 rowBlockSize: 4136 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.025471 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 4136 rowBlockSize: 4136 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.035405 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 2023 rowBlockSize: 2023 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.016981 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 2023 rowBlockSize: 2023 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.019231 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 2023 rowBlockSize: 2023 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.027633 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 975 rowBlockSize: 975 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.020556 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 975 rowBlockSize: 975 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.034422 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 975 rowBlockSize: 975 nThreadPerBlock: 1024 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.043894 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 7755 rowBlockSize: 7755 nThreadPerBlock: 32 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.030601 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 7755 rowBlockSize: 7755 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.020742 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 7755 rowBlockSize: 7755 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.029104 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 4136 rowBlockSize: 4136 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.025672 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 4136 rowBlockSize: 4136 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.022112 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 4136 rowBlockSize: 4136 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.037882 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 2023 rowBlockSize: 2023 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.034053 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 2023 rowBlockSize: 2023 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.026997 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 2023 rowBlockSize: 2023 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.049517 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 975 rowBlockSize: 975 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.019999 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 975 rowBlockSize: 975 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.032344 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 975 rowBlockSize: 975 nThreadPerBlock: 1024 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.039219 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 7755 rowBlockSize: 7755 nThreadPerBlock: 32 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.030842 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 7755 rowBlockSize: 7755 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.030883 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 7755 rowBlockSize: 7755 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.032448 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 4136 rowBlockSize: 4136 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.032066 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 4136 rowBlockSize: 4136 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.025077 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 4136 rowBlockSize: 4136 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.040024 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 2023 rowBlockSize: 2023 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.029755 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 2023 rowBlockSize: 2023 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.027502 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 2023 rowBlockSize: 2023 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.039664 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 975 rowBlockSize: 975 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.022344 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 975 rowBlockSize: 975 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.024499 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 82168
+nVtx: 82168
+nEdge: 948464
+nVtx: 82168, nVtx: 82168, nEdge: 948464
+prior=1.21702e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 975 rowBlockSize: 975 nThreadPerBlock: 1024 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: soc-Slashdot0902.bin nVtx: 82168 nonzero: 948464 AvgTime: 0.0359 

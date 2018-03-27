@@ -1,0 +1,733 @@
+cph-gpu3.uncc.edu
+ 15:00:18 up 19 days,  3:47,  0 users,  load average: 1.07, 0.61, 0.29
+exec
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+cublas : totaltime = 0.000057
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000050
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000035
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000039
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+start measuring
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000038
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000038
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+pr with cusparse : totaltime = 0.009957
+start measuring
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000036
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000036
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000035
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000038
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+pr with cusparse : totaltime = 0.009915
+start measuring
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000036
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000036
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+pr with cusparse : totaltime = 0.009879
+start measuring
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000038
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000044
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000049
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+pr with cusparse : totaltime = 0.009962
+start measuring
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000044
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000044
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+pr with cusparse : totaltime = 0.009924
+start measuring
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000043
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000036
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+pr with cusparse : totaltime = 0.009928
+start measuring
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000043
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000052
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000041
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000052
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000052
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000038
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+pr with cusparse : totaltime = 0.009933
+start measuring
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000038
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+pr with cusparse : totaltime = 0.009925
+start measuring
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000044
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000044
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000035
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000043
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000036
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+pr with cusparse : totaltime = 0.009908
+start measuring
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000038
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000039
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+pr with cusparse : totaltime = 0.009982
+filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.009931 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3627 rowBlockSize: 3627 nThreadPerBlock: 32 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.023392 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3627 rowBlockSize: 3627 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.02164 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3627 rowBlockSize: 3627 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.020674 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1736 rowBlockSize: 1736 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.019613 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1736 rowBlockSize: 1736 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.018633 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1736 rowBlockSize: 1736 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.02348 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 828 rowBlockSize: 828 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.02619 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 828 rowBlockSize: 828 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.021672 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 828 rowBlockSize: 828 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.025029 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 401 rowBlockSize: 401 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.017984 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 401 rowBlockSize: 401 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.021537 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 401 rowBlockSize: 401 nThreadPerBlock: 1024 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.023819 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3627 rowBlockSize: 3627 nThreadPerBlock: 32 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.021506 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3627 rowBlockSize: 3627 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.020045 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3627 rowBlockSize: 3627 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.02269 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1736 rowBlockSize: 1736 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.019022 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1736 rowBlockSize: 1736 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.017025 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 1736 rowBlockSize: 1736 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.022376 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 828 rowBlockSize: 828 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.01758 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 828 rowBlockSize: 828 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.019111 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 828 rowBlockSize: 828 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.023107 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 401 rowBlockSize: 401 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.01831 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 401 rowBlockSize: 401 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.020752 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 401 rowBlockSize: 401 nThreadPerBlock: 1024 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.023521 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3627 rowBlockSize: 3627 nThreadPerBlock: 32 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.018961 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 18772
+nVtx: 18772
+nEdge: 396160
+nVtx: 18772, nVtx: 18772, nEdge: 396160
+prior=5.32708e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 3627 rowBlockSize: 3627 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: ca-AstroPh.bin nVtx: 18772 nonzero: 396160 AvgTime: 0.025151 

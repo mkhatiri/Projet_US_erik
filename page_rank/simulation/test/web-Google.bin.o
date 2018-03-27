@@ -1,0 +1,779 @@
+cph-gpu3.uncc.edu
+ 10:55:33 up 18 days, 23:42,  0 users,  load average: 1.01, 1.16, 1.07
+exec
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+cublas : totaltime = 0.000149
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000141
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000150
+cublas : totaltime = 0.000155
+cublas : totaltime = 0.000145
+cublas : totaltime = 0.000144
+cublas : totaltime = 0.000142
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000134
+cublas : totaltime = 0.000137
+cublas : totaltime = 0.000142
+cublas : totaltime = 0.000140
+cublas : totaltime = 0.000137
+cublas : totaltime = 0.000144
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000138
+cublas : totaltime = 0.000138
+cublas : totaltime = 0.000135
+cublas : totaltime = 0.000140
+cublas : totaltime = 0.000140
+cublas : totaltime = 0.000145
+cublas : totaltime = 0.000147
+cublas : totaltime = 0.000142
+cublas : totaltime = 0.000138
+cublas : totaltime = 0.000136
+cublas : totaltime = 0.000138
+cublas : totaltime = 0.000141
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000137
+cublas : totaltime = 0.000136
+cublas : totaltime = 0.000141
+cublas : totaltime = 0.000140
+cublas : totaltime = 0.000145
+cublas : totaltime = 0.000146
+cublas : totaltime = 0.000140
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000136
+start measuring
+cublas : totaltime = 0.000145
+cublas : totaltime = 0.000135
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000137
+cublas : totaltime = 0.000136
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000140
+cublas : totaltime = 0.000135
+cublas : totaltime = 0.000146
+cublas : totaltime = 0.000145
+cublas : totaltime = 0.000141
+cublas : totaltime = 0.000136
+cublas : totaltime = 0.000134
+cublas : totaltime = 0.000141
+cublas : totaltime = 0.000137
+cublas : totaltime = 0.000135
+cublas : totaltime = 0.000134
+cublas : totaltime = 0.000140
+cublas : totaltime = 0.000137
+cublas : totaltime = 0.000137
+cublas : totaltime = 0.000134
+cublas : totaltime = 0.000142
+cublas : totaltime = 0.000138
+cublas : totaltime = 0.000136
+cublas : totaltime = 0.000135
+cublas : totaltime = 0.000140
+cublas : totaltime = 0.000137
+cublas : totaltime = 0.000132
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000141
+cublas : totaltime = 0.000138
+cublas : totaltime = 0.000135
+cublas : totaltime = 0.000135
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000136
+cublas : totaltime = 0.000134
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000136
+cublas : totaltime = 0.000134
+pr with cusparse : totaltime = 0.112486
+start measuring
+cublas : totaltime = 0.000137
+cublas : totaltime = 0.000141
+cublas : totaltime = 0.000137
+cublas : totaltime = 0.000136
+cublas : totaltime = 0.000143
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000137
+cublas : totaltime = 0.000135
+cublas : totaltime = 0.000138
+cublas : totaltime = 0.000138
+cublas : totaltime = 0.000134
+cublas : totaltime = 0.000133
+cublas : totaltime = 0.000131
+cublas : totaltime = 0.000138
+cublas : totaltime = 0.000135
+cublas : totaltime = 0.000145
+cublas : totaltime = 0.000132
+cublas : totaltime = 0.000138
+cublas : totaltime = 0.000135
+cublas : totaltime = 0.000135
+cublas : totaltime = 0.000138
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000135
+cublas : totaltime = 0.000136
+cublas : totaltime = 0.000141
+cublas : totaltime = 0.000140
+cublas : totaltime = 0.000134
+cublas : totaltime = 0.000135
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000140
+cublas : totaltime = 0.000143
+cublas : totaltime = 0.000133
+cublas : totaltime = 0.000130
+cublas : totaltime = 0.000137
+cublas : totaltime = 0.000136
+cublas : totaltime = 0.000134
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000137
+cublas : totaltime = 0.000135
+pr with cusparse : totaltime = 0.109987
+start measuring
+cublas : totaltime = 0.000136
+cublas : totaltime = 0.000132
+cublas : totaltime = 0.000140
+cublas : totaltime = 0.000135
+cublas : totaltime = 0.000138
+cublas : totaltime = 0.000138
+cublas : totaltime = 0.000138
+cublas : totaltime = 0.000136
+cublas : totaltime = 0.000135
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000138
+cublas : totaltime = 0.000134
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000136
+cublas : totaltime = 0.000135
+cublas : totaltime = 0.000132
+cublas : totaltime = 0.000140
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000136
+cublas : totaltime = 0.000133
+cublas : totaltime = 0.000140
+cublas : totaltime = 0.000140
+cublas : totaltime = 0.000136
+cublas : totaltime = 0.000133
+cublas : totaltime = 0.000140
+cublas : totaltime = 0.000137
+cublas : totaltime = 0.000137
+cublas : totaltime = 0.000133
+cublas : totaltime = 0.000136
+cublas : totaltime = 0.000137
+cublas : totaltime = 0.000140
+cublas : totaltime = 0.000134
+cublas : totaltime = 0.000139
+cublas : totaltime = 0.000135
+cublas : totaltime = 0.000140
+cublas : totaltime = 0.000135
+cublas : totaltime = 0.000130
+cublas : totaltime = 0.000128
+cublas : totaltime = 0.000140
+pr with cusparse : totaltime = 0.109858
+filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.110777 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 41802 rowBlockSize: 41802 nThreadPerBlock: 32 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.125924 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 41802 rowBlockSize: 41802 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.12143 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 41802 rowBlockSize: 41802 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.116852 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 20433 rowBlockSize: 20433 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.109551 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 20433 rowBlockSize: 20433 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.110482 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 20433 rowBlockSize: 20433 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.118596 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 10094 rowBlockSize: 10094 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.113885 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 10094 rowBlockSize: 10094 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.112153 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 10094 rowBlockSize: 10094 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.139829 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 5017 rowBlockSize: 5017 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.107171 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 5017 rowBlockSize: 5017 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.112301 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 5017 rowBlockSize: 5017 nThreadPerBlock: 1024 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.15219 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 41802 rowBlockSize: 41802 nThreadPerBlock: 32 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.129167 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 41802 rowBlockSize: 41802 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.117024 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 41802 rowBlockSize: 41802 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.124348 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 20433 rowBlockSize: 20433 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.10957 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 20433 rowBlockSize: 20433 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.112467 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 20433 rowBlockSize: 20433 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.118257 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 10094 rowBlockSize: 10094 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.108069 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 10094 rowBlockSize: 10094 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.111371 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 10094 rowBlockSize: 10094 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.139748 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 5017 rowBlockSize: 5017 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.113464 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 5017 rowBlockSize: 5017 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.112772 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 5017 rowBlockSize: 5017 nThreadPerBlock: 1024 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.148499 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 41802 rowBlockSize: 41802 nThreadPerBlock: 32 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.137355 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 41802 rowBlockSize: 41802 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.120428 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 41802 rowBlockSize: 41802 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.120258 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 20433 rowBlockSize: 20433 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.113149 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 20433 rowBlockSize: 20433 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.105533 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 20433 rowBlockSize: 20433 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.118916 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 10094 rowBlockSize: 10094 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.104659 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 10094 rowBlockSize: 10094 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.112335 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 10094 rowBlockSize: 10094 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.129342 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 5017 rowBlockSize: 5017 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.110207 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 5017 rowBlockSize: 5017 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.111123 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 5017 rowBlockSize: 5017 nThreadPerBlock: 1024 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.152026 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 41802 rowBlockSize: 41802 nThreadPerBlock: 32 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.13257 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 41802 rowBlockSize: 41802 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.121813 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 41802 rowBlockSize: 41802 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.124985 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 20433 rowBlockSize: 20433 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.106049 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 20433 rowBlockSize: 20433 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.111509 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 20433 rowBlockSize: 20433 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.121303 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 10094 rowBlockSize: 10094 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.108279 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 10094 rowBlockSize: 10094 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.11054 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 10094 rowBlockSize: 10094 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.129513 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 5017 rowBlockSize: 5017 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.110893 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 5017 rowBlockSize: 5017 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.114059 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 5017 rowBlockSize: 5017 nThreadPerBlock: 1024 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.155471 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 41802 rowBlockSize: 41802 nThreadPerBlock: 32 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.129074 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 41802 rowBlockSize: 41802 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.116133 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 41802 rowBlockSize: 41802 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.117006 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 20433 rowBlockSize: 20433 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.10942 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 20433 rowBlockSize: 20433 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.105436 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 20433 rowBlockSize: 20433 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.118726 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 10094 rowBlockSize: 10094 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.108123 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 10094 rowBlockSize: 10094 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.104375 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 10094 rowBlockSize: 10094 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.134178 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 5017 rowBlockSize: 5017 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.107152 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 5017 rowBlockSize: 5017 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.107455 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 916428
+nVtx: 916428
+nEdge: 5105039
+nVtx: 916428, nVtx: 916428, nEdge: 5105039
+prior=1.09119e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 5017 rowBlockSize: 5017 nThreadPerBlock: 1024 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: web-Google.bin nVtx: 916428 nonzero: 5105039 AvgTime: 0.144838 

@@ -1,0 +1,779 @@
+cph-gpu3.uncc.edu
+ 10:17:32 up 18 days, 23:04,  0 users,  load average: 0.86, 0.61, 0.30
+exec
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+cublas : totaltime = 0.000266
+cublas : totaltime = 0.000263
+cublas : totaltime = 0.000258
+cublas : totaltime = 0.000261
+cublas : totaltime = 0.000265
+cublas : totaltime = 0.000260
+cublas : totaltime = 0.000264
+cublas : totaltime = 0.000262
+cublas : totaltime = 0.000261
+cublas : totaltime = 0.000259
+cublas : totaltime = 0.000230
+cublas : totaltime = 0.000239
+cublas : totaltime = 0.000237
+cublas : totaltime = 0.000240
+cublas : totaltime = 0.000235
+cublas : totaltime = 0.000238
+cublas : totaltime = 0.000235
+cublas : totaltime = 0.000236
+cublas : totaltime = 0.000233
+cublas : totaltime = 0.000236
+cublas : totaltime = 0.000238
+cublas : totaltime = 0.000236
+cublas : totaltime = 0.000236
+cublas : totaltime = 0.000226
+cublas : totaltime = 0.000225
+cublas : totaltime = 0.000229
+cublas : totaltime = 0.000224
+cublas : totaltime = 0.000231
+cublas : totaltime = 0.000226
+cublas : totaltime = 0.000227
+cublas : totaltime = 0.000221
+cublas : totaltime = 0.000225
+cublas : totaltime = 0.000225
+cublas : totaltime = 0.000225
+cublas : totaltime = 0.000224
+cublas : totaltime = 0.000223
+cublas : totaltime = 0.000226
+cublas : totaltime = 0.000215
+cublas : totaltime = 0.000220
+cublas : totaltime = 0.000223
+start measuring
+cublas : totaltime = 0.000222
+cublas : totaltime = 0.000216
+cublas : totaltime = 0.000219
+cublas : totaltime = 0.000222
+cublas : totaltime = 0.000223
+cublas : totaltime = 0.000226
+cublas : totaltime = 0.000221
+cublas : totaltime = 0.000223
+cublas : totaltime = 0.000223
+cublas : totaltime = 0.000212
+cublas : totaltime = 0.000221
+cublas : totaltime = 0.000212
+cublas : totaltime = 0.000220
+cublas : totaltime = 0.000215
+cublas : totaltime = 0.000218
+cublas : totaltime = 0.000216
+cublas : totaltime = 0.000215
+cublas : totaltime = 0.000224
+cublas : totaltime = 0.000219
+cublas : totaltime = 0.000214
+cublas : totaltime = 0.000210
+cublas : totaltime = 0.000212
+cublas : totaltime = 0.000220
+cublas : totaltime = 0.000220
+cublas : totaltime = 0.000220
+cublas : totaltime = 0.000212
+cublas : totaltime = 0.000211
+cublas : totaltime = 0.000213
+cublas : totaltime = 0.000213
+cublas : totaltime = 0.000212
+cublas : totaltime = 0.000211
+cublas : totaltime = 0.000219
+cublas : totaltime = 0.000219
+cublas : totaltime = 0.000214
+cublas : totaltime = 0.000208
+cublas : totaltime = 0.000214
+cublas : totaltime = 0.000212
+cublas : totaltime = 0.000215
+cublas : totaltime = 0.000219
+cublas : totaltime = 0.000210
+pr with cusparse : totaltime = 0.432269
+start measuring
+cublas : totaltime = 0.000212
+cublas : totaltime = 0.000212
+cublas : totaltime = 0.000210
+cublas : totaltime = 0.000211
+cublas : totaltime = 0.000218
+cublas : totaltime = 0.000211
+cublas : totaltime = 0.000209
+cublas : totaltime = 0.000221
+cublas : totaltime = 0.000214
+cublas : totaltime = 0.000212
+cublas : totaltime = 0.000209
+cublas : totaltime = 0.000219
+cublas : totaltime = 0.000210
+cublas : totaltime = 0.000211
+cublas : totaltime = 0.000210
+cublas : totaltime = 0.000219
+cublas : totaltime = 0.000211
+cublas : totaltime = 0.000210
+cublas : totaltime = 0.000218
+cublas : totaltime = 0.000209
+cublas : totaltime = 0.000210
+cublas : totaltime = 0.000212
+cublas : totaltime = 0.000208
+cublas : totaltime = 0.000218
+cublas : totaltime = 0.000211
+cublas : totaltime = 0.000213
+cublas : totaltime = 0.000208
+cublas : totaltime = 0.000210
+cublas : totaltime = 0.000220
+cublas : totaltime = 0.000213
+cublas : totaltime = 0.000219
+cublas : totaltime = 0.000209
+cublas : totaltime = 0.000220
+cublas : totaltime = 0.000217
+cublas : totaltime = 0.000219
+cublas : totaltime = 0.000211
+cublas : totaltime = 0.000210
+cublas : totaltime = 0.000211
+cublas : totaltime = 0.000217
+cublas : totaltime = 0.000209
+pr with cusparse : totaltime = 0.416542
+start measuring
+cublas : totaltime = 0.000222
+cublas : totaltime = 0.000213
+cublas : totaltime = 0.000217
+cublas : totaltime = 0.000218
+cublas : totaltime = 0.000211
+cublas : totaltime = 0.000212
+cublas : totaltime = 0.000208
+cublas : totaltime = 0.000211
+cublas : totaltime = 0.000217
+cublas : totaltime = 0.000213
+cublas : totaltime = 0.000210
+cublas : totaltime = 0.000220
+cublas : totaltime = 0.000211
+cublas : totaltime = 0.000211
+cublas : totaltime = 0.000210
+cublas : totaltime = 0.000211
+cublas : totaltime = 0.000221
+cublas : totaltime = 0.000214
+cublas : totaltime = 0.000216
+cublas : totaltime = 0.000218
+cublas : totaltime = 0.000208
+cublas : totaltime = 0.000214
+cublas : totaltime = 0.000209
+cublas : totaltime = 0.000212
+cublas : totaltime = 0.000221
+cublas : totaltime = 0.000213
+cublas : totaltime = 0.000218
+cublas : totaltime = 0.000210
+cublas : totaltime = 0.000213
+cublas : totaltime = 0.000218
+cublas : totaltime = 0.000208
+cublas : totaltime = 0.000212
+cublas : totaltime = 0.000219
+cublas : totaltime = 0.000209
+cublas : totaltime = 0.000219
+cublas : totaltime = 0.000217
+cublas : totaltime = 0.000218
+cublas : totaltime = 0.000209
+cublas : totaltime = 0.000209
+cublas : totaltime = 0.000212
+pr with cusparse : totaltime = 0.415838
+filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.421549 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 161362 rowBlockSize: 161362 nThreadPerBlock: 32 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.309784 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 161362 rowBlockSize: 161362 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.265807 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 161362 rowBlockSize: 161362 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.281005 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 82799 rowBlockSize: 82799 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.21893 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 82799 rowBlockSize: 82799 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.206926 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 82799 rowBlockSize: 82799 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.311094 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 42115 rowBlockSize: 42115 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.180067 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 42115 rowBlockSize: 42115 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.221638 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 42115 rowBlockSize: 42115 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.37336 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 21261 rowBlockSize: 21261 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.184913 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 21261 rowBlockSize: 21261 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.262756 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 21261 rowBlockSize: 21261 nThreadPerBlock: 1024 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.439169 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 161362 rowBlockSize: 161362 nThreadPerBlock: 32 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.309777 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 161362 rowBlockSize: 161362 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.262514 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 161362 rowBlockSize: 161362 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.429903 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 82799 rowBlockSize: 82799 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.213186 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 82799 rowBlockSize: 82799 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.203302 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 82799 rowBlockSize: 82799 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.31788 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 42115 rowBlockSize: 42115 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.186561 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 42115 rowBlockSize: 42115 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.242818 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 42115 rowBlockSize: 42115 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.376497 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 21261 rowBlockSize: 21261 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.195471 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 21261 rowBlockSize: 21261 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.256017 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 21261 rowBlockSize: 21261 nThreadPerBlock: 1024 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.456138 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 161362 rowBlockSize: 161362 nThreadPerBlock: 32 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.316304 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 161362 rowBlockSize: 161362 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.273806 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 161362 rowBlockSize: 161362 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.282262 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 82799 rowBlockSize: 82799 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.213644 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 82799 rowBlockSize: 82799 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.21319 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 82799 rowBlockSize: 82799 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.318065 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 42115 rowBlockSize: 42115 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.176553 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 42115 rowBlockSize: 42115 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.23516 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 42115 rowBlockSize: 42115 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.377282 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 21261 rowBlockSize: 21261 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.192114 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 21261 rowBlockSize: 21261 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.26023 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 21261 rowBlockSize: 21261 nThreadPerBlock: 1024 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.440113 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 161362 rowBlockSize: 161362 nThreadPerBlock: 32 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.31295 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 161362 rowBlockSize: 161362 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.26258 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 161362 rowBlockSize: 161362 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.282506 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 82799 rowBlockSize: 82799 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.224644 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 82799 rowBlockSize: 82799 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.210383 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 82799 rowBlockSize: 82799 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.311667 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 42115 rowBlockSize: 42115 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.176652 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 42115 rowBlockSize: 42115 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.225275 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 42115 rowBlockSize: 42115 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.389346 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 21261 rowBlockSize: 21261 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.198812 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 21261 rowBlockSize: 21261 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.259623 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 21261 rowBlockSize: 21261 nThreadPerBlock: 1024 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.44005 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 161362 rowBlockSize: 161362 nThreadPerBlock: 32 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.309918 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 161362 rowBlockSize: 161362 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.269817 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 161362 rowBlockSize: 161362 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.282464 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 82799 rowBlockSize: 82799 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.217195 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 82799 rowBlockSize: 82799 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.207074 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 82799 rowBlockSize: 82799 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.315335 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 42115 rowBlockSize: 42115 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.194406 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 42115 rowBlockSize: 42115 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.222328 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 42115 rowBlockSize: 42115 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.372686 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 21261 rowBlockSize: 21261 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.188696 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 21261 rowBlockSize: 21261 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.252752 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1696415
+nVtx: 1696415
+nEdge: 22190596
+nVtx: 1696415, nVtx: 1696415, nEdge: 22190596
+prior=5.89478e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 21261 rowBlockSize: 21261 nThreadPerBlock: 1024 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: as-Skitter.bin nVtx: 1696415 nonzero: 22190596 AvgTime: 0.441804 

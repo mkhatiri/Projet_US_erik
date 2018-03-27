@@ -1,0 +1,779 @@
+cph-gpu1.uncc.edu
+ 10:45:07 up 18 days, 23:32,  0 users,  load average: 1.04, 1.11, 1.18
+exec
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+cublas : totaltime = 0.000180
+cublas : totaltime = 0.000179
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000173
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000175
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000176
+cublas : totaltime = 0.000173
+cublas : totaltime = 0.000169
+cublas : totaltime = 0.000178
+cublas : totaltime = 0.000175
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000179
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000175
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000170
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000170
+cublas : totaltime = 0.000175
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000175
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000175
+cublas : totaltime = 0.000170
+cublas : totaltime = 0.000166
+cublas : totaltime = 0.000170
+cublas : totaltime = 0.000175
+cublas : totaltime = 0.000177
+cublas : totaltime = 0.000171
+start measuring
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000175
+cublas : totaltime = 0.000175
+cublas : totaltime = 0.000169
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000175
+cublas : totaltime = 0.000173
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000173
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000175
+cublas : totaltime = 0.000175
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000169
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000174
+cublas : totaltime = 0.000173
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000181
+cublas : totaltime = 0.000175
+cublas : totaltime = 0.000173
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000170
+cublas : totaltime = 0.000176
+cublas : totaltime = 0.000174
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000173
+cublas : totaltime = 0.000174
+cublas : totaltime = 0.000174
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000170
+cublas : totaltime = 0.000175
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000170
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000167
+cublas : totaltime = 0.000173
+cublas : totaltime = 0.000172
+pr with cusparse : totaltime = 0.059663
+start measuring
+cublas : totaltime = 0.000173
+cublas : totaltime = 0.000177
+cublas : totaltime = 0.000173
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000169
+cublas : totaltime = 0.000175
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000170
+cublas : totaltime = 0.000179
+cublas : totaltime = 0.000168
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000168
+cublas : totaltime = 0.000179
+cublas : totaltime = 0.000175
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000167
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000177
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000173
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000170
+cublas : totaltime = 0.000169
+cublas : totaltime = 0.000174
+cublas : totaltime = 0.000173
+cublas : totaltime = 0.000179
+cublas : totaltime = 0.000170
+cublas : totaltime = 0.000175
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000170
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000173
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000169
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000176
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000172
+pr with cusparse : totaltime = 0.059630
+start measuring
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000167
+cublas : totaltime = 0.000174
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000173
+cublas : totaltime = 0.000175
+cublas : totaltime = 0.000174
+cublas : totaltime = 0.000170
+cublas : totaltime = 0.000170
+cublas : totaltime = 0.000174
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000178
+cublas : totaltime = 0.000176
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000170
+cublas : totaltime = 0.000177
+cublas : totaltime = 0.000169
+cublas : totaltime = 0.000176
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000176
+cublas : totaltime = 0.000176
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000170
+cublas : totaltime = 0.000176
+cublas : totaltime = 0.000173
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000169
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000173
+cublas : totaltime = 0.000174
+cublas : totaltime = 0.000170
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000172
+cublas : totaltime = 0.000170
+cublas : totaltime = 0.000173
+cublas : totaltime = 0.000171
+cublas : totaltime = 0.000174
+pr with cusparse : totaltime = 0.059707
+filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.059666 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 24303 rowBlockSize: 24303 nThreadPerBlock: 32 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.084364 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 24303 rowBlockSize: 24303 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.07194 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 24303 rowBlockSize: 24303 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.063123 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 12100 rowBlockSize: 12100 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.048966 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 12100 rowBlockSize: 12100 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.03489 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 12100 rowBlockSize: 12100 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.050777 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 6037 rowBlockSize: 6037 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.036204 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 6037 rowBlockSize: 6037 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.034987 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 6037 rowBlockSize: 6037 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.056063 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 3016 rowBlockSize: 3016 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.032992 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 3016 rowBlockSize: 3016 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.036104 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 3016 rowBlockSize: 3016 nThreadPerBlock: 1024 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.05794 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 24303 rowBlockSize: 24303 nThreadPerBlock: 32 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.059999 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 24303 rowBlockSize: 24303 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.045204 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 24303 rowBlockSize: 24303 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.053421 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 12100 rowBlockSize: 12100 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.040349 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 12100 rowBlockSize: 12100 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.038096 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 12100 rowBlockSize: 12100 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.04896 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 6037 rowBlockSize: 6037 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.035932 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 6037 rowBlockSize: 6037 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.035023 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 6037 rowBlockSize: 6037 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.056342 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 3016 rowBlockSize: 3016 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.033005 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 3016 rowBlockSize: 3016 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.037596 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 3016 rowBlockSize: 3016 nThreadPerBlock: 1024 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.05803 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 24303 rowBlockSize: 24303 nThreadPerBlock: 32 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.059996 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 24303 rowBlockSize: 24303 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.045271 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 24303 rowBlockSize: 24303 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.047057 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 12100 rowBlockSize: 12100 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.040314 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 12100 rowBlockSize: 12100 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.045432 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 12100 rowBlockSize: 12100 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.05233 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 6037 rowBlockSize: 6037 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.032622 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 6037 rowBlockSize: 6037 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.042017 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 6037 rowBlockSize: 6037 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.053758 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 3016 rowBlockSize: 3016 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.033028 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 3016 rowBlockSize: 3016 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.036179 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 3016 rowBlockSize: 3016 nThreadPerBlock: 1024 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.058015 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 24303 rowBlockSize: 24303 nThreadPerBlock: 32 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.060001 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 24303 rowBlockSize: 24303 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.055721 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 24303 rowBlockSize: 24303 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.050443 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 12100 rowBlockSize: 12100 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.043931 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 12100 rowBlockSize: 12100 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.034654 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 12100 rowBlockSize: 12100 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.052134 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 6037 rowBlockSize: 6037 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.032622 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 6037 rowBlockSize: 6037 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.036047 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 6037 rowBlockSize: 6037 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.05971 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 3016 rowBlockSize: 3016 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.036442 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 3016 rowBlockSize: 3016 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.036194 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 3016 rowBlockSize: 3016 nThreadPerBlock: 1024 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.064157 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 24303 rowBlockSize: 24303 nThreadPerBlock: 32 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.060015 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 24303 rowBlockSize: 24303 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.045253 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 24303 rowBlockSize: 24303 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.22687 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 12100 rowBlockSize: 12100 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.442015 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 12100 rowBlockSize: 12100 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.061566 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 12100 rowBlockSize: 12100 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.071838 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 6037 rowBlockSize: 6037 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.046846 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 6037 rowBlockSize: 6037 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.052804 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 6037 rowBlockSize: 6037 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.070825 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 3016 rowBlockSize: 3016 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.038178 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 3016 rowBlockSize: 3016 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.041757 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 1090920
+nVtx: 1090920
+nEdge: 3083796
+nVtx: 1090920, nVtx: 1090920, nEdge: 3083796
+prior=9.16657e-07
+graph read
+Begin
+nb_blocks: 1 subsize: 3016 rowBlockSize: 3016 nThreadPerBlock: 1024 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: roadNet-PA.bin nVtx: 1090920 nonzero: 3083796 AvgTime: 0.063637 

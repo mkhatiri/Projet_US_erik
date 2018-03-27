@@ -1,0 +1,3 @@
+cph-gpu1.uncc.edu
+filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.016817 vtxsize: 4
+nb_blocks: 1 subsize: 9812 rowBlockSize: 9812 nThreadPerBlock: 32 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: amazon0302.bin nVtx: 262111 nonzero: 1234877 AvgTime: 0.457666 vtxsize: 4

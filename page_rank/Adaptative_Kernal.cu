@@ -562,14 +562,170 @@ __global__ void csr_adaptative(float* vals, int* cols, int* rowPtrs, float* vec,
 				//csr_vectorL(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, vecStart, vecEnd, WGSIZE, &temp_sum, sumk_e, new_error, rowErr);
 			}
 		}
-	}else{
-		atomicAdd(&method[3], 1);
+//	}else{
+//		atomicAdd(&method[3], 1);
 	}
 }
+
+
+
 __global__ void csr_adaptativeT(int *a){
 
 	int index = blockIdx.x*blockDim.x +  threadIdx.x;
 	a[index] = __clz(512)  ;
 
 
+}
+
+
+
+
+__global__ void csr_adaptativeGPU0(int *d_end, int* d_begin ,float* vals, int* cols, int* rowPtrs, float* vec, float* out,
+		unsigned long* rowBlocks, float* d_alpha, float* d_beta, unsigned int* d_blkSize, 
+		unsigned int* d_blkMultiple, unsigned int* d_rowForVector, int rowBlockSize){
+
+	const unsigned int blkSize = *d_blkSize;
+	const unsigned int blkMultiple = *d_blkMultiple;
+	const unsigned int rowForVector = *d_rowForVector;
+
+	extern __shared__ float partialSums[];
+//	int Bid = blockIdx.x ;
+	int Tid = threadIdx.x;
+	const float alpha = *d_alpha;
+	const float beta = *d_beta;
+
+	int WGSIZE = blockDim.x;
+	float temp_sum = 0.;
+	float sumk_e = 0.;
+	float new_error = 0.;
+	int *method;
+	__shared__ int Bid;
+
+	while( *d_end < *d_begin){
+		if(Tid==0)
+		{
+			Bid = atomicAdd(d_end, 1);
+		//	printf("GPU 0 =%d \n", Bid); 
+		}
+	__syncthreads();
+	
+	unsigned int row = ((rowBlocks[Bid] >> 32) & ((1UL << 32) - 1UL));	 // OWBITS = 32
+	unsigned int stop_row = ((rowBlocks[Bid + 1] >> 32) & ((1UL << 32) - 1UL));
+	unsigned int num_rows = stop_row - row;
+
+
+	unsigned int wg = rowBlocks[Bid] & ((1 << 24) - 1);  // WGBITS = 24
+
+	unsigned int vecStart = wg*(unsigned int)(blkSize*blkMultiple) + rowPtrs[row];
+	unsigned int vecEnd = (rowPtrs[row + 1] > vecStart + blkSize*blkMultiple) ? vecStart + blkSize*blkMultiple : rowPtrs[row+1];
+
+	//	printf("Tid=%d row=%d, stop_row=%d \n ", Tid, row, stop_row);
+
+	if ((num_rows == 1 && wg)) // CSR-LongRows case
+	{
+		num_rows = rowForVector;
+		stop_row = (wg ? row : (row + 1));
+		wg = 0;
+		//	tab[Bid] = 15;	
+	}
+
+	if(row <= stop_row){
+
+		if (num_rows > rowForVector ) //CSR-Stream case
+		{
+			//	atomicAdd(&method[0], 1);
+			//		if(Tid==0)
+			//printf("stream : BID=%d, TID=%d \n", Bid, Tid);
+			csr_stream(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, WGSIZE, temp_sum, sumk_e, new_error, method);
+		}else if (num_rows >= 1 && !wg){ // CSR-Vector case.
+			//	atomicAdd(&method[1], 1);
+			//		if(Tid==0)
+			//		printf("Vector : BID=%d, TID=%d \n", Bid, Tid);
+			csr_vector(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, WGSIZE, temp_sum, sumk_e, new_error);
+		}else{ //CSR-LongRows
+			//atomicAdd(&method[2], 1);
+			//	if(Tid==0)
+			//	printf("VL : BID=%d, TID=%d \n", Bid, Tid);
+			//csr_vectorL(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, vecStart, vecEnd, WGSIZE, &temp_sum, sumk_e, new_error, rowErr);
+		}
+	}
+
+	__syncthreads();
+
+	}
+}	
+
+__global__ void csr_adaptativeGPU1(int *d_end, int* d_begin,float* vals, int* cols, int* rowPtrs, float* vec, float* out,
+		unsigned long* rowBlocks, float* d_alpha, float* d_beta, unsigned int* d_blkSize, 
+		unsigned int* d_blkMultiple, unsigned int* d_rowForVector, int rowBlockSize){
+
+	const unsigned int blkSize = *d_blkSize;
+	const unsigned int blkMultiple = *d_blkMultiple;
+	const unsigned int rowForVector = *d_rowForVector;
+
+	extern __shared__ float partialSums[];
+//	int Bid = blockIdx.x ;
+	int Tid = threadIdx.x;
+	const float alpha = *d_alpha;
+	const float beta = *d_beta;
+
+	int WGSIZE = blockDim.x;
+	float temp_sum = 0.;
+	float sumk_e = 0.;
+	float new_error = 0.;
+	int *method;
+	__shared__ int Bid;
+
+	while( *d_end <= *d_begin){
+		if(Tid==0)
+		{
+			Bid = atomicSub(d_begin, 1);
+		//	printf("GPU 1 =%d \n", Bid); 
+		}
+	__syncthreads();
+	
+	unsigned int row = ((rowBlocks[Bid] >> 32) & ((1UL << 32) - 1UL));	 // OWBITS = 32
+	unsigned int stop_row = ((rowBlocks[Bid + 1] >> 32) & ((1UL << 32) - 1UL));
+	unsigned int num_rows = stop_row - row;
+
+
+	unsigned int wg = rowBlocks[Bid] & ((1 << 24) - 1);  // WGBITS = 24
+
+	unsigned int vecStart = wg*(unsigned int)(blkSize*blkMultiple) + rowPtrs[row];
+	unsigned int vecEnd = (rowPtrs[row + 1] > vecStart + blkSize*blkMultiple) ? vecStart + blkSize*blkMultiple : rowPtrs[row+1];
+
+	//	printf("Tid=%d row=%d, stop_row=%d \n ", Tid, row, stop_row);
+
+	if ((num_rows == 1 && wg)) // CSR-LongRows case
+	{
+		num_rows = rowForVector;
+		stop_row = (wg ? row : (row + 1));
+		wg = 0;
+		//	tab[Bid] = 15;	
+	}
+
+	if(row <= stop_row){
+
+		if (num_rows > rowForVector ) //CSR-Stream case
+		{
+			//	atomicAdd(&method[0], 1);
+			//		if(Tid==0)
+			//printf("stream : BID=%d, TID=%d \n", Bid, Tid);
+			csr_stream(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, WGSIZE, temp_sum, sumk_e, new_error, method);
+		}else if (num_rows >= 1 && !wg){ // CSR-Vector case.
+			//	atomicAdd(&method[1], 1);
+			//		if(Tid==0)
+			//		printf("Vector : BID=%d, TID=%d \n", Bid, Tid);
+			csr_vector(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, WGSIZE, temp_sum, sumk_e, new_error);
+		}else{ //CSR-LongRows
+			//atomicAdd(&method[2], 1);
+			//	if(Tid==0)
+			//	printf("VL : BID=%d, TID=%d \n", Bid, Tid);
+			//csr_vectorL(partialSums, vals, cols, rowPtrs, vec, out, rowBlocks, alpha, beta, blkSize, rowForVector, blkMultiple, Bid, Tid, row, stop_row, wg, vecStart, vecEnd, WGSIZE, &temp_sum, sumk_e, new_error, rowErr);
+		}
+	}
+
+	__syncthreads();
+
+	}
 }

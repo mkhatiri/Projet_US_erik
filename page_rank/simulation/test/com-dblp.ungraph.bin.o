@@ -1,0 +1,779 @@
+cph-gpu3.uncc.edu
+ 10:27:51 up 18 days, 23:15,  0 users,  load average: 1.20, 1.16, 0.75
+exec
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000083
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000083
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000083
+cublas : totaltime = 0.000083
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000076
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000083
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000083
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000084
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000088
+cublas : totaltime = 0.000082
+start measuring
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000083
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000092
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000084
+cublas : totaltime = 0.000090
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000083
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000078
+pr with cusparse : totaltime = 0.036039
+start measuring
+cublas : totaltime = 0.000084
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000089
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000086
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000083
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000083
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000083
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000083
+cublas : totaltime = 0.000083
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000084
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000081
+pr with cusparse : totaltime = 0.036079
+start measuring
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000083
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000082
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000081
+cublas : totaltime = 0.000079
+cublas : totaltime = 0.000083
+cublas : totaltime = 0.000077
+cublas : totaltime = 0.000080
+cublas : totaltime = 0.000076
+cublas : totaltime = 0.000078
+cublas : totaltime = 0.000089
+pr with cusparse : totaltime = 0.036101
+filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.036073 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 17679 rowBlockSize: 17679 nThreadPerBlock: 32 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.062822 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 17679 rowBlockSize: 17679 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.052546 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 17679 rowBlockSize: 17679 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.042456 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 8554 rowBlockSize: 8554 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.051976 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 8554 rowBlockSize: 8554 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.03242 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 8554 rowBlockSize: 8554 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.040918 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4189 rowBlockSize: 4189 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.02414 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4189 rowBlockSize: 4189 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.028694 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4189 rowBlockSize: 4189 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.04668 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2074 rowBlockSize: 2074 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.027649 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2074 rowBlockSize: 2074 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.033375 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2074 rowBlockSize: 2074 nThreadPerBlock: 1024 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.051742 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 17679 rowBlockSize: 17679 nThreadPerBlock: 32 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.053272 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 17679 rowBlockSize: 17679 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.036817 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 17679 rowBlockSize: 17679 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.040881 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 8554 rowBlockSize: 8554 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.028991 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 8554 rowBlockSize: 8554 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.027361 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 8554 rowBlockSize: 8554 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.041586 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4189 rowBlockSize: 4189 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.027097 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4189 rowBlockSize: 4189 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.034876 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4189 rowBlockSize: 4189 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.050999 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2074 rowBlockSize: 2074 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.027413 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2074 rowBlockSize: 2074 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.043392 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2074 rowBlockSize: 2074 nThreadPerBlock: 1024 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.056651 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 17679 rowBlockSize: 17679 nThreadPerBlock: 32 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.049589 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 17679 rowBlockSize: 17679 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.036865 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 17679 rowBlockSize: 17679 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.040788 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 8554 rowBlockSize: 8554 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.034581 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 8554 rowBlockSize: 8554 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.041339 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 8554 rowBlockSize: 8554 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.045219 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4189 rowBlockSize: 4189 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.037749 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4189 rowBlockSize: 4189 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.03151 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4189 rowBlockSize: 4189 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.044972 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2074 rowBlockSize: 2074 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.027532 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2074 rowBlockSize: 2074 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.036248 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2074 rowBlockSize: 2074 nThreadPerBlock: 1024 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.049846 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 17679 rowBlockSize: 17679 nThreadPerBlock: 32 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.042843 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 17679 rowBlockSize: 17679 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.040455 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 17679 rowBlockSize: 17679 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.040618 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 8554 rowBlockSize: 8554 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.036329 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 8554 rowBlockSize: 8554 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.037375 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 8554 rowBlockSize: 8554 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.05102 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4189 rowBlockSize: 4189 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.028983 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4189 rowBlockSize: 4189 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.031726 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4189 rowBlockSize: 4189 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.059116 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2074 rowBlockSize: 2074 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.034479 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2074 rowBlockSize: 2074 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.049874 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2074 rowBlockSize: 2074 nThreadPerBlock: 1024 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.06028 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 17679 rowBlockSize: 17679 nThreadPerBlock: 32 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.050944 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 17679 rowBlockSize: 17679 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.04195 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 17679 rowBlockSize: 17679 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.047988 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 8554 rowBlockSize: 8554 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.036955 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 8554 rowBlockSize: 8554 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.03164 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 8554 rowBlockSize: 8554 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.043613 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4189 rowBlockSize: 4189 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.031274 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4189 rowBlockSize: 4189 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.03272 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 4189 rowBlockSize: 4189 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.047131 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2074 rowBlockSize: 2074 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.027731 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2074 rowBlockSize: 2074 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.03274 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 317080
+nVtx: 317080
+nEdge: 2099732
+nVtx: 317080, nVtx: 317080, nEdge: 2099732
+prior=3.15378e-06
+graph read
+Begin
+nb_blocks: 1 subsize: 2074 rowBlockSize: 2074 nThreadPerBlock: 1024 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: com-dblp.ungraph.bin nVtx: 317080 nonzero: 2099732 AvgTime: 0.053489 

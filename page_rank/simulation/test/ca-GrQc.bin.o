@@ -1,0 +1,779 @@
+cph-gpu3.uncc.edu
+ 10:19:53 up 18 days, 23:07,  0 users,  load average: 1.17, 0.87, 0.44
+exec
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+cublas : totaltime = 0.000056
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000038
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000038
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000044
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000038
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000068
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000038
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000035
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+start measuring
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000050
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000039
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000036
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000035
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000039
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+pr with cusparse : totaltime = 0.004573
+start measuring
+cublas : totaltime = 0.000038
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000041
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000037
+pr with cusparse : totaltime = 0.004593
+start measuring
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000038
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000039
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000035
+cublas : totaltime = 0.000044
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000038
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000038
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000035
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+pr with cusparse : totaltime = 0.004577
+filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.004581 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 242 rowBlockSize: 242 nThreadPerBlock: 32 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.011134 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 242 rowBlockSize: 242 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.021188 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 242 rowBlockSize: 242 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.016315 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 118 rowBlockSize: 118 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.014447 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 118 rowBlockSize: 118 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.014244 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 118 rowBlockSize: 118 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.017787 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 59 rowBlockSize: 59 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.017987 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 59 rowBlockSize: 59 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.017884 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 59 rowBlockSize: 59 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.014573 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 30 rowBlockSize: 30 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.007253 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 30 rowBlockSize: 30 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.007483 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 30 rowBlockSize: 30 nThreadPerBlock: 1024 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.014765 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 242 rowBlockSize: 242 nThreadPerBlock: 32 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.007638 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 242 rowBlockSize: 242 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.011073 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 242 rowBlockSize: 242 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.014349 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 118 rowBlockSize: 118 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.010671 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 118 rowBlockSize: 118 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.007188 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 118 rowBlockSize: 118 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.011023 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 59 rowBlockSize: 59 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.010544 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 59 rowBlockSize: 59 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.01418 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 59 rowBlockSize: 59 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.010891 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 30 rowBlockSize: 30 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.014084 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 30 rowBlockSize: 30 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.007306 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 30 rowBlockSize: 30 nThreadPerBlock: 1024 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.011301 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 242 rowBlockSize: 242 nThreadPerBlock: 32 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.007523 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 242 rowBlockSize: 242 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.017814 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 242 rowBlockSize: 242 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.018224 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 118 rowBlockSize: 118 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.017718 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 118 rowBlockSize: 118 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.007303 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 118 rowBlockSize: 118 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.014292 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 59 rowBlockSize: 59 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.007163 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 59 rowBlockSize: 59 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.021266 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 59 rowBlockSize: 59 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.23389 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 30 rowBlockSize: 30 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.010583 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 30 rowBlockSize: 30 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.021259 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 30 rowBlockSize: 30 nThreadPerBlock: 1024 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.01109 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 242 rowBlockSize: 242 nThreadPerBlock: 32 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.010896 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 242 rowBlockSize: 242 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.017852 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 242 rowBlockSize: 242 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.013324 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 118 rowBlockSize: 118 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.007237 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 118 rowBlockSize: 118 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.014359 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 118 rowBlockSize: 118 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.017936 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 59 rowBlockSize: 59 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.010671 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 59 rowBlockSize: 59 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.014365 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 59 rowBlockSize: 59 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.007505 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 30 rowBlockSize: 30 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.010877 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 30 rowBlockSize: 30 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.021378 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 30 rowBlockSize: 30 nThreadPerBlock: 1024 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.011674 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 242 rowBlockSize: 242 nThreadPerBlock: 32 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.011139 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 242 rowBlockSize: 242 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.017857 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 242 rowBlockSize: 242 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.011028 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 118 rowBlockSize: 118 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.014233 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 118 rowBlockSize: 118 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.010778 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 118 rowBlockSize: 118 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.007423 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 59 rowBlockSize: 59 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.014059 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 59 rowBlockSize: 59 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.031813 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 59 rowBlockSize: 59 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.018172 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 30 rowBlockSize: 30 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.014121 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 30 rowBlockSize: 30 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.02132 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 5242
+nVtx: 5242
+nEdge: 28980
+nVtx: 5242, nVtx: 5242, nEdge: 28980
+prior=0.000190767
+graph read
+Begin
+nb_blocks: 1 subsize: 30 rowBlockSize: 30 nThreadPerBlock: 1024 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: ca-GrQc.bin nVtx: 5242 nonzero: 28980 AvgTime: 0.007797 

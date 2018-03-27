@@ -1,0 +1,779 @@
+cph-gpu3.uncc.edu
+ 10:42:32 up 18 days, 23:29,  0 users,  load average: 0.96, 0.99, 0.90
+exec
+vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+cublas : totaltime = 0.000058
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000043
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000036
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+start measuring
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000041
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000044
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000036
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+pr with cusparse : totaltime = 0.005166
+start measuring
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000051
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000037
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000044
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000036
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+pr with cusparse : totaltime = 0.005179
+start measuring
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000036
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000048
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000050
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000036
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000047
+cublas : totaltime = 0.000046
+cublas : totaltime = 0.000045
+cublas : totaltime = 0.000047
+pr with cusparse : totaltime = 0.005198
+filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.005181 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 532 rowBlockSize: 532 nThreadPerBlock: 32 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.011631 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 532 rowBlockSize: 532 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.019659 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 532 rowBlockSize: 532 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 128 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.011575 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 262 rowBlockSize: 262 nThreadPerBlock: 64 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.01593 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 262 rowBlockSize: 262 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.014413 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 262 rowBlockSize: 262 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 256 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.025358 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 130 rowBlockSize: 130 nThreadPerBlock: 128 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.007679 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 130 rowBlockSize: 130 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.007604 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 130 rowBlockSize: 130 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 512 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.008194 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 66 rowBlockSize: 66 nThreadPerBlock: 256 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.014821 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 66 rowBlockSize: 66 nThreadPerBlock: 512 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.007695 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 66 rowBlockSize: 66 nThreadPerBlock: 1024 shortBlockSize: 8 BlkSize: 1024 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.015638 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 532 rowBlockSize: 532 nThreadPerBlock: 32 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.02504 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 532 rowBlockSize: 532 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.011581 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 532 rowBlockSize: 532 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 128 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.007939 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 262 rowBlockSize: 262 nThreadPerBlock: 64 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.011399 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 262 rowBlockSize: 262 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.01463 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 262 rowBlockSize: 262 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 256 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.015041 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 130 rowBlockSize: 130 nThreadPerBlock: 128 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.011085 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 130 rowBlockSize: 130 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.011039 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 130 rowBlockSize: 130 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 512 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.0116 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 66 rowBlockSize: 66 nThreadPerBlock: 256 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.007574 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 66 rowBlockSize: 66 nThreadPerBlock: 512 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.014646 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 66 rowBlockSize: 66 nThreadPerBlock: 1024 shortBlockSize: 16 BlkSize: 1024 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.015698 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 532 rowBlockSize: 532 nThreadPerBlock: 32 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.008158 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 532 rowBlockSize: 532 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.011242 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 532 rowBlockSize: 532 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 128 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.007928 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 262 rowBlockSize: 262 nThreadPerBlock: 64 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.011463 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 262 rowBlockSize: 262 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.021473 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 262 rowBlockSize: 262 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 256 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.020497 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 130 rowBlockSize: 130 nThreadPerBlock: 128 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.021625 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 130 rowBlockSize: 130 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.007622 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 130 rowBlockSize: 130 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 512 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.024184 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 66 rowBlockSize: 66 nThreadPerBlock: 256 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.021543 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 66 rowBlockSize: 66 nThreadPerBlock: 512 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.011376 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 66 rowBlockSize: 66 nThreadPerBlock: 1024 shortBlockSize: 32 BlkSize: 1024 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.01184 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 532 rowBlockSize: 532 nThreadPerBlock: 32 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.01515 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 532 rowBlockSize: 532 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.011142 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 532 rowBlockSize: 532 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 128 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.011521 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 262 rowBlockSize: 262 nThreadPerBlock: 64 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.007824 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 262 rowBlockSize: 262 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.018426 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 262 rowBlockSize: 262 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 256 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.011861 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 130 rowBlockSize: 130 nThreadPerBlock: 128 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.007609 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 130 rowBlockSize: 130 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.011172 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 130 rowBlockSize: 130 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 512 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.011601 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 66 rowBlockSize: 66 nThreadPerBlock: 256 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.011199 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 66 rowBlockSize: 66 nThreadPerBlock: 512 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.011184 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 66 rowBlockSize: 66 nThreadPerBlock: 1024 shortBlockSize: 64 BlkSize: 1024 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.01217 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 532 rowBlockSize: 532 nThreadPerBlock: 32 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.016677 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 532 rowBlockSize: 532 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.018389 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 532 rowBlockSize: 532 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 128 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.010827 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 262 rowBlockSize: 262 nThreadPerBlock: 64 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.007803 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 262 rowBlockSize: 262 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.01101 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 262 rowBlockSize: 262 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 256 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.029279 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 130 rowBlockSize: 130 nThreadPerBlock: 128 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.018297 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 130 rowBlockSize: 130 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.007652 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 130 rowBlockSize: 130 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 512 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.015133 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 66 rowBlockSize: 66 nThreadPerBlock: 256 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.007592 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 66 rowBlockSize: 66 nThreadPerBlock: 512 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.011199 vtxsize: 4
+edgesize: 4
+weightsize: 4
+nVtx: 26518
+nVtx: 26518
+nEdge: 65369
+nVtx: 26518, nVtx: 26518, nEdge: 65369
+prior=3.77102e-05
+graph read
+Begin
+nb_blocks: 1 subsize: 66 rowBlockSize: 66 nThreadPerBlock: 1024 shortBlockSize: 128 BlkSize: 1024 nb_task: 1 filename: p2p-Gnutella24.bin nVtx: 26518 nonzero: 65369 AvgTime: 0.011257 

@@ -1,6 +1,6 @@
 #include "main-pr.hpp"
 
-#define THROW_AWAY 0
+#define THROW_AWAY 1
 #include "Padded2DArray.hpp"
 #include <omp.h>
 #include "memutils.hpp"
@@ -26,6 +26,7 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 {
   bool coldcache = true;
   
+  util::timestamp start1(0,0);
   util::timestamp start(0,0);
 
   //cpuside variables  
@@ -86,8 +87,10 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 
   for (int TRY=0; TRY<THROW_AWAY+nTry; ++TRY)
     {
-      //if (TRY >= THROW_AWAY)
-//	start = util::timestamp();
+      if (TRY >= THROW_AWAY) {
+	std::cout<<"start measuring"<<std::endl;
+	start = util::timestamp();
+	}
 
       for (int iter = 0; iter < 40 ; ++ iter) {
 
@@ -115,7 +118,8 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 		       d_val, d_xadj, d_adj,
 		       d_prin, &beta,
 		       d_prout);
-	cudaThreadSynchronize();
+	//cudaThreadSynchronize();
+	cudaDeviceSynchronize();
 
 	if (cusparseStatus != CUSPARSE_STATUS_SUCCESS)
 	  std::cerr<<"err"<<std::endl;
@@ -131,13 +135,13 @@ int main_pr(VertexType nVtx, EdgeType* xadj_, VertexType *adj_, Scalar* val_, Sc
 	if (cublasStatus != CUBLAS_STATUS_SUCCESS)
 	  std::cerr<<"err"<<std::endl;
 
-	start = util::timestamp();
+	start1 = util::timestamp();
 	cublasStatus = cublasSasum(cublasHandle, nVtx, d_prin, 1, &eps);
 	if (cublasStatus != CUBLAS_STATUS_SUCCESS)
 	  std::cerr<<"err"<<std::endl;
 	
-		util::timestamp stop2;  
-		std::cout << "pr : totaltime = " << stop2 - start << std::endl;
+	util::timestamp stop1;  
+	std::cout << "cublas : totaltime = " << stop1 - start1 << std::endl;
 	//stopping condition
 //	if (eps < 0) // deactivited for testing purposes
 //	  iter = 20;
@@ -156,6 +160,7 @@ for(int i=0; i<1; i++)
 	{
 	  util::timestamp stop;  
 	  totaltime += stop - start;
+	  std::cout << "pr with cusparse : totaltime = " << stop - start << std::endl;
 	}
       
 #ifndef LOG
